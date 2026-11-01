@@ -109,7 +109,8 @@ whole capture. Highlights:
   cohere-ai, ChatGLM, Brave, You.com.
 - Two addresses on one Romanian-registered network sent **114,690** `.env` requests
   between them.
-- Palo Alto's Xpanse scanner introduced itself 69,085 times from 2 addresses.
+- Palo Alto's Xpanse scanner introduced itself ("Hello from Palo Alto Networks")
+  69,085 times from 2,059 addresses.
 - `Hello, World` as a user agent, sent with a UPnP `AddPortMapping` request asking a
   home router to open a port.
 
