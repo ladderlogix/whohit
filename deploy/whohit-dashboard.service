@@ -1,0 +1,27 @@
+[Unit]
+Description=whoHit: dashboard on 127.0.0.1:8088 (reach it through an SSH tunnel)
+After=network.target
+
+[Service]
+User=whohit
+Group=whohit
+ExecStart=/usr/bin/python3 /opt/whohit/dashboard.py
+StateDirectory=whohit
+# Loopback only, enforced by the kernel as well as by the bind address.
+IPAddressAllow=localhost
+IPAddressDeny=any
+NoNewPrivileges=yes
+CapabilityBoundingSet=
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+MemoryMax=512M
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

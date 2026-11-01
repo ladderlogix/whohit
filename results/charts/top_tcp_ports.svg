@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 494" width="760" height="494" role="img" aria-label="Most-probed TCP ports"><style>
+  .bg { fill: #fcfcfb } .bar { fill: #2a78d6 } .ink { fill: #0b0b0b } .ink2 { fill: #52514e }
+  .muted { fill: #898781 } .grid { stroke: #e1e0d9 } .axis { stroke: #c3c2b7 }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #1a1a19 } .bar { fill: #3987e5 } .ink { fill: #f0efec } .ink2 { fill: #c3c2b7 }
+    .grid { stroke: #2c2c2a } .axis { stroke: #383835 }
+  }
+  text { font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif }
+  .title { font-size: 15px; font-weight: 600 } .sub { font-size: 12px }
+  .bar:hover { opacity: .8 }
+</style>
+<rect class="bg" width="760" height="494" rx="8"/>
+<text class="ink title" x="16" y="28">Most-probed TCP ports</text>
+<text class="ink2 sub" x="16" y="48">Distinct source addresses that sent a SYN to each port, whole capture</text>
+<line class="axis" x1="190" x2="190" y1="66" y2="460"/>
+<text class="ink2" x="180" y="87.0" text-anchor="end">443 https</text>
+<path class="bar" d="M190,75 h496.0 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-496.0 z"><title>tcp/443: 4,134 sources, 70,840 SYNs</title></path>
+<text class="ink" x="698.0" y="87.0">4,134</text>
+<text class="ink2" x="180" y="113.0" text-anchor="end">23 telnet</text>
+<path class="bar" d="M190,101 h348.1 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-348.1 z"><title>tcp/23: 2,911 sources, 77,686 SYNs</title></path>
+<text class="ink" x="550.1" y="113.0">2,911</text>
+<text class="ink2" x="180" y="139.0" text-anchor="end">22 ssh</text>
+<path class="bar" d="M190,127 h346.4 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-346.4 z"><title>tcp/22: 2,897 sources, 75,340 SYNs</title></path>
+<text class="ink" x="548.4" y="139.0">2,897</text>
+<text class="ink2" x="180" y="165.0" text-anchor="end">8443 https-alt</text>
+<path class="bar" d="M190,153 h335.4 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-335.4 z"><title>tcp/8443: 2,806 sources, 14,517 SYNs</title></path>
+<text class="ink" x="537.4" y="165.0">2,806</text>
+<text class="ink2" x="180" y="191.0" text-anchor="end">80 http</text>
+<path class="bar" d="M190,179 h252.39999999999998 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-252.39999999999998 z"><title>tcp/80: 2,120 sources, 12,890 SYNs</title></path>
+<text class="ink" x="454.4" y="191.0">2,120</text>
+<text class="ink2" x="180" y="217.0" text-anchor="end">8080 http-alt</text>
+<path class="bar" d="M190,205 h247.8 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-247.8 z"><title>tcp/8080: 2,082 sources, 11,922 SYNs</title></path>
+<text class="ink" x="449.8" y="217.0">2,082</text>
+<text class="ink2" x="180" y="243.0" text-anchor="end">1433 mssql</text>
+<path class="bar" d="M190,231 h130.5 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-130.5 z"><title>tcp/1433: 1,112 sources, 12,935 SYNs</title></path>
+<text class="ink" x="332.5" y="243.0">1,112</text>
+<text class="ink2" x="180" y="269.0" text-anchor="end">3389 rdp</text>
+<path class="bar" d="M190,257 h118.8 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-118.8 z"><title>tcp/3389: 1,015 sources, 6,486 SYNs</title></path>
+<text class="ink" x="320.8" y="269.0">1,015</text>
+<text class="ink2" x="180" y="295.0" text-anchor="end">8000 http-alt</text>
+<path class="bar" d="M190,283 h88.6 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-88.6 z"><title>tcp/8000: 766 sources, 4,142 SYNs</title></path>
+<text class="ink" x="290.6" y="295.0">766</text>
+<text class="ink2" x="180" y="321.0" text-anchor="end">8081 http-alt</text>
+<path class="bar" d="M190,309 h83.1 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-83.1 z"><title>tcp/8081: 720 sources, 2,711 SYNs</title></path>
+<text class="ink" x="285.1" y="321.0">720</text>
+<text class="ink2" x="180" y="347.0" text-anchor="end">8888 http-alt</text>
+<path class="bar" d="M190,335 h81.3 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-81.3 z"><title>tcp/8888: 705 sources, 4,026 SYNs</title></path>
+<text class="ink" x="283.3" y="347.0">705</text>
+<text class="ink2" x="180" y="373.0" text-anchor="end">3306 mysql</text>
+<path class="bar" d="M190,361 h71.0 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-71.0 z"><title>tcp/3306: 620 sources, 2,324 SYNs</title></path>
+<text class="ink" x="273.0" y="373.0">620</text>
+<text class="ink2" x="180" y="399.0" text-anchor="end">3000</text>
+<path class="bar" d="M190,387 h70.6 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-70.6 z"><title>tcp/3000: 617 sources, 3,497 SYNs</title></path>
+<text class="ink" x="272.6" y="399.0">617</text>
+<text class="ink2" x="180" y="425.0" text-anchor="end">9000</text>
+<path class="bar" d="M190,413 h67.1 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-67.1 z"><title>tcp/9000: 588 sources, 2,499 SYNs</title></path>
+<text class="ink" x="269.1" y="425.0">588</text>
+<text class="ink2" x="180" y="451.0" text-anchor="end">8088</text>
+<path class="bar" d="M190,439 h66.6 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-66.6 z"><title>tcp/8088: 584 sources, 1,625 SYNs</title></path>
+<text class="ink" x="268.6" y="451.0">584</text>
+<text class="muted" x="16" y="484">Source: results/tables/ports.csv</text></svg>

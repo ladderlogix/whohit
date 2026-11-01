@@ -1,0 +1,916 @@
+time,src,kind,dst_port,helo,mail_from,rcpt_to,auth_mechanism,other
+2026-10-17T08:33:03Z,85.217.149.23,scanner,587,,,,,
+2026-10-17T08:38:47Z,85.217.149.22,scanner,587,,,,,"\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03 | \xad\x5c\x93\xa5*7\xd1\xd2 | AZ\xc2~[m\x90b Ab""s\xbf\xb3y\xfe\xb7\xfd\xedi\xdc 3\x19\xa734Q8\x85\x5c\x80m@\x17\x0b\xb9\x1c\xa1I\xad\x99\xb4\xf0\xeet\xd2\xd8\x03\xb7\xb4*\x93\xac\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-17T09:47:10Z,66.132.195.189,scanner,25,www.censys.io,,,,
+2026-10-17T09:51:39Z,100.51.6.16,scanner,587,,,,,"\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03R\x01C\x14\x03\x8c""#\x0c\xe5\x8eLj\xd5$\xdb\xa3X@qb\xc12#\r\x0c\xc2\xd0\x93\x0e\xcbd F\xa5\x9fM\x07\x95\x84\xb4\xcf8\xb6\xaf,\xb3\x82\x13\r\x80\xaa\x15:(L\x03\xa3I?\xfd\x0f=\xc3\xca\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-17T09:57:43Z,34.52.242.92,hosting,25,,,,,
+2026-10-17T09:57:56Z,34.52.242.92,hosting,25,,,,,HELP
+2026-10-17T09:58:04Z,34.52.242.92,hosting,25,,,,, | 
+2026-10-17T09:57:42Z,34.22.252.192,hosting,25,example.com,,,,
+2026-10-17T09:58:09Z,34.52.242.92,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-17T09:58:14Z,34.52.242.92,hosting,25,scan.local,,,,HELP
+2026-10-17T13:16:00Z,64.205.72.207,scanner,587,64-205-72-207.infrawat.ch,,,,
+2026-10-17T13:42:36Z,3.129.187.38,scanner,25,,,,,
+2026-10-17T13:42:41Z,3.129.187.38,scanner,25,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7... (+32 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-17T13:43:29Z,3.129.187.38,scanner,25,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7... (+32 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-17T13:45:10Z,3.129.187.38,scanner,25,,,,,
+2026-10-17T13:45:19Z,3.129.187.38,scanner,25,,,,,"\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03'\xc6\xc4#^/\xdd]\x1b\x94\xda~08\x8a:\xeb[\xd5Fv\xa3aC\xf8Rk*\xf8-j\xb7 6^\xf2\xdd\xfe\x93\xa6\x10 >""Q\x03K\xba\xe8w=\xf0\xd9m\xe3\xa8\xbe\xee\xe7u0\xe8\x1d | \xeb\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-17T17:32:10Z,20.118.235.131,hosting,587,,,,,
+2026-10-17T17:32:10Z,20.118.235.131,hosting,587,,,,,MGLNDD_20.119.52.2_587
+2026-10-17T19:17:52Z,20.171.192.148,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-17T20:10:45Z,198.235.24.22,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-17T20:39:16Z,86.38.187.205,scanner,25,86-38-187-205.infrawat.ch,,,,
+2026-10-17T21:02:53Z,8.216.8.161,hosting,2525,,,,,\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03I\x06\xb2\xf9\xbc\x99i\xc0Y\xfb\xf8\xbae-\x83Ud]\x0e\x8d\xb7b8\xb4g\xc6\xdd9dZ8f g\xc1\x81i\xb3\xf6\xf2\xcb\xb0\xa9\x19N\xd6\xbd\x95g|p\xfc\xe9<Z\xa1\x90T\xb7\xe9\xa58'O;\x00&\xc0+... (+15 bytes) | \xc0\x14\x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x01\x13\x02\x13\x03\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-17T22:28:45Z,195.184.76.3,scanner,587,20.119.52.2,,,,
+2026-10-17T23:11:38Z,147.185.133.39,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-17T23:21:52Z,167.94.146.48,scanner,587,www.censys.io,,,,
+2026-10-18T00:30:45Z,anon-1a62fa0326,isp,25,mail.example.com,,,,"\x16\x03\x01\x01\x16\x01\x00\x01\x12\x03\x03\xda?\x15 | \xbe\xabe R\xce\xb6A\xfe\xda\xd2\xd1\xd7\x1d9\xe4GX\x87!2VG\xd2\xfb\xc0\xe1\x92 \xdc\x011wh\x1c8s\x0fo\x84\xdc\xe0\x84\x02\xd6H\x09\x80H\xab\xa8fM\xbe\xa5\xe1\xa5j\x96\x04\xe5\x00>\x13\x02\x13\x03\x13\x01\xc0,\xc00\x00\x9f\xcc\xa9\xcc\xa8\xcc... (+20 bytes) | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\x8b\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x0c\x00 | \x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x00#\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x00*\x00(\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08"
+2026-10-18T00:30:44Z,anon-1a62fa0326,isp,25,hello,,,NTLM,help
+2026-10-18T02:24:14Z,20.163.3.174,scanner,2525,,,,,
+2026-10-18T02:24:14Z,20.163.3.174,scanner,2525,,,,,MGLNDD_20.119.52.2_2525
+2026-10-18T02:40:39Z,64.62.197.62,scanner,25,,,,,
+2026-10-18T03:06:48Z,66.228.41.176,scanner,587,masscan,,,,
+2026-10-18T03:38:45Z,45.79.138.115,hosting,25,masscan,,,,
+2026-10-18T04:01:11Z,205.210.31.32,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-18T04:56:50Z,198.235.24.111,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-18T07:08:01Z,45.56.104.141,hosting,587,masscan,,,,
+2026-10-18T07:09:30Z,66.132.224.81,scanner,587,www.censys.io,,,,
+2026-10-18T07:11:30Z,34.62.151.253,hosting,25,example.com,,,,
+2026-10-18T07:12:30Z,34.79.65.2,hosting,25,,,,,
+2026-10-18T07:12:44Z,34.79.65.2,hosting,25,,,,,HELP
+2026-10-18T07:12:51Z,34.79.65.2,hosting,25,,,,, | 
+2026-10-18T07:12:56Z,34.79.65.2,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-18T07:13:01Z,34.79.65.2,hosting,25,scan.local,,,,HELP
+2026-10-18T07:43:07Z,172.104.208.137,hosting,25,masscan,,,,
+2026-10-18T07:50:48Z,20.65.171.36,scanner,25,,,,,
+2026-10-18T07:50:48Z,20.65.171.36,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-18T08:39:36Z,85.217.149.19,scanner,25,,,,,
+2026-10-18T08:50:04Z,104.218.164.192,scanner,587,,,,,\x16\x03\x01\x00\xfc\x01\x00\x00\xf8\x03\x03\x91\x00^\xfci\xc44`!\xb7\x1c\xcal\xa3\x9eF[k\x10\xae\xb0\x10d\x161\xb3\x97<\xd4K\xc5\xf5 \xf4\x932>\xed\xa5\xaf\x940\xf6\xe2\x99P\x1d\xa9\xa8^\x15\xf4\x04\x18\xbb\r\x17\xc6\x87.\xe0\x9d\x1b\x00\xa4\x004\xcc\xa8... (+25 bytes) | \x009\xc0\x13\x00 | \xc0\x14\x00\x9c\x00\x9d\x00/\x005\xc0\x12\x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-18T08:50:22Z,104.218.164.192,scanner,587,,,,,
+2026-10-18T08:50:22Z,104.218.164.192,scanner,587,20.119.52.2,,,NTLM,TlRMTVNTUAABAAAAB4IIoAAAAAAAAAAAAAAAAAAAAAA=
+2026-10-18T09:07:20Z,216.218.206.68,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geck... (+33 bytes) | Accept: */* | Accept-Encoding: gzip | "
+2026-10-18T09:32:25Z,85.217.149.57,scanner,25,,,,,\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03*\x7f\xf3\xf4U%\xa36Y\x89\xbc\xa3\x9c\x93H\x9d\xb8B\xa5\x9dC\x98j\xe3\xb8a\x13w\xde0\x17\xf3 \xae\xb9\x0cdS\xcf\x07\xf7q\xce\xf7\xb8\x98\xf3\xadLV\xb8\x5c\x96=M\xc7\xd7xp\xb8\xa1\x88o\xab\xd9\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-18T10:04:55Z,35.87.254.12,hosting,25,scanner.sslsonar.org,,,,
+2026-10-18T10:38:39Z,85.217.149.25,scanner,25,,,,,\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03\x15\x16\x83\xe5\xbeo\xe8\x0b6\x02\xe4l\xe9je\xa8VM\x86\x18\x95\xe6\x8d\xf9P2=6\xcc\xb0E\x1d \x9eo\xe8\x8am\xf7\x89O&\xccbT\xaeb51\xe3\xe4\xf7\xe8\xed\xdd\xeb\xfd\x1aL\x8eu\x18Y\xa7\xe8\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-18T10:41:53Z,66.132.186.193,scanner,25,www.censys.io,,,,
+2026-10-18T11:06:51Z,172.104.10.189,hosting,587,masscan,,,,
+2026-10-18T11:39:43Z,192.155.89.179,scanner,25,masscan,,,,
+2026-10-18T13:35:35Z,3.130.168.2,scanner,25,,,,,
+2026-10-18T14:24:40Z,172.206.243.83,scanner,587,,,,,
+2026-10-18T15:07:21Z,69.164.211.22,hosting,587,masscan,,,,
+2026-10-18T15:30:18Z,67.205.159.129,hosting,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2 | User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153... (+2 bytes) | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Language: en-US,en;q=0.5 | Accept-Encoding: gzip, deflate | Connection: keep-alive | Upgrade-Insecure-Requests: 1 | Sec-Fetch-Dest: document | Sec-Fetch-Mode: navigate | Sec-Fetch-Site: none | Sec-Fetch-User: ?1 | Priority: u=0, i | "
+2026-10-18T15:30:21Z,67.205.159.129,hosting,587,,,,,"GET /favicon.ico HTTP/1.1 | Host: 20.119.52.2 | User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153... (+2 bytes) | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Language: en-US,en;q=0.5 | Accept-Encoding: gzip, deflate | Connection: keep-alive | Upgrade-Insecure-Requests: 1 | Sec-Fetch-Dest: document | Sec-Fetch-Mode: navigate | Sec-Fetch-Site: none | Sec-Fetch-User: ?1 | Priority: u=0, i | Referer: http://20.119.52.2:587/ | "
+2026-10-18T15:39:20Z,96.126.108.51,hosting,25,masscan,,,,
+2026-10-18T16:16:19Z,20.171.192.17,hosting,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-18T16:44:14Z,66.132.195.201,scanner,25,www.censys.io,,,,
+2026-10-18T18:13:13Z,147.185.133.183,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-18T18:17:58Z,80.66.83.43,scanner,25,,,,,\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie: mstshash=Administr
+2026-10-18T18:20:17Z,64.205.72.141,scanner,587,64-205-72-141.infrawat.ch,,,,
+2026-10-18T18:43:41Z,77.67.26.211,scanner,25,77-67-26-211.infrawat.ch,,,,
+2026-10-18T19:06:35Z,45.56.104.240,hosting,587,masscan,,,,
+2026-10-18T19:32:10Z,118.193.72.187,scanner,2525,,,,,"\x16\x03\x01\x00\xfc\x01\x00\x00\xf8\x03\x03\x8d""\xddyV\xed\x87\xb6&l\xf7\x16*\xf8\xdeL(\xf2\xd4\xc0@\x1b\x8d""\xc8\x1b\x92\xf8p\xfd\xbd\xd7 \x8dt\x99\xf0\x175\xeab\x84\xaa\xe9~\xa2V\xfe\xd5\x9c\x1f\x8b\x06\xd4\x0c\x98\xa3s\x03\xe7\xde\xa2\xbf\x01\xb0\x004\xcc\xa8... (+25 bytes) | \x009\xc0\x13\x00 | \xc0\x14\x00\x9c\x00\x9d\x00/\x005\xc0\x12\x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-18T19:32:29Z,118.193.72.187,scanner,2525,,,,,
+2026-10-18T19:32:30Z,118.193.72.187,scanner,2525,20.119.52.2,,,NTLM,TlRMTVNTUAABAAAAB4IIoAAAAAAAAAAAAAAAAAAAAAA=
+2026-10-18T19:39:50Z,50.116.55.141,hosting,25,masscan,,,,
+2026-10-18T21:18:13Z,147.185.133.220,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-18T22:01:11Z,147.185.132.153,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-18T23:07:35Z,172.104.10.250,hosting,587,masscan,,,,
+2026-10-18T23:19:08Z,35.203.210.65,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-18T23:39:27Z,45.56.104.88,scanner,25,masscan,,,,
+2026-10-19T00:29:21Z,40.124.82.123,scanner,2525,,,,,
+2026-10-19T00:29:21Z,40.124.82.123,scanner,2525,,,,,MGLNDD_20.119.52.2_2525
+2026-10-19T01:53:38Z,64.62.197.32,scanner,25,,,,,
+2026-10-19T02:53:19Z,20.184.172.13,scanner,25,,,,,
+2026-10-19T02:53:21Z,20.184.172.13,scanner,25,,,,,HELP
+2026-10-19T02:53:22Z,20.184.172.13,scanner,25,,,,, | 
+2026-10-19T02:53:23Z,20.184.172.13,scanner,25,,,,,GET / HTTP/1.0 | 
+2026-10-19T03:07:45Z,50.116.55.86,scanner,587,masscan,,,,
+2026-10-19T03:38:45Z,66.175.215.221,scanner,25,masscan,,,,
+2026-10-19T03:55:16Z,34.156.198.127,hosting,25,example.com,,,,
+2026-10-19T03:55:58Z,34.156.74.99,hosting,25,,,,,
+2026-10-19T03:56:11Z,34.156.74.99,hosting,25,,,,,HELP
+2026-10-19T03:56:19Z,34.156.74.99,hosting,25,,,,, | 
+2026-10-19T03:56:24Z,34.156.74.99,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-19T03:56:29Z,34.156.74.99,hosting,25,scan.local,,,,HELP
+2026-10-19T04:08:27Z,46.151.178.14,scanner,587,prober.heinsenbug.local,,,,
+2026-10-19T04:50:41Z,89.248.172.12,scanner,25,Eudora Internet Mail Server,,,,
+2026-10-19T04:52:12Z,66.132.186.163,scanner,25,www.censys.io,,,,
+2026-10-19T05:56:04Z,147.185.132.201,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-19T07:07:44Z,45.33.90.35,scanner,587,masscan,,,,
+2026-10-19T07:34:00Z,66.132.172.131,scanner,587,www.censys.io,,,,
+2026-10-19T07:40:36Z,45.79.145.53,scanner,25,masscan,,,,
+2026-10-19T07:50:08Z,80.66.83.43,scanner,25,,,,,\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie: mstshash=Administr
+2026-10-19T09:10:26Z,141.98.9.116,hosting,25,WIN-CLJ1B0GQ6JP,<spameri@tiscali.it>,<spameri@tiscali.it>,,
+2026-10-19T09:17:18Z,66.132.186.200,scanner,25,www.censys.io,,,,
+2026-10-19T09:44:33Z,86.38.187.184,scanner,25,86-38-187-184.infrawat.ch,,,,
+2026-10-19T11:11:26Z,45.56.104.217,scanner,587,masscan,,,,
+2026-10-19T11:31:34Z,3.129.187.38,scanner,587,,,,,
+2026-10-19T11:33:57Z,3.129.187.38,scanner,587,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7... (+32 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-19T11:35:03Z,3.129.187.38,scanner,587,,,,,"\x16\x03\x01\x01\x00\x01\x00\x00\xfc\x03\x03\xcd\xfa\xe28\xb21\xa0\xe6w\x9f\xf4k[\xdd\xb4\xa3m\xe0\xda\xe8\x8eR\xc9\x11\x12\xf0\x1f\x9b\x8b\xbbL- \x9fp,7S-?3\x97\xc7^\xab\x08\x94\xfd\xc5\x12\xc4\xdc\x8fy\x10\x88=\xf2\xec\xf9\xf7=\xe5\x86\xf9\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00\x8d\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-19T11:35:27Z,3.129.187.38,scanner,587,,,,,
+2026-10-19T11:36:13Z,3.129.187.38,scanner,587,,,,,\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03:\xf6\xf7\xba\xf9S\xb1\xdc\x9a\x90\x9d\x1f\xc96e:\xef\xaa:a\xc6\xf1\xd0\x98\xc3&\xed\xa6p\xe0\xd4\xe9 \xf8\xd9\x85\xf9b@\xa9O\xc2\xae\x13\x8b\xe6\xbb{\xe9'\xe2\x84\xff$ f\x17\x95q<\x04\x90\x1fE\xf5\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-19T11:41:08Z,45.56.104.238,scanner,25,masscan,,,,
+2026-10-19T13:38:36Z,86.38.187.153,scanner,587,86-38-187-153.infrawat.ch,,,,
+2026-10-19T13:43:03Z,66.132.195.168,scanner,25,www.censys.io,,,,
+2026-10-19T14:00:43Z,20.168.122.51,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-19T15:07:12Z,172.104.24.77,scanner,587,masscan,,,,
+2026-10-19T15:39:36Z,45.79.138.115,hosting,25,masscan,,,,
+2026-10-19T17:29:16Z,20.118.211.122,scanner,587,,,,,
+2026-10-19T17:29:16Z,20.118.211.122,scanner,587,,,,,MGLNDD_20.119.52.2_587
+2026-10-19T19:07:21Z,45.56.104.141,hosting,587,masscan,,,,
+2026-10-19T19:09:39Z,198.235.24.140,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-19T19:39:46Z,50.116.55.80,scanner,25,masscan,,,,
+2026-10-19T19:46:02Z,205.210.31.183,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-19T19:49:28Z,66.132.172.142,scanner,587,www.censys.io,,,,
+2026-10-19T20:36:40Z,anon-ea6034ceaf,isp,25,WIN-7N1FIECL6IC,<spameri@tiscali.it>,<spameri@tiscali.it>,,
+2026-10-19T21:01:27Z,80.66.83.43,scanner,587,,,,,\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie: mstshash=Administr
+2026-10-19T23:07:28Z,69.164.214.240,hosting,587,masscan,,,,
+2026-10-19T23:39:06Z,23.239.11.116,hosting,25,masscan,,,,
+2026-10-20T00:08:26Z,91.196.152.153,scanner,2525,,,,,"\x16\x03\x03\x02`\x01\x00\x02\x5c\x03\x03\xca#j\x99\x0c?\x98\xfa\x81r\xf9\xbe\xcf+""l\x80P\xda|\xf7/\xcc\xa6\xab\x8c&\xff\xdf:0\x02 5\xdc*I\xd1\xef""\xbaA?\xce\xd2\x8c\xeb\xa1:\xc1\xee\xfd\xd8\xd9\xe8\x9c\xcf\x97\xbb\xaa9\x12\x13\x83\x0f\x00\x8a\x00\x16... (+43 bytes) | \xc0$\xc0\xad\xc0\xaf\xc0,\xc0r\xc0s\xcc\xa9\x13\x02\x13\x01\xcc\x14\xc0\x07\xc0\x12\xc0\x13\xc0'\xc0/\xc0\x14\xc0(\xc00\xc0`\xc0a\xc0v\xc0w\xcc\xa8\x13\x05\x13\x04\x13\x03\xcc\x13\xc0\x11\x00 | \x00/\x00<\xc0\x9c\xc0\xa0\x00\x9c\x005\x00=\xc0\x9d\xc0\xa1\x00\x9d\x00A\x00\xba\x00\x84\x00\xc0\x00\x07\x00\x04\x00\x05\x01\x00\x01\x89\x00\x00\x00\x10\x00\x0e\x00\x00\x0b20.119.52.2\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x0c\x00 | \x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x00#\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x000\x00.\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08"
+2026-10-20T01:10:40Z,52.160.147.233,hosting,25,,,,,GET / HTTP/1.1 | User-Agent: mrtscan/1.0 (westus) | 
+2026-10-20T01:10:40Z,52.160.147.233,hosting,25,,,,,\x16\x03\x01\x01/\x01\x00\x01+\x03\x03\x86\x04L\xd8\x99\x8d\xbd\xbc\xf8\x7f\x5ci\xba?\xe2\x0e\x93\xef\x87\xdb\xdbC\xea(Q\xf1\x12\xb7\xec4\x08* 0\x93\x0e\x9d\x88B\xf5\x9f\x85\x0c5p\xb6\xda+\x17\xfa\xe1IJ\xb9\xa6o\xc2\xedT\x97\x0c\xe6h\x0c\x17\x00>\x13\x02... (+35 bytes) | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\xa4\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x16\x00\x14\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x01\x00\x01\x01\x01\x02\x01\x03\x01\x04\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x000\x00.\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08
+2026-10-20T01:49:43Z,66.132.172.132,scanner,25,www.censys.io,,,,
+2026-10-20T02:12:24Z,45.56.104.110,scanner,587,masscan,,,,
+2026-10-20T02:14:18Z,147.185.133.0,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-20T02:34:43Z,13.89.123.150,hosting,2525,,,,,
+2026-10-20T02:34:43Z,13.89.123.150,hosting,2525,,,,,MGLNDD_20.119.52.2_2525
+2026-10-20T03:19:43Z,69.164.211.22,hosting,25,masscan,,,,
+2026-10-20T04:59:32Z,165.154.182.207,scanner,587,,,,,"\x16\x03\x01\x00\xfc\x01\x00\x00\xf8\x03\x03\xf1\xea\x12\xce? \x948\xc7QMA\x1d>\x01\xf8\xe5\x1e\x1b\xf1rA\x91(\x80\xe2\x04\x16\x8e4Fc r\xfa\xf6\xa4\x12 \x1e\x87\xa9\x85\xf2\xa7\xb5\x97\xacL\xd1\xc2c\x10\xfd\xaf\x9c\x14%\xaf\x1f\x0c\xb6\xd2\x0e,\x004\xcc\xa8... (+25 bytes) | \x009\xc0\x13\x00 | \xc0\x14\x00\x9c\x00\x9d\x00/\x005\xc0\x12\x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-20T04:59:50Z,165.154.182.207,scanner,587,,,,,
+2026-10-20T04:59:50Z,165.154.182.207,scanner,587,20.119.52.2,,,NTLM,TlRMTVNTUAABAAAAB4IIoAAAAAAAAAAAAAAAAAAAAAA=
+2026-10-20T05:07:22Z,35.203.211.196,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-20T06:12:22Z,172.104.10.138,scanner,587,masscan,,,,
+2026-10-20T06:28:09Z,4.172.77.8,scanner,25,,,,,
+2026-10-20T06:28:11Z,4.172.77.8,scanner,25,,,,,HELP
+2026-10-20T06:28:12Z,4.172.77.8,scanner,25,,,,, | 
+2026-10-20T06:28:13Z,4.172.77.8,scanner,25,,,,,GET / HTTP/1.0 | 
+2026-10-20T06:42:56Z,65.49.1.212,scanner,25,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:102.0) Gecko/20100101 Goanna/6.6 Fir... (+26 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-20T06:55:13Z,147.185.133.60,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-20T07:20:18Z,45.56.104.240,hosting,25,masscan,,,,
+2026-10-20T08:53:38Z,165.22.178.243,hosting,25,,,,,
+2026-10-20T08:57:14Z,66.132.172.45,scanner,587,www.censys.io,,,,
+2026-10-20T10:12:34Z,45.79.145.88,scanner,587,masscan,,,,
+2026-10-20T10:36:03Z,66.132.159.28,scanner,587,www.censys.io,,,,
+2026-10-20T11:15:56Z,18.218.118.203,scanner,587,,,,,
+2026-10-20T11:18:45Z,18.218.118.203,scanner,587,,,,,"\x16\x03\x01\x01\x00\x01\x00\x00\xfc\x03\x03f\xa6\xbb\xfb\xb6\xb6\xdb\x90k|\xe1e\x87\x00\xc7\xbc\xf5\x96Z\xd6+*\xdf\x94\xd9\x80\xf0r\xbc\xe0k\xf1 R%\x84]QK\xf2\x9d | \xff$@J\xbdQH8\xb7\x8a\x987'\xb9}r\xd3\x08""H\xfa\x9d\xed\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00\x8d\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-20T11:19:01Z,18.218.118.203,scanner,587,,,,,
+2026-10-20T11:19:50Z,18.218.118.203,scanner,587,,,,,\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03\xf6\x0f\xe057\xe5\xdf\xc6z\x9e\xe2\x81\xb7\xac\x8d\x97~\xd7\xea~\x89\xd2\x04\xbci\xee\xc5\xde\xd17.L \xc0\x87\xb6\x7f\xbd\xac\xc5\xc9a\xdc\xb8v+\xe0\xf2\xa6\xa4\xbf\xd4\x93\x8b\xd0\x91\xa1J\xaa\x7f\xdf\xb9\xa5\xbe\x8f\x00&\xcc\xa8... (+17 bytes)
+2026-10-20T11:24:21Z,50.116.55.211,scanner,25,masscan,,,,
+2026-10-20T12:08:38Z,34.62.151.0,hosting,25,example.com,,,,
+2026-10-20T12:08:55Z,34.62.114.95,hosting,25,,,,,
+2026-10-20T12:09:09Z,34.62.114.95,hosting,25,,,,,HELP
+2026-10-20T12:09:16Z,34.62.114.95,hosting,25,,,,, | 
+2026-10-20T12:09:22Z,34.62.114.95,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-20T12:09:27Z,34.62.114.95,hosting,25,scan.local,,,,HELP
+2026-10-20T12:20:48Z,64.205.72.247,scanner,587,64-205-72-247.infrawat.ch,,,,
+2026-10-20T13:02:50Z,3.130.168.2,scanner,25,,,,,
+2026-10-20T13:02:50Z,3.130.168.2,scanner,25,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7... (+32 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-20T13:05:02Z,3.130.168.2,scanner,25,,,,,
+2026-10-20T13:05:18Z,3.130.168.2,scanner,25,,,,,"\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03w\x0f\xb2i\xaf0x\x15\xe14@)\xdc\xeb\x11\x91G\x1e\xbe\x8e\x12\x89\xdc""bvY(\xd7\x0e\x8dA B\x8a\xbd7\xca\x05=V\xae\xa4\xb5\x0e\xddwi\xa1Pn\xd1;\xbd\x13\xf2\xfc\x15\x0e\x9c\x8fN\x1a\xf1X\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-20T14:13:10Z,50.116.55.133,hosting,587,masscan,,,,
+2026-10-20T14:29:35Z,71.6.232.24,scanner,587,zx14.quadmetrics.com,,,,
+2026-10-20T14:51:18Z,66.132.186.175,scanner,25,www.censys.io,,,,
+2026-10-20T14:56:23Z,20.163.3.53,scanner,587,,,,,
+2026-10-20T15:20:18Z,50.116.55.88,scanner,25,masscan,,,,
+2026-10-20T15:58:14Z,66.132.195.215,scanner,25,www.censys.io,,,,
+2026-10-20T18:02:08Z,94.231.206.105,scanner,25,20.119.52.2,,,,
+2026-10-20T18:12:30Z,172.104.24.147,hosting,587,masscan,,,,
+2026-10-20T18:16:28Z,80.94.95.223,scanner,2525,,,,,\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie: mstshash=Administr
+2026-10-20T18:32:16Z,205.210.31.31,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-20T19:20:53Z,45.33.90.35,scanner,25,masscan,,,,
+2026-10-20T20:59:45Z,66.132.195.85,scanner,587,www.censys.io,,,,
+2026-10-20T21:21:51Z,64.205.72.156,scanner,25,64-205-72-156.infrawat.ch,,,,
+2026-10-20T22:12:58Z,198.74.58.109,hosting,587,masscan,,,,
+2026-10-20T22:53:32Z,66.132.172.207,scanner,587,www.censys.io,,,,
+2026-10-20T23:09:12Z,20.102.110.158,scanner,2525,,,,,
+2026-10-20T23:09:12Z,20.102.110.158,scanner,2525,,,,,MGLNDD_20.119.52.2_2525
+2026-10-20T23:19:22Z,50.116.55.78,scanner,25,masscan,,,,
+2026-10-20T23:31:51Z,91.231.89.170,scanner,25,20.119.52.2,,,,
+2026-10-20T23:52:40Z,35.203.210.186,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-21T00:12:21Z,20.80.92.163,hosting,25,,,,,
+2026-10-21T00:12:21Z,20.80.92.163,hosting,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-21T01:08:15Z,20.245.255.41,scanner,25,,,,,GET / HTTP/1.1 | User-Agent: mrtscan/1.0 (westus) | 
+2026-10-21T01:08:15Z,20.245.255.41,scanner,25,,,,,\x16\x03\x01\x01/\x01\x00\x01+\x03\x03\xf644R$u\xaav\xca\xe23\xc5\x89\x15\x1c\x00\xee(n\x0f\xc8\xc2\xc5\xb1%\x91m\xb2\xb4`\x11\xd4 \xc2d\x05m\x7f\x8d\x81\x07K'\xd0T\xa8 \xc9\xf5\x8e\x17J\xd6\x9e\xdd\x8e\xc0\x85\x91\x91\xfd\xd5q\x09\xe4\x00>\x13\x02... (+35 bytes) | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\xa4\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x16\x00\x14\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x01\x00\x01\x01\x01\x02\x01\x03\x01\x04\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x000\x00.\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08
+2026-10-21T01:13:22Z,80.94.95.223,scanner,2525,,,,,\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie: mstshash=Administr
+2026-10-21T01:39:15Z,147.185.133.198,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-21T01:41:38Z,134.209.211.130,hosting,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2 | Connection: keep-alive | sec-ch-ua: ""Chromium"";v=""153"", ""Not:A-Brand"";v=""24"", ""Brave"";v=""153"" | sec-ch-ua-mobile: ?0 | sec-ch-ua-platform: ""Linux"" | Upgrade-Insecure-Requests: 1 | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geck... (+33 bytes) | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w... (+24 bytes) | Sec-GPC: 1 | Accept-Language: en-US,en;q=0.5 | Sec-Fetch-Site: none | Sec-Fetch-Mode: navigate | Sec-Fetch-User: ?1 | Sec-Fetch-Dest: document | Accept-Encoding: gzip, deflate | "
+2026-10-21T01:41:41Z,134.209.211.130,hosting,587,,,,,"GET /favicon.ico HTTP/1.1 | Host: 20.119.52.2 | Connection: keep-alive | sec-ch-ua: ""Chromium"";v=""153"", ""Not:A-Brand"";v=""24"", ""Brave"";v=""153"" | sec-ch-ua-mobile: ?0 | sec-ch-ua-platform: ""Linux"" | Upgrade-Insecure-Requests: 1 | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geck... (+33 bytes) | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w... (+24 bytes) | Sec-GPC: 1 | Accept-Language: en-US,en;q=0.5 | Sec-Fetch-Site: none | Sec-Fetch-Mode: navigate | Sec-Fetch-User: ?1 | Sec-Fetch-Dest: document | Accept-Encoding: gzip, deflate | Referer: http://20.119.52.2:587/ | "
+2026-10-21T03:32:26Z,64.62.197.152,scanner,25,,,,,
+2026-10-21T03:58:31Z,71.6.232.23,scanner,25,zx13.quadmetrics.com,,,,
+2026-10-21T04:50:20Z,66.132.172.97,scanner,25,www.censys.io,,,,
+2026-10-21T04:52:22Z,40.119.27.192,scanner,587,,,,,"\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03\xa0\xf0;\x03&\xaex;\x1f\xbe\xf8(\xe3v\xf1FQ~\xfd\x1c\xd4\x9b\xde\x05x\x8c\xfdcW:F\x08 \xfa\xb9\xf0\xdd\xa0 | \xfe\xca\x5c&\xb9\x83b\x10l\x15\xcb\x96 .2\xc9\xeb\x8f\xad\x18\x0c\x18\x7f\xf6p\x17\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-21T04:52:22Z,40.119.27.192,scanner,587,,,,,MGLNDD_20.119.52.2_587
+2026-10-21T04:59:22Z,104.248.142.22,hosting,25,,,,,
+2026-10-21T04:59:36Z,104.248.142.22,hosting,25,,,,,HELP
+2026-10-21T04:59:43Z,104.248.142.22,hosting,25,,,,, | 
+2026-10-21T04:59:48Z,104.248.142.22,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-21T04:59:54Z,46.101.205.87,hosting,25,mail.example.com,,,,"\x16\x03\x01\x01$\x01\x00\x01 \x03\x03\x0e]:\x83\x113\x00\xcf\x82\xee\xc3\xaa""5\xb1\xa5\xf1\xbf\xd42?\x88\x13\xf5\xa8\x06\x89avP\xac\xb9 [\xbd\x15\xcc\xba\xb8\xf6I}\xe8\x1e\xd8\x1b\xecdz\xa0F\xb1\x8fn\xe2\xfd.\xaa\xda\x90\x09g\xd5\xcfc\x00>\x13\x02... (+35 bytes) | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\x99\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x16\x00\x14\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x01\x00\x01\x01\x01\x02\x01\x03\x01\x04\x00#\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x00*\x00(\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08"
+2026-10-21T05:04:24Z,66.132.195.191,scanner,25,www.censys.io,,,,
+2026-10-21T05:35:02Z,34.78.15.136,hosting,25,example.com,,,,
+2026-10-21T05:36:24Z,34.38.216.160,hosting,25,,,,,
+2026-10-21T05:36:38Z,34.38.216.160,hosting,25,,,,,HELP
+2026-10-21T05:36:45Z,34.38.216.160,hosting,25,,,,, | 
+2026-10-21T05:36:50Z,34.38.216.160,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-21T05:37:12Z,34.38.216.160,hosting,25,scan.local,,,,HELP
+2026-10-21T06:15:54Z,51.57.97.224,scanner,25,,,,,
+2026-10-21T06:15:56Z,51.57.97.224,scanner,25,,,,,HELP
+2026-10-21T06:15:57Z,51.57.97.224,scanner,25,,,,, | 
+2026-10-21T06:15:58Z,51.57.97.224,scanner,25,,,,,GET / HTTP/1.0 | 
+2026-10-21T06:41:09Z,205.210.31.134,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-21T07:38:58Z,147.185.133.48,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-21T08:28:01Z,66.132.195.211,scanner,587,www.censys.io,,,,
+2026-10-21T08:36:00Z,20.169.55.172,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-21T09:19:22Z,65.49.1.108,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,... (+57 bytes) | Accept: */* | Accept-Encoding: gzip | "
+2026-10-21T11:01:08Z,18.116.101.220,scanner,587,,,,,
+2026-10-21T11:03:38Z,18.116.101.220,scanner,587,,,,,"\x16\x03\x01\x01\x00\x01\x00\x00\xfc\x03\x03k\xff\xee\x8d\xd3@\xd8/9\xccA\xbc\x8d\x19\xc1UI\x1dhCg'\xf8\xc7KK,a\x9aX|\xf1 \xdb&\x80\x1a\xd4$\xfb\x92\x8e4G\xbbHe7\xa1\xf7`\x9f\x9b\xcc\x9f\xeb-\xc7 t\x0f?|]\x04\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00\x8d\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-21T11:04:00Z,18.116.101.220,scanner,587,,,,,
+2026-10-21T11:04:38Z,18.116.101.220,scanner,587,,,,,\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03\xe9\xa8\xf2\x0cR\x8b?\xbdZ\x85\xb9\xdd\xbc\xc9D\xb2\xd0\x1e\xde\x9f\xe0\x1c\x03\xf8WF\xde\xbf\xc0\x05\xae\xef \x90\xf7\rl\xe3\x1fF\x9a\xdck\x8brz\x17\xee\xb9\xc9\xdfS\xa1\xe81D&\xbd\xd4P.\xa7\x86\x8b\x9d\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-21T11:12:47Z,20.42.99.8,scanner,587,,,,,
+2026-10-21T11:12:47Z,20.42.99.8,scanner,587,,,,,MGLNDD_20.119.52.2_587
+2026-10-21T11:52:30Z,66.132.186.171,scanner,587,www.censys.io,,,,
+2026-10-21T12:11:23Z,91.196.152.136,scanner,587,20.119.52.2,,,,
+2026-10-21T13:12:54Z,3.130.168.2,scanner,25,,,,,
+2026-10-21T13:14:30Z,3.130.168.2,scanner,25,,,,,"\x16\x03\x01\x01\x00\x01\x00\x00\xfc\x03\x03s\xd7m\xd9R\xf8\x1c\xc4&[\xb6_*\xab3\xc0\xe3\xc9L\xd4\xe1\xaeuX\xe8C\x103y\xe1i\xc1 \x99'iM\xb0{\xdaQ\x8c\xf5\xce\x9c#di\xf5\x1d\x86 | (B+_\xaf?\x07\xca\xf6p^\x1a\x92\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00\x8d\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-21T15:33:20Z,20.55.43.152,scanner,25,,,,,\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03\x02\x9b\xda\x1f\x00Ws\x12\xfd\x10\xf9/x^sT7\x05\xf7\x87[\xd19\x96\x99t\x14h>\x9a\xc6\xb0 D7\xe2\xc1\xe5X\xed\x8e\xc4r\xc2r\x15\xcc\x07\xc9\xfc\xe1\x0b\x89\xd3\xe5\xba\xef\xed\x9e\xa1\x96\xa4\xe1\xe6\xaa\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-21T15:33:20Z,20.55.43.152,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-21T17:48:43Z,66.132.172.101,scanner,25,www.censys.io,,,,
+2026-10-21T18:43:26Z,162.216.149.63,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-21T19:16:07Z,46.151.182.204,hosting,25,[46.151.182.204],<dpr@priv8shop.com>,<b***@hotmail.com>,,
+2026-10-21T21:20:17Z,198.235.24.159,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-21T21:54:41Z,86.38.187.151,scanner,25,86-38-187-151.infrawat.ch,,,,
+2026-10-21T22:15:39Z,87.251.64.132,scanner,2525,,,,,"\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xc4\x08G\x04\x96\xafZ~LS\x83\xf2\x8b\xee\xeb1\x06\xcd\xf6\x13\x09\x11\x91\xa4.\x93u\xb4\xb2Rca \x09\xa39\xe9\x12\xbal\xd6\xca}\xdd+""\x80\xf0\xb3\x85]\xaeG\x0f\xfc\xe1\x95(\xf5\xe8\xe0\x1a\xd6\xbbg\x00\x5c\x13\x02... (+49 bytes) | \xc0\x14\xc0\x09\xc0\x13\x00\x9d\xc0\xa1\xc0\x9d\xc0Q\x00\x9c\xc0\xa0\xc0\x9c\xc0P\x00=\x00\xc0\x00<\x00\xba\x005\x00\x84\x00/\x00A\x00\xff\x01\x00\x01W\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x16\x00\x14\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x01\x00\x01\x01\x01\x02\x01\x03\x01\x04\x00#\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x00*\x00(\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08"
+2026-10-21T22:15:39Z,87.251.64.132,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,... (+43 bytes) | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w... (+63 bytes) | Accept-Encoding: gzip, deflate, br | Accept-Language: en-US,en;q=0.9 | Connection: close | "
+2026-10-21T22:29:03Z,86.38.187.197,scanner,587,86-38-187-197.infrawat.ch,,,,
+2026-10-21T23:36:23Z,147.185.133.30,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-22T00:04:40Z,64.62.197.182,scanner,25,,,,,
+2026-10-22T00:11:20Z,147.185.132.84,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-22T00:51:39Z,66.132.186.194,scanner,587,www.censys.io,,,,
+2026-10-22T01:07:09Z,66.132.195.166,scanner,25,www.censys.io,,,,
+2026-10-22T02:47:59Z,198.235.24.181,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-22T03:59:06Z,184.105.139.68,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,... (+57 bytes) | Accept: */* | Accept-Encoding: gzip | "
+2026-10-22T05:17:13Z,66.132.186.193,scanner,25,www.censys.io,,,,
+2026-10-22T05:24:26Z,34.79.7.242,hosting,25,example.com,,,,
+2026-10-22T05:24:28Z,34.62.19.22,hosting,25,,,,,
+2026-10-22T05:24:42Z,34.62.19.22,hosting,25,,,,,HELP
+2026-10-22T05:24:50Z,34.62.19.22,hosting,25,,,,, | 
+2026-10-22T05:24:55Z,34.62.19.22,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-22T05:25:00Z,34.62.19.22,hosting,25,scan.local,,,,HELP
+2026-10-22T06:15:38Z,48.217.186.78,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-22T08:04:24Z,185.242.226.19,scanner,25,NVG-ZMAP-03,,,,
+2026-10-22T08:44:11Z,200.138.46.169,scanner,25,200-138-46-169.infrawat.ch,,,,
+2026-10-22T08:47:09Z,4.148.240.238,scanner,587,,,,,
+2026-10-22T08:47:10Z,4.148.240.238,scanner,587,,,,,MGLNDD_20.119.52.2_587
+2026-10-22T09:21:02Z,18.97.26.102,scanner,2525,scanner-18-97-26-102.reposify.net,,,NTLM,
+2026-10-22T09:26:22Z,157.245.243.2,hosting,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2 | Connection: keep-alive | sec-ch-ua: ""Chromium"";v=""153"", ""Not:A-Brand"";v=""24"", ""Brave"";v=""153"" | sec-ch-ua-mobile: ?0 | sec-ch-ua-platform: ""Linux"" | Upgrade-Insecure-Requests: 1 | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geck... (+33 bytes) | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w... (+24 bytes) | Sec-GPC: 1 | Accept-Language: en-US,en;q=0.5 | Sec-Fetch-Site: none | Sec-Fetch-Mode: navigate | Sec-Fetch-User: ?1 | Sec-Fetch-Dest: document | Accept-Encoding: gzip, deflate | "
+2026-10-22T09:26:25Z,157.245.243.2,hosting,587,,,,,"GET /favicon.ico HTTP/1.1 | Host: 20.119.52.2 | Connection: keep-alive | sec-ch-ua: ""Chromium"";v=""153"", ""Not:A-Brand"";v=""24"", ""Brave"";v=""153"" | sec-ch-ua-mobile: ?0 | sec-ch-ua-platform: ""Linux"" | Upgrade-Insecure-Requests: 1 | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geck... (+33 bytes) | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w... (+24 bytes) | Sec-GPC: 1 | Accept-Language: en-US,en;q=0.5 | Sec-Fetch-Site: none | Sec-Fetch-Mode: navigate | Sec-Fetch-User: ?1 | Sec-Fetch-Dest: document | Accept-Encoding: gzip, deflate | Referer: http://20.119.52.2:587/ | "
+2026-10-22T10:38:39Z,18.218.118.203,scanner,587,,,,,
+2026-10-22T10:39:54Z,18.218.118.203,scanner,587,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7... (+32 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-22T10:41:34Z,18.218.118.203,scanner,587,,,,,
+2026-10-22T10:41:48Z,18.218.118.203,scanner,587,,,,,"\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03\x1a\xe9\r\x11p\x81>\xb9B\xb5\xc2\x0c\xc1.H7\xfe\x9eye<*2Y\xd8\xc2\x9f@\xea.\x1a\x9a ~\xc09\xc6\xb2 | \xa0P\xf2\x94`\xb7*\xd6\x90\xc9\x7fUM[\x1e\x19\xa8\x7fUt\x15\xca+\xb0\xa8\xed\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-22T10:50:01Z,anon-ecd5a9d48d,isp,25,[anon-ecd5a9d48d],<info@sample.com>,<s***@yandex.com>,,
+2026-10-22T10:56:22Z,64.226.108.113,scanner,25,,,,,
+2026-10-22T12:09:44Z,66.132.195.170,scanner,587,www.censys.io,,,,
+2026-10-22T12:10:53Z,172.184.122.242,hosting,25,,,,,GET / HTTP/1.1 | User-Agent: mrtscan/1.0 (westus) | 
+2026-10-22T12:10:53Z,172.184.122.242,hosting,25,,,,,"\x16\x03\x01\x01/\x01\x00\x01+\x03\x03\xe8\x1b\x5c\x17\xfd""^\xa4\x0f\x92d4=\x12\x08\x17c\x13\x10*\x84a\xbb\xd0\x09\xd8\xf3z,gZ\xd7 \xa9V\x0f\x8e\xc0[0\xc5L\xeexgQ\x9d\x01W\xbc\xd8 | \x93R\xef\xbe\x82~o\xc8\xb7o\xd5\xc8i\x00>\x13\x02\x13\x03\x13\x01\xc0,\xc00\x00\x9f\xcc\xa9\xcc\xa8\xcc\xaa\xc0+\xc0/\x00\x9e\xc0$\xc0(\x00k\xc0#\xc0'\x00g\xc0 | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\xa4\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x16\x00\x14\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x01\x00\x01\x01\x01\x02\x01\x03\x01\x04\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x000\x00.\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08"
+2026-10-22T12:37:24Z,18.218.118.203,scanner,25,,,,,
+2026-10-22T12:37:57Z,18.218.118.203,scanner,25,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7... (+32 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-22T12:38:42Z,18.218.118.203,scanner,25,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7... (+32 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-22T12:39:53Z,18.218.118.203,scanner,25,,,,,"\x16\x03\x01\x01\x00\x01\x00\x00\xfc\x03\x03\x0bH\xb5\xa4\xf5&M\x04\xc6e)\xe1\xe3\xb3\x9f\x9bq\x0b\xfdu\xa2\xc3\x1b\xc4F\xfb\xee\x8e\x86\xe2\xbc\x16 \x8d\xe5\x97 | -\x91\xfb5\xa4\xe3~\xa4\x80\x5cy\xec\xab\xce1r\xf0\x803\x9f\x8b3\xc2\xf8\xe0H\x09B\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00\x8d\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-22T12:40:38Z,18.218.118.203,scanner,25,,,,,
+2026-10-22T13:52:44Z,66.132.172.106,scanner,587,www.censys.io,,,,
+2026-10-22T13:55:21Z,176.65.149.233,scanner,587,,,,,
+2026-10-22T14:35:07Z,94.231.206.158,scanner,25,20.119.52.2,,,,
+2026-10-22T17:49:03Z,66.132.172.197,scanner,25,www.censys.io,,,,
+2026-10-22T18:02:53Z,167.99.88.170,hosting,25,20.119.52.2,,,,
+2026-10-22T19:45:13Z,134.122.77.202,hosting,2525,,,,,GET / HTTP/1.0 | 
+2026-10-22T19:45:24Z,134.122.77.202,hosting,2525,,,,, | 
+2026-10-22T19:45:30Z,134.122.77.202,hosting,2525,,,,,
+2026-10-22T19:45:37Z,134.122.77.202,hosting,2525,,,,,HELP
+2026-10-22T19:45:45Z,167.99.243.8,hosting,2525,mail.example.com,,,,"\x16\x03\x01\x01$\x01\x00\x01 \x03\x03X7i.\xfcn\x19\xdf\x81\x98\xe6O\xad}\xc6M\x1a\xe1\x9e\xeaw\xc9\xdc\x9bID\x87\x02\x1cP!\xe3 \xf9\x05\xd9\xd6R\xbf*&\xe0\xeaFE\xc1a&\x07s\xe3.\xa6\xb5'T\xb5\x177\xc1\x5c\xef\xd3\x98,\x00>\x13\x02... (+35 bytes) | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\x99\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x16\x00\x14\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x01\x00\x01\x01\x01\x02\x01\x03\x01\x04\x00#\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x00*\x00(\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08"
+2026-10-22T19:56:05Z,anon-51e33571c7,isp,25,anon-51e33571c7,<spameri@tiscali.it>,<spameri@tiscali.it>,,
+2026-10-22T20:09:50Z,161.35.61.218,scanner,25,[161.35.61.218],,,,HELP
+2026-10-22T20:11:08Z,147.185.133.229,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-22T20:16:17Z,44.220.185.128,scanner,25,scanner-44-220-185-128.reposify.net,,,NTLM,
+2026-10-22T22:22:40Z,46.151.182.204,hosting,25,[46.151.182.204],<dpr@priv8shop.com>,<b***@yahoo.com>,,
+2026-10-23T01:23:20Z,200.138.46.251,scanner,587,200-138-46-251.infrawat.ch,,,,
+2026-10-23T02:02:53Z,64.62.197.2,scanner,25,,,,,
+2026-10-23T02:04:03Z,172.131.100.143,scanner,25,,,,,
+2026-10-23T02:04:05Z,172.131.100.143,scanner,25,,,,,HELP
+2026-10-23T02:04:06Z,172.131.100.143,scanner,25,,,,, | 
+2026-10-23T02:04:07Z,172.131.100.143,scanner,25,,,,,GET / HTTP/1.0 | 
+2026-10-23T02:15:21Z,34.76.103.241,hosting,25,,,,,
+2026-10-23T02:15:19Z,35.187.56.107,hosting,25,example.com,,,,
+2026-10-23T02:15:34Z,34.76.103.241,hosting,25,,,,,HELP
+2026-10-23T02:15:42Z,34.76.103.241,hosting,25,,,,, | 
+2026-10-23T02:15:47Z,34.76.103.241,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-23T02:16:08Z,34.76.103.241,hosting,25,scan.local,,,,HELP
+2026-10-23T03:00:24Z,198.235.24.45,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-23T03:13:31Z,172.104.31.146,scanner,25,masscan,,,,
+2026-10-23T03:18:11Z,20.221.58.150,scanner,2525,,,,,
+2026-10-23T03:18:11Z,20.221.58.150,scanner,2525,,,,,MGLNDD_20.119.52.2_2525
+2026-10-23T03:21:11Z,198.235.24.75,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-23T03:28:53Z,20.121.65.112,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-23T03:34:36Z,66.228.41.204,scanner,587,masscan,,,,
+2026-10-23T04:28:11Z,152.32.213.85,scanner,587,mail.example.com,,,,"\x16\x03\x01\x01\x16\x01\x00\x01\x12\x03\x03\xda?\x15 | \xbe\xabe R\xce\xb6A\xfe\xda\xd2\xd1\xd7\x1d9\xe4GX\x87!2VG\xd2\xfb\xc0\xe1\x92 \xdc\x011wh\x1c8s\x0fo\x84\xdc\xe0\x84\x02\xd6H\x09\x80H\xab\xa8fM\xbe\xa5\xe1\xa5j\x96\x04\xe5\x00>\x13\x02\x13\x03\x13\x01\xc0,\xc00\x00\x9f\xcc\xa9\xcc\xa8\xcc... (+20 bytes) | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\x8b\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x0c\x00 | \x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x00#\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x00*\x00(\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08"
+2026-10-23T04:28:10Z,152.32.213.85,scanner,587,hello,,,NTLM,help
+2026-10-23T04:57:18Z,47.250.118.57,hosting,587,,,,,\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03I\x06\xb2\xf9\xbc\x99i\xc0Y\xfb\xf8\xbae-\x83Ud]\x0e\x8d\xb7b8\xb4g\xc6\xdd9dZ8f g\xc1\x81i\xb3\xf6\xf2\xcb\xb0\xa9\x19N\xd6\xbd\x95g|p\xfc\xe9<Z\xa1\x90T\xb7\xe9\xa58'O;\x00&\xc0+... (+15 bytes) | \xc0\x14\x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x01\x13\x02\x13\x03\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-23T05:10:33Z,147.185.133.39,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-23T05:29:00Z,98.89.204.118,scanner,587,,,,,"\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03T\xc0\xea\x9c\x88\x9f~E\x96\x09Y\xfcuQ\xfc%9N\x8a\x97N\x95\x16$\x14\xbd\x9c\x1f@j_\xfd \x9dOxa\xec\xa7\x97\xaa,\x18\xe3+h\xc8k\xbd\x89\xa0\xb3lU8r*\xaew\x9ew \xd2\xed\xda\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-23T05:47:28Z,66.132.195.91,scanner,587,www.censys.io,,,,
+2026-10-23T05:49:46Z,147.185.132.140,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-23T07:12:45Z,172.104.17.159,scanner,25,masscan,,,,
+2026-10-23T07:21:40Z,66.132.172.192,scanner,25,www.censys.io,,,,
+2026-10-23T07:34:28Z,45.56.104.141,hosting,587,masscan,,,,
+2026-10-23T09:39:30Z,118.26.39.231,scanner,2525,ABC,,,,HELP
+2026-10-23T10:01:55Z,45.148.10.5,scanner,25,audit.local,<noreply@localhost>,<f***@yopmail.com> <f***@yopmail.com>,PLAIN,
+2026-10-23T10:28:07Z,80.66.83.43,scanner,25,,,,,\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie: mstshash=Administr
+2026-10-23T10:31:37Z,206.189.62.193,hosting,587,,,,, | 
+2026-10-23T10:31:48Z,206.189.62.193,hosting,587,,,,,
+2026-10-23T10:31:56Z,206.189.62.193,hosting,587,,,,,HELP
+2026-10-23T10:32:04Z,206.189.62.193,hosting,587,,,,,GET / HTTP/1.0 | 
+2026-10-23T10:32:10Z,157.230.107.250,hosting,587,mail.example.com,,,,\x16\x03\x01\x01$\x01\x00\x01 \x03\x03\x1dz\xe9I\x0b\xcf5F8\x87yv\xab\x1a\xf4O\xadh\xbe\xaaUyAz\x12\xf9\xc1oQ\xa1\xb0P \xa1\xff\x1d\xa4\xd3\xe7\x89\xb2\x01\xd3SB\x8a\xac\xfb$55\x84\x0f\x1f\xad\xb6\x83\xadV\xb0_\x02\xba-A\x00>\x13\x02... (+35 bytes) | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\x99\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x16\x00\x14\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x01\x00\x01\x01\x01\x02\x01\x03\x01\x04\x00#\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x00*\x00(\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08
+2026-10-23T10:45:39Z,18.116.101.220,scanner,587,,,,,
+2026-10-23T10:48:55Z,18.116.101.220,scanner,587,,,,,\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03x?n\xfe&\x16\x0bZ\xab\xac\xd7\xa3\xb2@\xe3b\xd6#\x9d`M\x1b\xdb%\xd3;$0\xf1\xe4\xd3\x0f \xc1\xff\x0e\xbc5\xf9\xc1\xa2E\xe6w9\x07c\x94\x5cQ\xbd\x89\xf5P\xcc'\x9c\x8ad\x06\x12\x83Q\x8bE\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-23T11:13:40Z,50.116.55.86,scanner,25,masscan,,,,
+2026-10-23T11:23:59Z,20.80.75.130,hosting,587,,,,,
+2026-10-23T11:23:59Z,20.80.75.130,hosting,587,,,,,MGLNDD_20.119.52.2_587
+2026-10-23T11:34:01Z,172.104.10.150,scanner,587,masscan,,,,
+2026-10-23T11:36:31Z,35.203.210.44,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-23T12:06:54Z,172.184.144.252,scanner,25,,,,,GET / HTTP/1.1 | User-Agent: mrtscan/1.0 (westus) | 
+2026-10-23T12:06:54Z,172.184.144.252,scanner,25,,,,,"\x16\x03\x01\x01/\x01\x00\x01+\x03\x03\x05U|\xad\xe9\xe6`\xe0\x86\xd5\xc9t\x08p\xff\xc2\xe0i\xe1\xf2\xc8Y""\xc8~\xad;=\x9c\xe3\x81\xf5 \xff\xbc\xb6s\x83Q\xe8\xddR|\xc9\xf76\x8d\xa3\x8f\xdd\xca\x09\xeb\x82\xce\xb0\xca\xd9\xee\x1b\xc6""\x5c&>\x00>\x13\x02... (+35 bytes) | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\xa4\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x16\x00\x14\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x01\x00\x01\x01\x01\x02\x01\x03\x01\x04\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x000\x00.\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08"
+2026-10-23T12:53:04Z,3.129.187.38,scanner,25,,,,,
+2026-10-23T12:54:51Z,3.129.187.38,scanner,25,,,,,
+2026-10-23T14:57:31Z,66.132.186.182,scanner,25,www.censys.io,,,,
+2026-10-23T15:13:16Z,23.239.11.116,hosting,25,masscan,,,,
+2026-10-23T15:33:42Z,45.56.104.141,hosting,587,masscan,,,,
+2026-10-23T15:47:04Z,192.253.248.251,scanner,2525,,,,,\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie: mstshash=Administr
+2026-10-23T17:06:10Z,47.237.119.156,scanner,587,iZt4niylld5mqz8jgv1lssZ,,,,
+2026-10-23T17:37:08Z,40.119.46.82,scanner,25,,,,,
+2026-10-23T17:37:08Z,40.119.46.82,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-23T17:47:23Z,66.132.195.186,scanner,25,www.censys.io,,,,
+2026-10-23T19:13:32Z,45.79.162.166,hosting,25,masscan,,,,
+2026-10-23T20:34:13Z,192.253.248.251,scanner,2525,,,,,\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie: mstshash=Administr
+2026-10-23T20:44:50Z,200.138.46.215,scanner,25,200-138-46-215.infrawat.ch,,,,
+2026-10-23T21:14:00Z,172.104.10.55,scanner,25,masscan,,,,
+2026-10-23T21:14:27Z,66.132.172.186,scanner,587,www.censys.io,,,,
+2026-10-23T21:34:15Z,45.33.83.23,scanner,587,masscan,,,,
+2026-10-24T00:19:19Z,4.148.9.36,hosting,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-24T00:38:24Z,147.185.132.74,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-24T01:21:42Z,167.94.146.49,scanner,587,www.censys.io,,,,
+2026-10-24T02:54:32Z,147.185.133.216,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-24T03:33:07Z,147.185.133.225,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-24T04:52:58Z,147.185.133.24,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-24T05:33:34Z,172.208.64.173,scanner,2525,,,,,
+2026-10-24T05:33:34Z,172.208.64.173,scanner,2525,,,,,MGLNDD_20.119.52.2_2525
+2026-10-24T05:40:42Z,198.235.24.184,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-24T05:51:07Z,64.62.197.62,scanner,25,,,,,
+2026-10-24T06:21:31Z,207.175.146.159,hosting,25,example.com,,,,
+2026-10-24T06:21:34Z,34.79.164.202,hosting,25,,,,,
+2026-10-24T06:21:47Z,34.79.164.202,hosting,25,,,,,HELP
+2026-10-24T06:21:55Z,34.79.164.202,hosting,25,,,,, | 
+2026-10-24T06:22:00Z,34.79.164.202,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-24T06:22:38Z,34.79.164.202,hosting,25,scan.local,,,,HELP
+2026-10-24T07:14:01Z,91.230.168.44,scanner,25,20.119.52.2,,,,
+2026-10-24T07:34:38Z,66.132.172.104,scanner,25,www.censys.io,,,,
+2026-10-24T08:08:28Z,40.124.187.34,scanner,587,,,,,
+2026-10-24T08:08:28Z,40.124.187.34,scanner,587,,,,,MGLNDD_20.119.52.2_587
+2026-10-24T10:19:36Z,194.88.98.114,scanner,587,194-88-98-114.infrawat.ch,,,,
+2026-10-24T10:27:21Z,66.132.195.183,scanner,587,www.censys.io,,,,
+2026-10-24T10:34:17Z,196.251.121.140,hosting,2525,[196.251.121.140],<dpr@priv8shop.com>,<p***@yahoo.com>,,
+2026-10-24T11:08:35Z,62.60.134.212,hosting,25,localhost,,,,
+2026-10-24T11:15:14Z,65.49.1.222,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like... (+38 bytes) | Accept: */* | Accept-Encoding: gzip | "
+2026-10-24T11:17:52Z,anon-e05f497e3b,isp,2525,[anon-e05f497e3b],<dpr@priv8shop.com>,<m***@yahoo.com>,,
+2026-10-24T12:18:58Z,86.54.31.38,scanner,25,z9r9wev24tapb3.com,,,,
+2026-10-24T12:54:43Z,31.14.254.79,scanner,25,31-14-254-79.infrawat.ch,,,,
+2026-10-24T12:57:54Z,anon-e05f497e3b,isp,587,[anon-e05f497e3b],<dpr@priv8shop.com>,<m***@yahoo.com>,,
+2026-10-24T13:07:44Z,46.151.178.14,scanner,25,prober.heinsenbug.local,,,,
+2026-10-24T13:29:00Z,165.154.59.90,scanner,2525,,,,,\x16\x03\x01\x00\xfc\x01\x00\x00\xf8\x03\x03\xc1(j\xf1\xd5\xcc\x10\xf4\x0c\xf4ju2\xe8\xa3\x7f\xb5\xc7\x00\x92[\x17a\x81\xef-\x18\x14\xfb\x8a\x1b= p\x9f\xc9I\xfa \xa3\xf8\xe8\xf0\xab h\xdc\xc4\xfe\x8eG~\xb5\x9c\x8a\xbfWB\xed{*\x9b6Jm\x004\xcc\xa8... (+25 bytes) | \x009\xc0\x13\x00 | \xc0\x14\x00\x9c\x00\x9d\x00/\x005\xc0\x12\x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00 | \x00\x08\x00\x1d\x00\x17\x00\x18\x00\x19\x00\x0b\x00\x02\x01\x00\x00\r\x00\x1a\x00\x18\x08\x04\x04\x03\x08\x07\x08\x05\x08\x06\x04\x01\x05\x01\x06\x01\x05\x03\x06\x03\x02\x01\x02\x03\xff\x01\x00\x01\x00\x00\x12\x00\x00\x00+\x00\x09\x08\x03\x04\x03\x03\x03\x02\x03\x01\x003\x00&\x00$\x00\x1d\x00 \x14\x94... (+29 bytes)
+2026-10-24T13:29:19Z,165.154.59.90,scanner,2525,,,,,
+2026-10-24T13:29:20Z,165.154.59.90,scanner,2525,20.119.52.2,,,NTLM,TlRMTVNTUAABAAAAB4IIoAAAAAAAAAAAAAAAAAAAAAA=
+2026-10-24T13:46:31Z,3.130.168.2,scanner,587,,,,,
+2026-10-24T13:48:24Z,3.130.168.2,scanner,587,,,,,"\x16\x03\x01\x01\x00\x01\x00\x00\xfc\x03\x03\x0b{j\x91\xa9S\x1e\xea\xfa  | \x07^q/\x156b$\x13\xf9\x0c\xda\xdf\x07S\x94\xef\xaa1}\x17 V_""\xe2`\xeb\xcc\x13\x88\xa3h\x9c$$\xe1\xdf\xb8\xed\xd6\xcar\xd3\x9b\xb2\xd5h\xafvh\xad\xa3\xcd\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00\x8d\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-24T13:51:15Z,anon-e05f497e3b,isp,25,[anon-e05f497e3b],<dpr@priv8shop.com>,<m***@yahoo.com>,,
+2026-10-24T14:46:32Z,3.130.168.2,scanner,587,,,,,
+2026-10-24T14:49:12Z,3.130.168.2,scanner,587,,,,,"\x16\x03\x01\x01\x00\x01\x00\x00\xfc\x03\x03-%\x00\xa1\xf1\xdd\xb8V\x9e9\xb09Z\x9c\xb8\xd0\x9exl\xe6\xf4\xcc\xc5W\x94\xe0\x882\x9b&I\xb9 |\xe4\x0cc-\x11)\xbc\xd3\x98""\x0f\xedC\xe6\xe5D\xc3\xc4\x1b\xae*k\x88a\x10\xb8\xd2\xeb\x0f\xa0\xd4\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00\x8d\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-24T14:50:07Z,3.130.168.2,scanner,587,,,,,
+2026-10-24T14:50:36Z,3.130.168.2,scanner,587,,,,,\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03\xf1lVi0\xa0u%|O'\xbe\xaf\x8e\xf1\xceg\xd3\xb8!\xbc\xa1\xba\xb4\xceF\xf4\xb7\x1e\x95\x93\x8b \xb3A\xe6\xabm\x04n\xafn\x99+\xd9Tn\xd6P`\x12\x84\x8a\x08\xef8\xcai\r\xbb\x8d\x95n\xc4N\x00&\xcc\xa8... (+17 bytes)
+2026-10-24T15:22:20Z,196.251.121.140,hosting,2525,[196.251.121.140],<dpr@priv8shop.com>,<p***@yahoo.com>,,
+2026-10-24T15:23:37Z,66.132.195.74,scanner,587,www.censys.io,,,,
+2026-10-24T16:04:44Z,3.129.187.38,scanner,25,,,,,
+2026-10-24T16:08:14Z,3.129.187.38,scanner,25,,,,,
+2026-10-24T18:02:52Z,176.32.193.16,scanner,25,Postfix,,,,
+2026-10-24T18:41:46Z,167.94.146.63,scanner,25,www.censys.io,,,,
+2026-10-24T19:49:03Z,205.210.31.133,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-24T20:41:14Z,91.230.168.71,scanner,587,20.119.52.2,,,,
+2026-10-24T20:56:04Z,198.235.24.192,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-24T21:58:56Z,4.148.17.104,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-24T22:01:16Z,198.235.24.224,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-24T22:25:43Z,194.187.176.84,scanner,587,,,,,
+2026-10-24T22:31:36Z,162.216.150.148,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-25T01:25:08Z,198.235.24.12,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-25T01:47:03Z,66.132.186.173,scanner,25,www.censys.io,,,,
+2026-10-25T03:08:55Z,50.116.52.199,scanner,25,masscan,,,,
+2026-10-25T03:19:58Z,20.64.98.131,scanner,2525,,,,,
+2026-10-25T03:19:58Z,20.64.98.131,scanner,2525,,,,,MGLNDD_20.119.52.2_2525
+2026-10-25T03:36:51Z,34.156.64.236,hosting,25,example.com,,,,
+2026-10-25T03:37:55Z,34.62.179.189,hosting,25,,,,,
+2026-10-25T03:38:08Z,34.62.179.189,hosting,25,,,,,HELP
+2026-10-25T03:38:16Z,34.62.179.189,hosting,25,,,,, | 
+2026-10-25T03:38:21Z,34.62.179.189,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-25T03:38:27Z,34.62.179.189,hosting,25,scan.local,,,,HELP
+2026-10-25T03:44:08Z,45.79.145.93,scanner,587,masscan,,,,
+2026-10-25T04:03:50Z,66.132.195.96,scanner,587,www.censys.io,,,,
+2026-10-25T04:15:26Z,64.62.197.62,scanner,25,,,,,
+2026-10-25T07:09:10Z,172.104.17.159,scanner,25,masscan,,,,
+2026-10-25T07:43:02Z,67.205.172.131,hosting,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2 | Connection: keep-alive | sec-ch-ua: ""Chromium"";v=""153"", ""Not:A-Brand"";v=""24"", ""Brave"";v=""153"" | sec-ch-ua-mobile: ?0 | sec-ch-ua-platform: ""Linux"" | Upgrade-Insecure-Requests: 1 | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geck... (+33 bytes) | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w... (+24 bytes) | Sec-GPC: 1 | Accept-Language: en-US,en;q=0.5 | Sec-Fetch-Site: none | Sec-Fetch-Mode: navigate | Sec-Fetch-User: ?1 | Sec-Fetch-Dest: document | Accept-Encoding: gzip, deflate | "
+2026-10-25T07:43:08Z,45.33.83.23,scanner,587,masscan,,,,
+2026-10-25T07:43:05Z,67.205.172.131,hosting,587,,,,,"GET /favicon.ico HTTP/1.1 | Host: 20.119.52.2 | Connection: keep-alive | sec-ch-ua: ""Chromium"";v=""153"", ""Not:A-Brand"";v=""24"", ""Brave"";v=""153"" | sec-ch-ua-mobile: ?0 | sec-ch-ua-platform: ""Linux"" | Upgrade-Insecure-Requests: 1 | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geck... (+33 bytes) | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w... (+24 bytes) | Sec-GPC: 1 | Accept-Language: en-US,en;q=0.5 | Sec-Fetch-Site: none | Sec-Fetch-Mode: navigate | Sec-Fetch-User: ?1 | Sec-Fetch-Dest: document | Accept-Encoding: gzip, deflate | Referer: http://20.119.52.2:587/ | "
+2026-10-25T08:00:41Z,200.138.46.159,scanner,25,200-138-46-159.infrawat.ch,,,,
+2026-10-25T08:57:21Z,184.105.139.70,scanner,25,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (... (+57 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-25T10:50:17Z,4.148.9.82,scanner,587,,,,,
+2026-10-25T11:08:12Z,50.116.55.149,scanner,25,masscan,,,,
+2026-10-25T11:46:22Z,172.104.10.138,scanner,587,masscan,,,,
+2026-10-25T12:04:55Z,66.132.224.230,scanner,25,www.censys.io,,,,
+2026-10-25T15:02:05Z,66.132.195.101,scanner,25,www.censys.io,,,,
+2026-10-25T15:08:51Z,172.104.24.216,hosting,25,masscan,,,,
+2026-10-25T15:10:32Z,3.130.168.2,scanner,25,,,,,
+2026-10-25T15:11:09Z,3.130.168.2,scanner,25,,,,,
+2026-10-25T15:43:33Z,45.56.104.141,hosting,587,masscan,,,,
+2026-10-25T17:14:25Z,66.132.172.192,scanner,587,www.censys.io,,,,
+2026-10-25T17:59:50Z,44.220.185.138,scanner,587,scanner-44-220-185-138.reposify.net,,,NTLM,
+2026-10-25T18:37:22Z,66.132.159.29,scanner,25,www.censys.io,,,,
+2026-10-25T18:37:21Z,66.132.186.184,scanner,25,www.censys.io,,,,
+2026-10-25T18:51:43Z,131.226.2.149,scanner,587,,,,,
+2026-10-25T19:05:28Z,198.235.24.19,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-25T19:08:50Z,50.116.55.219,scanner,25,masscan,,,,
+2026-10-25T19:45:37Z,50.116.55.231,scanner,587,masscan,,,,
+2026-10-25T19:51:09Z,86.38.187.155,scanner,587,86-38-187-155.infrawat.ch,,,,
+2026-10-25T20:48:03Z,198.235.24.205,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-25T20:58:46Z,162.216.150.122,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-25T21:25:36Z,66.132.159.30,scanner,25,www.censys.io,,,,
+2026-10-25T21:35:19Z,141.98.9.116,hosting,25,WIN-CLJ1B0GQ6JP,<spameri@tiscali.it>,<spameri@tiscali.it>,,
+2026-10-25T22:26:06Z,193.46.255.148,scanner,25,,,,,
+2026-10-25T22:26:06Z,193.46.255.148,scanner,2525,,,,,
+2026-10-25T23:08:42Z,50.116.55.149,scanner,25,masscan,,,,
+2026-10-25T23:44:18Z,172.104.10.123,scanner,587,masscan,,,,
+2026-10-26T00:45:57Z,64.62.197.77,scanner,25,,,,,
+2026-10-26T01:02:46Z,205.210.31.8,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-26T01:45:15Z,anon-e05f497e3b,isp,25,[anon-e05f497e3b],<dpr@priv8shop.com>,<p***@yahoo.com>,,
+2026-10-26T03:14:29Z,24.144.116.101,scanner,2525,,,,,
+2026-10-26T03:37:35Z,anon-e05f497e3b,isp,2525,[anon-e05f497e3b],<dpr@priv8shop.com>,<p***@yahoo.com>,,
+2026-10-26T03:55:17Z,199.165.159.25,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,... (+43 bytes) | Accept: */* | Accept-Encoding: gzip | "
+2026-10-26T04:15:18Z,198.235.24.212,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-26T04:44:31Z,34.140.6.208,hosting,25,example.com,,,,
+2026-10-26T04:46:03Z,35.189.209.207,hosting,25,,,,,
+2026-10-26T04:46:16Z,35.189.209.207,hosting,25,,,,,HELP
+2026-10-26T04:46:24Z,35.189.209.207,hosting,25,,,,, | 
+2026-10-26T04:46:29Z,35.189.209.207,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-26T04:46:35Z,35.189.209.207,hosting,25,scan.local,,,,HELP
+2026-10-26T05:06:40Z,98.90.43.197,scanner,587,,,,,"\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03\x9e\x03\xed\x8bU\xea\x80\x05\xa3?U\x98D\xfb\x08\xda\xa0m\x08\xbe\xfe\xd5\x13N\xb9\x82\x06H\x82F`* \x06\r`=\xbckN\xae%\x1f\xdb\x8a | #\xf7$\xfc\xb8\x98H\xae\xea\xeef\xe6\xe4e\xd8\xc9\xd4\x90\xc7\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00 | \x00\x08\x00\x1d\x00\x17\x00\x18\x00\x19\x00\x0b\x00\x02\x01\x00\x00\r\x00\x1a\x00\x18\x08\x04\x04\x03\x08\x07\x08\x05\x08\x06\x04\x01\x05\x01\x06\x01\x05\x03\x06\x03\x02\x01\x02\x03\xff\x01\x00\x01\x00\x00\x12\x00\x00\x00+\x00\x09\x08\x03\x04\x03\x03\x03\x02\x03\x01\x003\x00&\x00$\x00\x1d\x00 \xe4m... (+24 bytes)"
+2026-10-26T05:13:06Z,anon-e05f497e3b,isp,587,[anon-e05f497e3b],<dpr@priv8shop.com>,<p***@yahoo.com>,,
+2026-10-26T05:58:19Z,66.132.172.197,scanner,587,www.censys.io,,,,
+2026-10-26T06:31:52Z,20.29.52.146,hosting,2525,,,,,
+2026-10-26T06:31:52Z,20.29.52.146,hosting,2525,,,,,MGLNDD_20.119.52.2_2525
+2026-10-26T07:32:31Z,46.151.182.204,hosting,25,[46.151.182.204],<dpr@priv8shop.com>,<m***@gmail.com>,,
+2026-10-26T09:55:57Z,66.132.195.85,scanner,25,www.censys.io,,,,
+2026-10-26T09:56:29Z,20.65.170.95,scanner,587,,,,,
+2026-10-26T09:56:30Z,20.65.170.95,scanner,587,,,,,MGLNDD_20.119.52.2_587
+2026-10-26T10:20:08Z,66.132.224.251,scanner,587,www.censys.io,,,,
+2026-10-26T10:33:50Z,86.38.187.244,scanner,587,86-38-187-244.infrawat.ch,,,,
+2026-10-26T10:34:56Z,anon-5e91d03084,isp,25,mail.example.com,,,,"\x16\x03\x01\x01\x16\x01\x00\x01\x12\x03\x03\xda?\x15 | \xbe\xabe R\xce\xb6A\xfe\xda\xd2\xd1\xd7\x1d9\xe4GX\x87!2VG\xd2\xfb\xc0\xe1\x92 \xdc\x011wh\x1c8s\x0fo\x84\xdc\xe0\x84\x02\xd6H\x09\x80H\xab\xa8fM\xbe\xa5\xe1\xa5j\x96\x04\xe5\x00>\x13\x02\x13\x03\x13\x01\xc0,\xc00\x00\x9f\xcc\xa9\xcc\xa8\xcc... (+20 bytes) | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\x8b\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x0c\x00 | \x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x00#\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x00*\x00(\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08"
+2026-10-26T10:34:55Z,anon-5e91d03084,isp,25,hello,,,NTLM,help
+2026-10-26T12:02:37Z,anon-dd4361d701,isp,2525,[anon-dd4361d701],<a***@globalfinancesolutions.com>,<k***@outlook.com>,,
+2026-10-26T12:29:57Z,152.32.160.252,scanner,25,,,,,"\x16\x03\x01\x00\xfc\x01\x00\x00\xf8\x03\x03\x8bS\x0eR'\x94\xa6\xda\xd9\xef,\xd8\xa16\xa1(H\x10\x99s\xe5\x14\x02\xfc\x1flw\x8b\x9c;p3 I\xdf\xc6\xb8w\xa9*\xfd\xda\x93\xb3\xddd\x82\xc9\xbc\x95\xb4\x16\x87\x12;\xe5$\x19\xc7m\x9a\xb5\xcc\xfaM\x004\xcc\xa8... (+25 bytes) | \x009\xc0\x13\x00 | \xc0\x14\x00\x9c\x00\x9d\x00/\x005\xc0\x12\x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-26T12:30:16Z,152.32.160.252,scanner,25,,,,,
+2026-10-26T12:30:16Z,152.32.160.252,scanner,25,20.119.52.2,,,NTLM,TlRMTVNTUAABAAAAB4IIoAAAAAAAAAAAAAAAAAAAAAA=
+2026-10-26T13:35:32Z,85.217.149.20,scanner,587,,,,,
+2026-10-26T13:44:39Z,8.209.80.8,hosting,587,,,,,\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03I\x06\xb2\xf9\xbc\x99i\xc0Y\xfb\xf8\xbae-\x83Ud]\x0e\x8d\xb7b8\xb4g\xc6\xdd9dZ8f g\xc1\x81i\xb3\xf6\xf2\xcb\xb0\xa9\x19N\xd6\xbd\x95g|p\xfc\xe9<Z\xa1\x90T\xb7\xe9\xa58'O;\x00&\xc0+... (+15 bytes) | \xc0\x14\x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x01\x13\x02\x13\x03\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-26T13:48:35Z,128.14.226.191,hosting,587,,,,,\x16\x03\x01\x00\xfc\x01\x00\x00\xf8\x03\x037!\xd05f\xb4\xf3m\x8a\xdeG\x17\xce\xad>\xe7\xa9\xfc\x940\xce\xfd\x82\xdb\xb6\xa5\x09\xc6\x95\xfeo. \xf1\xc5\xad\x9de/\x9b(\x9b\xf6U4+\x1b\x5c\x82\xb7\xf3\x9a\x013\x9e\xd9\x7f\xe4\xcd\xacvAjy\xe7\x004\xcc\xa8... (+25 bytes) | \x009\xc0\x13\x00 | \xc0\x14\x00\x9c\x00\x9d\x00/\x005\xc0\x12\x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-26T13:48:54Z,128.14.226.191,hosting,587,,,,,
+2026-10-26T13:48:55Z,128.14.226.191,hosting,587,20.119.52.2,,,NTLM,TlRMTVNTUAABAAAAB4IIoAAAAAAAAAAAAAAAAAAAAAA=
+2026-10-26T15:13:33Z,77.67.26.137,scanner,25,77-67-26-137.infrawat.ch,,,,
+2026-10-26T16:16:27Z,66.132.195.66,scanner,25,www.censys.io,,,,
+2026-10-26T16:34:19Z,20.171.13.40,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-26T18:16:54Z,147.185.133.81,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-26T18:56:58Z,147.185.133.222,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-26T19:19:00Z,20.40.214.159,hosting,25,,,,,
+2026-10-26T19:19:00Z,20.40.214.159,hosting,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-26T20:40:40Z,anon-ecd5a9d48d,isp,25,[anon-ecd5a9d48d],<info@sample.com>,<s***@yandex.com>,,
+2026-10-26T22:51:13Z,66.132.172.190,scanner,587,www.censys.io,,,,
+2026-10-26T23:48:36Z,162.216.150.221,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-27T01:06:35Z,91.231.89.1,scanner,2525,,,,,"\x16\x03\x03\x02`\x01\x00\x02\x5c\x03\x03\x9d\xba""\xef>\xb1\x1b\xe9\xbe\xd9\xbc+\x12:s\x13\xbf\x1c\xd7D\x1d\x1d\xd4\xd1\xf4\xa72\xa2\xbd\x12c9 \x1b2\x81-d.;\xbf%\x9d\xad\xae\x9c\x10\x12\xc9\x9b\xc9:\xca7Z!\x01}r\xeca.\x1b\xf1\xa2\x00\x8a\x00\x16... (+43 bytes) | \xc0$\xc0\xad\xc0\xaf\xc0,\xc0r\xc0s\xcc\xa9\x13\x02\x13\x01\xcc\x14\xc0\x07\xc0\x12\xc0\x13\xc0'\xc0/\xc0\x14\xc0(\xc00\xc0`\xc0a\xc0v\xc0w\xcc\xa8\x13\x05\x13\x04\x13\x03\xcc\x13\xc0\x11\x00 | \x00/\x00<\xc0\x9c\xc0\xa0\x00\x9c\x005\x00=\xc0\x9d\xc0\xa1\x00\x9d\x00A\x00\xba\x00\x84\x00\xc0\x00\x07\x00\x04\x00\x05\x01\x00\x01\x89\x00\x00\x00\x10\x00\x0e\x00\x00\x0b20.119.52.2\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x0c\x00 | \x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x00#\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x000\x00.\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08"
+2026-10-27T01:14:42Z,199.165.159.185,scanner,25,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/109.0 | Accept: */* | Accept-Encoding: gzip | 
+2026-10-27T01:58:59Z,172.170.30.240,scanner,25,,,,,
+2026-10-27T01:59:01Z,172.170.30.240,scanner,25,,,,,HELP
+2026-10-27T01:59:02Z,172.170.30.240,scanner,25,,,,, | 
+2026-10-27T01:59:03Z,172.170.30.240,scanner,25,,,,,GET / HTTP/1.0 | 
+2026-10-27T03:07:01Z,64.62.197.167,scanner,25,,,,,
+2026-10-27T03:59:02Z,198.235.24.167,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-27T04:15:50Z,104.131.5.6,hosting,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2 | User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153... (+2 bytes) | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Language: en-US,en;q=0.5 | Accept-Encoding: gzip, deflate | Connection: keep-alive | Upgrade-Insecure-Requests: 1 | Sec-Fetch-Dest: document | Sec-Fetch-Mode: navigate | Sec-Fetch-Site: none | Sec-Fetch-User: ?1 | Priority: u=0, i | "
+2026-10-27T04:15:53Z,104.131.5.6,hosting,587,,,,,"GET /favicon.ico HTTP/1.1 | Host: 20.119.52.2 | User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153... (+2 bytes) | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Language: en-US,en;q=0.5 | Accept-Encoding: gzip, deflate | Connection: keep-alive | Upgrade-Insecure-Requests: 1 | Sec-Fetch-Dest: document | Sec-Fetch-Mode: navigate | Sec-Fetch-Site: none | Sec-Fetch-User: ?1 | Priority: u=0, i | Referer: http://20.119.52.2:587/ | "
+2026-10-27T04:23:06Z,34.14.39.41,hosting,25,example.com,,,,
+2026-10-27T04:25:07Z,34.34.147.180,hosting,25,,,,,
+2026-10-27T04:25:20Z,34.34.147.180,hosting,25,,,,,HELP
+2026-10-27T04:25:28Z,34.34.147.180,hosting,25,,,,, | 
+2026-10-27T04:25:33Z,34.34.147.180,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-27T04:26:06Z,34.34.147.180,hosting,25,scan.local,,,,HELP
+2026-10-27T04:56:03Z,66.132.195.121,scanner,25,www.censys.io,,,,
+2026-10-27T04:57:05Z,165.154.182.207,scanner,587,,,,,\x16\x03\x01\x00\xfc\x01\x00\x00\xf8\x03\x03\xe5?y\xe2\xea\x16\xef\xad\x8f3\xb1\xd0\xf24N>`])\x9c\xf7\x91\x92\xbf\xf7(\x12\xea:\xb6\x9cr \xf5\x16'\xf5Y\xf1yn\xe6\xe6U\xe6\xce{\xff\x8f\xeb\xdf\x98\x87au1\x9b\xa7\x83\xa9#+\xb4\x1d\xe0\x004\xcc\xa8... (+25 bytes) | \x009\xc0\x13\x00 | \xc0\x14\x00\x9c\x00\x9d\x00/\x005\xc0\x12\x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-27T04:57:23Z,165.154.182.207,scanner,587,,,,,
+2026-10-27T04:57:24Z,165.154.182.207,scanner,587,20.119.52.2,,,NTLM,TlRMTVNTUAABAAAAB4IIoAAAAAAAAAAAAAAAAAAAAAA=
+2026-10-27T05:18:43Z,205.210.31.167,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-27T05:35:14Z,67.207.84.200,scanner,587,[67.207.84.200],,,,HELP
+2026-10-27T06:16:30Z,206.189.53.235,hosting,587,,,,, | 
+2026-10-27T06:16:42Z,206.189.53.235,hosting,587,,,,,
+2026-10-27T06:16:49Z,206.189.53.235,hosting,587,,,,,HELP
+2026-10-27T06:16:57Z,206.189.53.235,hosting,587,,,,,GET / HTTP/1.0 | 
+2026-10-27T06:17:05Z,167.71.57.199,hosting,587,mail.example.com,,,,"\x16\x03\x01\x01$\x01\x00\x01 \x03\x03\x8dR|\x9f\x0c\xc5\xf9\x93\xd7\xf4\x99s\x9d\x83\x9f\xb63\xd6\x91V""\x80:\x15\xb2\x15\x89uJJ\xb06 \xff\x8e\xbdni\x89\xb07\xc9\xc9[\xf3\xd2\xe30\xa6xU\xc5s\x86\x1e\xfcB\xba\xff\xf2\x87\xa8\xbbe\xc6\x00>\x13\x02... (+35 bytes) | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\x99\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x16\x00\x14\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x01\x00\x01\x01\x01\x02\x01\x03\x01\x04\x00#\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x00*\x00(\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08 | \x08\x0b\x08\x04\x08\x05\x08\x06\x04\x01\x05\x01\x06\x01\x03\x03\x03\x01\x03\x02\x04\x02\x05\x02\x06\x02\x00+\x00\x09\x08\x03\x04\x03\x03\x03\x02\x03\x01\x00-\x00\x02\x01\x01\x003\x00&\x00$\x00\x1d\x00 u\x93\xa9\xee2oD\x06\x85\xa1LA\xa9\xc8\xce\xd5h\xa7\xdec\xe6\xf7\x7f\x96E... (+4 bytes)"
+2026-10-27T06:27:00Z,3.130.168.2,scanner,587,,,,,
+2026-10-27T06:27:45Z,3.130.168.2,scanner,587,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7... (+32 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-27T06:28:06Z,3.130.168.2,scanner,587,,,,,"\x16\x03\x01\x01\x00\x01\x00\x00\xfc\x03\x03`6\xcf\xf4I7\xc8\xce!\xaf\x06\xb18\x90\xcd\xd5,\xe1\xac\xe7P\xff\x0f\x8eu\r\xacm\xfc\xa7FB \x8d\x03\xf9\xb8\x1f\xdb\xbd\xbez\xda0\xea\x1b$\xd7\xbf\xf4{\xa5==J\x16~\xb9e\xe3\x0bt\xb0<\xa0\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00\x8d\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00 | \x00\x08\x00\x1d\x00\x17\x00\x18\x00\x19\x00\x0b\x00\x02\x01\x00\x00\r\x00\x1a\x00\x18\x08\x04\x04\x03\x08\x07\x08\x05\x08\x06\x04\x01\x05\x01\x06\x01\x05\x03\x06\x03\x02\x01\x02\x03\xff\x01\x00\x01\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x12\x00\x00\x00+\x00\x09\x08\x03\x04... (+42 bytes)"
+2026-10-27T06:28:20Z,3.130.168.2,scanner,587,,,,,
+2026-10-27T06:28:39Z,3.130.168.2,scanner,587,,,,,"\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03J\xef[\xafp\x8a\xa6s:\xe3\xaf\xf0{\x00\xe3\xf2V\xec\xb8LCr*\x8ey1\xc9[ | \xc6L\xf0 \xa11M\x7f\xd1U\xca>\x16mZN\x8d\x9c\xd8\xaeL\xc4\xdbH\x83\xc1#%y\xe1D\x119\x81/\x9c\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-27T07:33:47Z,47.77.235.8,hosting,2525,,,,,\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03I\x06\xb2\xf9\xbc\x99i\xc0Y\xfb\xf8\xbae-\x83Ud]\x0e\x8d\xb7b8\xb4g\xc6\xdd9dZ8f g\xc1\x81i\xb3\xf6\xf2\xcb\xb0\xa9\x19N\xd6\xbd\x95g|p\xfc\xe9<Z\xa1\x90T\xb7\xe9\xa58'O;\x00&\xc0+... (+15 bytes) | \xc0\x14\x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x01\x13\x02\x13\x03\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-27T07:42:57Z,68.183.101.232,hosting,25,,,,,
+2026-10-27T08:06:23Z,35.202.9.133,scanner,25,,,,,
+2026-10-27T08:16:14Z,3.129.187.38,scanner,25,,,,,
+2026-10-27T08:20:04Z,3.129.187.38,scanner,25,,,,,
+2026-10-27T08:48:39Z,40.67.165.176,scanner,2525,,,,,
+2026-10-27T08:48:39Z,40.67.165.176,scanner,2525,,,,,MGLNDD_20.119.52.2_2525
+2026-10-27T11:51:57Z,66.132.195.59,scanner,587,www.censys.io,,,,
+2026-10-27T12:11:34Z,77.67.26.228,scanner,25,77-67-26-228.infrawat.ch,,,,
+2026-10-27T12:15:57Z,20.66.69.192,scanner,25,,,,,GET / HTTP/1.1 | User-Agent: mrtscan/1.0 (westus) | 
+2026-10-27T12:15:57Z,20.66.69.192,scanner,25,,,,,"\x16\x03\x01\x01/\x01\x00\x01+\x03\x03^\xfd\xfb\xa2\xad\xaf,\x1b\xed\x95\x18\x8ft\xacS\x00\xb9\x93\x90\x05\x84\xdf\r`T\xa5Q`|\x13\xbc\xc2 \xcd\xf6\xe1\x88\xdd\x16\x84\x11M-\x90\xa1\x90|1\xc1\xbb\x81\x8b_\xa6\x00\x0c\xb07W\x92\xd7\xcbr\x7f\xed\x00>\x13\x02... (+35 bytes) | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\xa4\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x16\x00\x14\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x01\x00\x01\x01\x01\x02\x01\x03\x01\x04\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x000\x00.\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08"
+2026-10-27T12:43:42Z,85.217.149.30,scanner,25,,,,,
+2026-10-27T12:52:46Z,20.172.68.4,scanner,587,,,,,
+2026-10-27T12:52:46Z,20.172.68.4,scanner,587,,,,,MGLNDD_20.119.52.2_587
+2026-10-27T14:35:33Z,52.188.225.226,scanner,587,,,,,"\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03\xd0@y\xb4\xfd \xb3\x03v\xd7R\x1c)%0\xe6C\xd5\x04'Z_N3KEY4\xaa \xc1\xfb \x82\xd7\xfb\x19\x01i | \xdab\xf8\xc0;e3W\xb7\x04\xa7x\x966\xf3\x88[\xe4\x80\xd1\xc6II\xe6e\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-27T14:35:33Z,52.188.225.226,scanner,587,,,,,MGLNDD_20.119.52.2_587
+2026-10-27T14:46:17Z,20.14.76.2,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-27T15:38:11Z,71.6.232.28,scanner,587,zx18.quadmetrics.com,,,,
+2026-10-27T17:50:34Z,66.132.195.121,scanner,25,www.censys.io,,,,
+2026-10-27T18:53:43Z,91.196.152.79,scanner,2525,,,,,"\x16\x03\x03\x02`\x01\x00\x02\x5c\x03\x03\x1e^\xd3\xd0\r\x0c\x8f\xc2\x11x\xadv\xdb\xed;\xa7\xcc\xbb\xc6+\xc3\xc6\x8ai\x05\xddMc1#\xab/ \x8a\xdd\x0c\xe4@\xac\xed\xc7s\xd1\x1b\xee\x8bk|D\x125=\xc0\x13\xc4\xbf\x9e&7\x1e\x1f\xb4\xa1)\x14\x00\x8a\x00\x16... (+43 bytes) | \xc0$\xc0\xad\xc0\xaf\xc0,\xc0r\xc0s\xcc\xa9\x13\x02\x13\x01\xcc\x14\xc0\x07\xc0\x12\xc0\x13\xc0'\xc0/\xc0\x14\xc0(\xc00\xc0`\xc0a\xc0v\xc0w\xcc\xa8\x13\x05\x13\x04\x13\x03\xcc\x13\xc0\x11\x00 | \x00/\x00<\xc0\x9c\xc0\xa0\x00\x9c\x005\x00=\xc0\x9d\xc0\xa1\x00\x9d\x00A\x00\xba\x00\x84\x00\xc0\x00\x07\x00\x04\x00\x05\x01\x00\x01\x89\x00\x00\x00\x10\x00\x0e\x00\x00\x0b20.119.52.2\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x0c\x00 | \x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x00#\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x000\x00.\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08"
+2026-10-27T18:59:46Z,94.231.206.10,scanner,25,20.119.52.2,,,,
+2026-10-27T20:42:36Z,205.210.31.34,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-27T20:42:47Z,198.235.24.104,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-27T21:00:28Z,205.210.31.207,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-27T21:16:32Z,43.98.174.110,hosting,2525,example.com,,,,
+2026-10-27T21:23:16Z,43.98.186.206,scanner,587,,,,,1793136196023234330 | 
+2026-10-27T22:10:58Z,anon-ec374fe754,isp,25,test.com,<test@test.com>,<v***@test.com>,,
+2026-10-27T22:11:04Z,162.216.150.84,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-27T22:34:36Z,71.6.232.30,scanner,25,zx15.quadmetrics.com,,,,
+2026-10-27T22:44:34Z,anon-ec374fe754,isp,25,test.com,<admin@localhost>,<b***@gmail.com>,,
+2026-10-27T22:44:34Z,anon-ec374fe754,isp,25,test.com,<test@localhost>,<b***@gmail.com>,,
+2026-10-27T22:44:35Z,anon-ec374fe754,isp,25,test.com,<postmaster@localhost>,<b***@gmail.com>,,
+2026-10-27T22:44:35Z,anon-ec374fe754,isp,25,test.com,<root@localhost>,<b***@gmail.com>,,
+2026-10-27T22:44:36Z,anon-ec374fe754,isp,25,test.com,<nobody@localhost>,<b***@gmail.com>,,
+2026-10-27T22:44:36Z,anon-ec374fe754,isp,25,test.com,<info@localhost>,<b***@gmail.com>,,
+2026-10-27T22:59:41Z,18.97.26.103,scanner,587,scanner-18-97-26-103.reposify.net,,,NTLM,
+2026-10-28T00:38:10Z,91.196.152.67,scanner,25,20.119.52.2,,,,
+2026-10-28T00:49:44Z,66.132.186.190,scanner,587,www.censys.io,,,,
+2026-10-28T01:14:09Z,199.165.159.169,scanner,25,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:108.0) Gecko/20100101 Firefox/108... (+2 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-28T01:29:10Z,anon-cba809672b,isp,587,zl-dfwc-us-gp5-wk101.internet-census.org,,,,
+2026-10-28T01:29:26Z,anon-aeeae80657,isp,587,zl-dfwc-us-gp5-wk101.internet-census.org,,,,
+2026-10-28T01:53:09Z,128.24.225.112,scanner,25,,,,,
+2026-10-28T01:53:11Z,128.24.225.112,scanner,25,,,,,HELP
+2026-10-28T01:53:12Z,128.24.225.112,scanner,25,,,,, | 
+2026-10-28T01:53:13Z,128.24.225.112,scanner,25,,,,,GET / HTTP/1.0 | 
+2026-10-28T02:47:32Z,96.126.108.46,scanner,587,masscan,,,,
+2026-10-28T02:49:00Z,34.77.92.100,hosting,25,example.com,,,,
+2026-10-28T02:50:40Z,35.190.208.23,hosting,25,,,,,
+2026-10-28T02:50:53Z,35.190.208.23,hosting,25,,,,,HELP
+2026-10-28T02:51:01Z,35.190.208.23,hosting,25,,,,, | 
+2026-10-28T02:51:06Z,35.190.208.23,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-28T02:51:12Z,35.190.208.23,hosting,25,scan.local,,,,HELP
+2026-10-28T03:46:39Z,45.79.160.121,scanner,25,masscan,,,,
+2026-10-28T04:24:52Z,66.132.224.244,scanner,25,www.censys.io,,,,
+2026-10-28T04:56:47Z,66.132.172.214,scanner,587,www.censys.io,,,,
+2026-10-28T05:25:53Z,147.185.133.220,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-28T05:40:06Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T05:40:07Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T05:52:29Z,18.218.118.203,scanner,587,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7... (+32 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-28T05:52:29Z,18.218.118.203,scanner,587,,,,,
+2026-10-28T05:53:45Z,18.218.118.203,scanner,587,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7... (+32 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-28T05:54:40Z,18.218.118.203,scanner,587,,,,,"\x16\x03\x01\x01\x00\x01\x00\x00\xfc\x03\x03\xfd*\xb9F\x0b\xcb\x96\xd9\x89\x8eS\xb6\xb5f\xca\x195B\xb3H\xd5\x12G,u\xd8\xc4\xe0/|5\x97 \x99\xd1\x9apu\x0eg'\xeag\xdf\xda#\xa3\xef\xf1D\xa0gpl%\x9b5\x1b\xe0\xb3h\xd9\xf8l\xa0\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00\x8d\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-28T05:55:27Z,18.218.118.203,scanner,587,,,,,
+2026-10-28T05:55:59Z,18.218.118.203,scanner,587,,,,,"\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03\xf8t\x8c\xdd\x12\xad(\x09\xc5t | \x7f\x17\x11\xed\x96i\xb1Q<'r\x00\xaaM_\xda/\xd1z\xbb\xfa \xcd\xd6\xcb\x90E\x01\x0f\xac\x5c\x86Q\xd96\x07|\xe5\xce\x94\xc9\xa9~U \x91\xd9Z\x97\x0e(\x9b4\x9d\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-28T06:46:53Z,66.132.195.106,scanner,25,www.censys.io,,,,
+2026-10-28T06:47:07Z,50.116.58.244,scanner,587,masscan,,,,
+2026-10-28T06:49:36Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T06:49:38Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T06:50:47Z,20.64.98.23,scanner,2525,,,,,
+2026-10-28T06:50:47Z,20.64.98.23,scanner,2525,,,,,MGLNDD_20.119.52.2_2525
+2026-10-28T07:05:00Z,3.129.187.38,scanner,25,,,,,
+2026-10-28T07:07:44Z,3.129.187.38,scanner,25,,,,,
+2026-10-28T07:24:42Z,45.148.10.5,scanner,587,audit.local,<noreply@localhost>,<f***@yopmail.com> <f***@yopmail.com>,PLAIN,
+2026-10-28T07:46:47Z,50.116.55.141,hosting,25,masscan,,,,
+2026-10-28T07:57:56Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T07:58:00Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T09:07:30Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T09:07:32Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T10:06:44Z,5.226.140.110,scanner,587,5-226-140-110.infrawat.ch,,,,
+2026-10-28T10:13:19Z,20.80.92.87,scanner,587,,,,,
+2026-10-28T10:13:19Z,20.80.92.87,scanner,587,,,,,MGLNDD_20.119.52.2_587
+2026-10-28T10:41:00Z,66.132.172.215,scanner,587,www.censys.io,,,,
+2026-10-28T10:46:46Z,50.116.58.244,scanner,587,masscan,,,,
+2026-10-28T10:56:33Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T10:56:45Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T11:47:54Z,45.79.145.88,scanner,25,masscan,,,,
+2026-10-28T12:08:24Z,20.66.99.247,scanner,25,,,,,GET / HTTP/1.1 | User-Agent: mrtscan/1.0 (westus) | 
+2026-10-28T12:08:24Z,20.66.99.247,scanner,25,,,,,"\x16\x03\x01\x01/\x01\x00\x01+\x03\x03\xe9\xda\xf6u\xe2F4\x92\xcd\x0c\xfaA\xd2i\xc4\xc6\x8b\x841\xaf\x15\x95\x0fQ%\xc1`\xb1Ji\x072 \xa0f\xeb#x\xc5\x97\x99.\xfa\xad\xb3\xb1G.\xee:!#\x04\xa6u\xa0\xf8~@ | ^\xa3_\xa3\xf9\x00>\x13\x02\x13\x03\x13\x01\xc0,\xc00\x00\x9f\xcc\xa9\xcc\xa8\xcc\xaa\xc0+\xc0/\x00\x9e\xc0$\xc0(\x00k\xc0#\xc0'\x00g\xc0 | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\xa4\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x16\x00\x14\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x01\x00\x01\x01\x01\x02\x01\x03\x01\x04\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x000\x00.\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08 | \x08\x0b\x08\x04\x08\x05\x08\x06\x04\x01\x05\x01\x06\x01\x03\x03\x02\x03\x03\x01\x02\x01\x03\x02\x02\x02\x04\x02\x05\x02\x06\x02\x00+\x00\x09\x08\x03\x04\x03\x03\x03\x02\x03\x01\x00-\x00\x02\x01\x01\x003\x00&\x00$\x00\x1d\x00 s\x9cw\x90\xbak\x86\xa52\xc5!Z\xfa"
+2026-10-28T12:14:03Z,4.148.17.82,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-28T13:09:07Z,91.231.89.133,scanner,587,20.119.52.2,,,,
+2026-10-28T13:12:50Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T13:13:25Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T13:49:46Z,200.138.46.232,scanner,587,200-138-46-232.infrawat.ch,,,,
+2026-10-28T14:48:17Z,50.116.58.244,scanner,587,masscan,,,,
+2026-10-28T15:46:52Z,172.104.24.77,scanner,25,masscan,,,,
+2026-10-28T16:05:39Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T16:05:51Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T16:58:57Z,anon-f6dec3d998,isp,25,zl-dfwc-us-gp5-wk101.internet-census.org,,,,
+2026-10-28T16:59:08Z,anon-f6dec3d998,isp,25,zl-dfwc-us-gp5-wk101.internet-census.org,,,,
+2026-10-28T17:26:57Z,66.132.159.25,scanner,25,www.censys.io,,,,
+2026-10-28T17:43:11Z,52.180.140.58,scanner,25,,,,,\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03F\x10\x92\xf3\xb89\x8f\xdf\xb4\xe1\x85\x95\xc0\xb7\xbd\xca\xf1\xe9l\xf1\x0b\xf7\x0e\xe0\xaf\xdf\xf4\xd5S\xdc-j _\x87\xe1\xac\xb0\x7f\xefGeM\xc9+\xc9o\x9b\x89\xa9\xc4\x82lyC\xbeZ\xd8\xf9\x8c;C\x9f\x84\xf8\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-28T17:43:11Z,52.180.140.58,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-28T18:46:56Z,97.107.138.81,scanner,587,masscan,,,,
+2026-10-28T19:48:02Z,45.79.145.88,scanner,25,masscan,,,,
+2026-10-28T19:48:11Z,66.132.159.128,scanner,25,www.censys.io,,,,
+2026-10-28T19:50:36Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T19:51:04Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T20:24:18Z,91.230.168.59,scanner,2525,,,,,"\x16\x03\x03\x02`\x01\x00\x02\x5c\x03\x03\x9a\xec\xfc-2\x7f\x03\xda\xa8\x0c*\xa7\xbc3+l\xdc\x018\xaf#\x02\xf2\x7f\xcc#\xe2\x1a;\x02!\xc2 m\xb0\xa46\xb6\xf1\x18\x1c\x02c\xd0K\rx\xe3\xf1\xd8!\x90\x14\x86\xe1\xac:\xf6?F\x13\x03\x5c\x8e\xa3\x00\x8a\x00\x16... (+43 bytes) | \xc0$\xc0\xad\xc0\xaf\xc0,\xc0r\xc0s\xcc\xa9\x13\x02\x13\x01\xcc\x14\xc0\x07\xc0\x12\xc0\x13\xc0'\xc0/\xc0\x14\xc0(\xc00\xc0`\xc0a\xc0v\xc0w\xcc\xa8\x13\x05\x13\x04\x13\x03\xcc\x13\xc0\x11\x00 | \x00/\x00<\xc0\x9c\xc0\xa0\x00\x9c\x005\x00=\xc0\x9d\xc0\xa1\x00\x9d\x00A\x00\xba\x00\x84\x00\xc0\x00\x07\x00\x04\x00\x05\x01\x00\x01\x89\x00\x00\x00\x10\x00\x0e\x00\x00\x0b20.119.52.2\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x0c\x00 | \x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x00#\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x000\x00.\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08"
+2026-10-28T21:53:44Z,205.210.31.246,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-28T22:11:56Z,162.216.149.73,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-28T22:46:54Z,97.107.138.81,scanner,587,masscan,,,,
+2026-10-28T22:49:28Z,66.132.195.90,scanner,587,www.censys.io,,,,
+2026-10-28T22:56:18Z,185.169.4.188,hosting,25,WIN-CLJ1B0GQ6JP,<spameri@tiscali.it>,<spameri@tiscali.it>,,
+2026-10-28T23:08:49Z,198.235.24.18,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-28T23:12:23Z,198.235.24.146,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-28T23:27:31Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T23:29:19Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-28T23:47:01Z,45.79.145.88,scanner,25,masscan,,,,
+2026-10-29T00:46:18Z,77.67.26.178,scanner,25,77-67-26-178.infrawat.ch,,,,
+2026-10-29T01:10:47Z,172.169.158.137,scanner,25,,,,,
+2026-10-29T01:10:49Z,172.169.158.137,scanner,25,,,,,HELP
+2026-10-29T01:10:50Z,172.169.158.137,scanner,25,,,,, | 
+2026-10-29T01:10:51Z,172.169.158.137,scanner,25,,,,,GET / HTTP/1.0 | 
+2026-10-29T01:11:10Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T01:11:17Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T02:38:31Z,20.51.188.125,scanner,2525,,,,,
+2026-10-29T02:38:31Z,20.51.188.125,scanner,2525,,,,,MGLNDD_20.119.52.2_2525
+2026-10-29T02:44:55Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T02:45:03Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T03:17:50Z,64.62.197.62,scanner,25,,,,,
+2026-10-29T03:30:06Z,35.195.214.100,hosting,25,example.com,,,,
+2026-10-29T03:30:22Z,34.34.156.234,hosting,25,,,,,
+2026-10-29T03:30:36Z,34.34.156.234,hosting,25,,,,,HELP
+2026-10-29T03:30:43Z,34.34.156.234,hosting,25,,,,, | 
+2026-10-29T03:30:48Z,34.34.156.234,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-29T03:31:10Z,34.34.156.234,hosting,25,scan.local,,,,HELP
+2026-10-29T03:53:15Z,74.82.47.4,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,... (+57 bytes) | Accept: */* | Accept-Encoding: gzip | "
+2026-10-29T04:15:48Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T04:15:54Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T05:43:04Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T05:43:04Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T05:57:25Z,18.116.101.220,scanner,587,,,,,
+2026-10-29T05:58:06Z,18.116.101.220,scanner,587,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7... (+32 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-29T06:00:25Z,18.116.101.220,scanner,587,,,,,"\x16\x03\x01\x01\x00\x01\x00\x00\xfc\x03\x03iQ\xe0\xac\xdad\xfa\xc9\x8ecf\x91\xc9\x5co\xf2\xdd\x12\x91\xf1\xc1t~\xa0\xcc\xfe|\x90\x9c\x99\x13n \xb2\xac\x88\xaf\xe8\xcd*u\xdf\x07\xc2\xe9 | r\xe8\xa1)I\x9f\x90Mj\xc4\x04\xca\x1c\xb9\x14\xb9|\xc3,\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00\x8d\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-29T06:01:06Z,18.116.101.220,scanner,587,,,,,
+2026-10-29T06:01:38Z,18.116.101.220,scanner,587,,,,,"\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03\xbf8T*\xd34\x01l\x9eg%\x06\xe3\x88\xa9v\xc5\x10G\xd4+\xb2 | \x10i\x17\xe8\x16\xba.\x0c] f\x1e\x04\xa3\x147?\xd9\xca\xa2\xe6-\xb5^\r\xb4]\xb5qp\x02\xd50A\x05d&\xe3\xe2/$\xfe\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-29T06:07:56Z,66.132.159.17,scanner,587,www.censys.io,,,,
+2026-10-29T07:03:32Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T07:03:36Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T07:21:46Z,3.129.187.38,scanner,25,,,,,
+2026-10-29T07:22:03Z,3.129.187.38,scanner,25,,,,,
+2026-10-29T08:45:08Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T08:45:11Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T08:47:27Z,66.132.186.203,scanner,25,www.censys.io,,,,
+2026-10-29T09:17:32Z,13.219.1.233,scanner,587,,,,,"\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03\xe4\xbc\xc4l\x96W1\xf3\xb3\x11\x11\xfc\x01k8\x9e\xc6g\xd9\xd9\xd7J;\xc3\xcb\xca\xbe|\x85J\x0b\xc3 \x07\xda\xf9\xab\xb8\xe6 | \xf2\xda \xa6\xee\x09\xc7~']\x08\xb0^\xd4q\x09\x9b\x9c{\x96\xfba\xc1\xff\xd4\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00 | \x00\x08\x00\x1d\x00\x17\x00\x18\x00\x19\x00\x0b\x00\x02\x01\x00\x00\r\x00\x1a\x00\x18\x08\x04\x04\x03\x08\x07\x08\x05\x08\x06\x04\x01\x05\x01\x06\x01\x05\x03\x06\x03\x02\x01\x02\x03\xff\x01\x00\x01\x00\x00\x12\x00\x00\x00+\x00\x09\x08\x03\x04\x03\x03\x03\x02\x03\x01\x003\x00&\x00$\x00\x1d\x00 &\x15... (+28 bytes)"
+2026-10-29T10:37:35Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T10:37:37Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T10:56:42Z,64.225.78.34,scanner,25,,,,,
+2026-10-29T11:13:51Z,47.77.234.113,hosting,2525,,,,,\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03I\x06\xb2\xf9\xbc\x99i\xc0Y\xfb\xf8\xbae-\x83Ud]\x0e\x8d\xb7b8\xb4g\xc6\xdd9dZ8f g\xc1\x81i\xb3\xf6\xf2\xcb\xb0\xa9\x19N\xd6\xbd\x95g|p\xfc\xe9<Z\xa1\x90T\xb7\xe9\xa58'O;\x00&\xc0+... (+15 bytes) | \xc0\x14\x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x01\x13\x02\x13\x03\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-29T12:10:27Z,20.43.243.99,scanner,25,,,,,GET / HTTP/1.1 | User-Agent: mrtscan/1.0 (westus) | 
+2026-10-29T12:10:27Z,20.43.243.99,scanner,25,,,,,\x16\x03\x01\x01/\x01\x00\x01+\x03\x03&\xf5_\xc7\x0f>+\xb6\xbc\xbb6\xbf\xd5~\x82!\xa3X\xed\xd8\xdc\x0f\xa1\xd4\x8c\x96\xb8\xa2VB\xfd\x9d b=\xa2G\x95\xba\x14cX.;!\xbb\xdd\x9eI0\x978wi\xab\x8a\xeeJ$oY\xfe\xb5\xe3\x91\x00>\x13\x02... (+35 bytes) | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\xa4\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x16\x00\x14\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x01\x00\x01\x01\x01\x02\x01\x03\x01\x04\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x000\x00.\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08
+2026-10-29T12:10:52Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T12:10:52Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T12:27:36Z,172.169.249.229,hosting,25,,,,,
+2026-10-29T12:27:36Z,172.169.249.229,hosting,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-29T13:21:15Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T13:21:15Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T13:29:37Z,20.163.3.251,scanner,587,,,,,
+2026-10-29T13:29:37Z,20.163.3.251,scanner,587,,,,,MGLNDD_20.119.52.2_587
+2026-10-29T14:33:43Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T14:33:45Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T14:38:56Z,66.132.172.184,scanner,587,www.censys.io,,,,
+2026-10-29T15:03:42Z,66.132.195.159,scanner,25,www.censys.io,,,,
+2026-10-29T15:26:40Z,94.231.206.158,scanner,25,20.119.52.2,,,,
+2026-10-29T15:52:01Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T15:52:11Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T16:08:45Z,anon-ade3c9e191,isp,25,mail.onedrive.download,<a***@onedrive.download>,<v***@boomofsales.mooo.com>,,
+2026-10-29T16:08:45Z,anon-ade3c9e191,isp,25,smtp.onedrive.download,<m***@onedrive.download>,<v***@boomofsales.mooo.com>,,
+2026-10-29T16:28:20Z,anon-ade3c9e191,isp,25,smtp.outlook.download,<q***@outlook.download>,<v***@boomofsales.mooo.com>,,
+2026-10-29T16:28:20Z,anon-ade3c9e191,isp,25,mail.outlook.download,<b***@outlook.download>,<v***@boomofsales.mooo.com>,,
+2026-10-29T18:02:19Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T18:02:40Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T18:37:28Z,198.235.24.3,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-29T18:44:38Z,198.235.24.218,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-29T19:16:48Z,167.99.240.65,hosting,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2 | User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153... (+2 bytes) | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Language: en-US,en;q=0.5 | Accept-Encoding: gzip, deflate | Connection: keep-alive | Upgrade-Insecure-Requests: 1 | Sec-Fetch-Dest: document | Sec-Fetch-Mode: navigate | Sec-Fetch-Site: none | Sec-Fetch-User: ?1 | Priority: u=0, i | "
+2026-10-29T19:16:51Z,167.99.240.65,hosting,587,,,,,"GET /favicon.ico HTTP/1.1 | Host: 20.119.52.2 | User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153... (+2 bytes) | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8 | Accept-Language: en-US,en;q=0.5 | Accept-Encoding: gzip, deflate | Connection: keep-alive | Upgrade-Insecure-Requests: 1 | Sec-Fetch-Dest: document | Sec-Fetch-Mode: navigate | Sec-Fetch-Site: none | Sec-Fetch-User: ?1 | Priority: u=0, i | Referer: http://20.119.52.2:587/ | "
+2026-10-29T21:20:43Z,200.138.46.219,scanner,587,200-138-46-219.infrawat.ch,,,,
+2026-10-29T21:31:13Z,205.210.31.156,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-29T22:32:57Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T22:36:13Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-29T22:58:37Z,35.203.211.24,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-29T23:29:36Z,165.154.11.172,scanner,25,,,,,\x16\x03\x01\x00\xfc\x01\x00\x00\xf8\x03\x03D\x8e\xa2\x93\xe08\xa5+e<B6*2\xee\xa5{I\xb4\x19\xe7\xb0\x90\xd0\x05\xb5\xdc\xeeu5q\x8f Qb\xb6\xc8\x9b#\x95\xe1_\x1bVp\xdd\x881\xdeA\x06fR1V[\xc1\x8d{\xbb\xcc\x80\xdf.\x7f\x004\xcc\xa8... (+25 bytes) | \x009\xc0\x13\x00 | \xc0\x14\x00\x9c\x00\x9d\x00/\x005\xc0\x12\x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-29T23:29:55Z,165.154.11.172,scanner,25,,,,,
+2026-10-29T23:29:56Z,165.154.11.172,scanner,25,20.119.52.2,,,NTLM,TlRMTVNTUAABAAAAB4IIoAAAAAAAAAAAAAAAAAAAAAA=
+2026-10-30T00:32:25Z,138.68.163.118,hosting,587,20.119.52.2,,,,
+2026-10-30T00:52:19Z,200.138.46.169,scanner,25,200-138-46-169.infrawat.ch,,,,
+2026-10-30T01:11:34Z,199.165.159.217,scanner,25,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Fir... (+10 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-30T01:43:47Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T01:44:09Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T01:56:10Z,216.25.90.92,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-30T02:49:02Z,66.132.172.223,scanner,587,www.censys.io,,,,
+2026-10-30T02:54:58Z,57.154.241.144,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-30T03:19:42Z,45.135.194.127,scanner,2525,[45.135.194.127],,,,HELP
+2026-10-30T03:31:09Z,172.131.100.178,scanner,25,,,,,
+2026-10-30T03:31:11Z,172.131.100.178,scanner,25,,,,,HELP
+2026-10-30T03:31:12Z,172.131.100.178,scanner,25,,,,, | 
+2026-10-30T03:31:13Z,172.131.100.178,scanner,25,,,,,GET / HTTP/1.0 | 
+2026-10-30T03:37:25Z,66.132.195.173,scanner,587,www.censys.io,,,,
+2026-10-30T03:47:18Z,66.132.195.88,scanner,25,www.censys.io,,,,
+2026-10-30T03:58:39Z,172.96.181.191,hosting,25,[172.96.181.191],<dpr@priv8shop.com>,<k***@yahoo.com>,,
+2026-10-30T04:10:45Z,92.118.39.76,scanner,587,[92.118.39.76],,,,HELP
+2026-10-30T04:14:35Z,172.96.181.191,hosting,587,[172.96.181.191],<dpr@priv8shop.com>,<k***@yahoo.com>,,
+2026-10-30T04:19:33Z,172.96.181.191,hosting,2525,[172.96.181.191],<dpr@priv8shop.com>,<k***@yahoo.com>,,
+2026-10-30T04:24:31Z,35.210.202.151,hosting,25,example.com,,,,
+2026-10-30T04:24:33Z,35.210.173.86,hosting,25,,,,,
+2026-10-30T04:24:46Z,35.210.173.86,hosting,25,,,,,HELP
+2026-10-30T04:24:54Z,35.210.173.86,hosting,25,,,,, | 
+2026-10-30T04:24:59Z,35.210.173.86,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-30T04:25:04Z,35.210.173.86,hosting,25,scan.local,,,,HELP
+2026-10-30T04:27:54Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T04:28:24Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T04:47:29Z,64.62.197.167,scanner,25,,,,,
+2026-10-30T04:51:54Z,66.132.159.16,scanner,587,www.censys.io,,,,
+2026-10-30T05:53:00Z,3.129.187.38,scanner,587,,,,,
+2026-10-30T05:53:28Z,3.129.187.38,scanner,587,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7... (+32 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-30T05:54:10Z,3.129.187.38,scanner,587,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7... (+32 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-30T05:55:09Z,3.129.187.38,scanner,587,,,,,\x16\x03\x01\x01\x00\x01\x00\x00\xfc\x03\x031Wa\xae\xb2\x05{\xec\xe7o\xda\x14\x1d\x05\xef\xfd\x9d\x8bp\x9fv\x8f\x09vsT\xa2\xf4P\xd8N= m\x00\x11\x98\x05K\xb4m\xb0y\x8a\xce\xa8\xbc<\xcd\xab}\r6\x8b\xd5\x8a\xdcu\xa0e\xba\x10\xa4?D\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00\x8d\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-30T05:55:43Z,3.129.187.38,scanner,587,,,,,
+2026-10-30T05:56:07Z,3.129.187.38,scanner,587,,,,,\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03G\x81]\x95\x99\x13\x7fd\x86o]\x01\xc3\x1f\xbf\xab.@\xbc\xa9\xbc\xe1U\xc9\x85-(U|\x9f\xec\x8f J\xf6\xf1\xd9\xf5\x0e\xa2\xee\xc8\xa5{\x0bh\xc5\x03}yw\xe88\xf3\x9a2_\x17q\xc3\x1f\xca\xb0@M\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-30T06:13:46Z,176.65.134.73,scanner,25,[176.65.134.73],,,,HELP
+2026-10-30T07:04:03Z,3.129.187.38,scanner,25,,,,,
+2026-10-30T07:06:47Z,3.129.187.38,scanner,25,,,,,
+2026-10-30T07:54:20Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T07:54:43Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T07:55:14Z,20.55.43.152,scanner,587,,,,,
+2026-10-30T07:55:14Z,20.55.43.152,scanner,587,,,,,MGLNDD_20.119.52.2_587
+2026-10-30T08:41:13Z,68.183.218.160,hosting,25,,,,,
+2026-10-30T08:41:27Z,68.183.218.160,hosting,25,,,,,HELP
+2026-10-30T08:41:35Z,68.183.218.160,hosting,25,,,,, | 
+2026-10-30T08:41:40Z,68.183.218.160,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-30T08:41:45Z,139.59.128.145,hosting,25,mail.example.com,,,,\x16\x03\x01\x01$\x01\x00\x01 \x03\x03\xc6\x08\xb2tH\xddM\xab\xeb\x80\x07T\x9dXD\xec\xafl\xcd\xc3\xd4N\x1a\x80\x99y\xce\xbb*'U\x11 h\xd9m\xc1r(>\xecR\xade2\xaa\x95\xa6\x13\x5c\x1b\x14= \xa3\x0c3\xa0u\x8by\x08\xf2\xe7\xa6\x00>\x13\x02... (+35 bytes) | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\x99\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x16\x00\x14\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x01\x00\x01\x01\x01\x02\x01\x03\x01\x04\x00#\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x00*\x00(\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08
+2026-10-30T09:26:30Z,172.178.86.65,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-30T11:44:46Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T11:47:20Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T12:06:30Z,20.253.177.57,scanner,25,,,,,GET / HTTP/1.1 | User-Agent: mrtscan/1.0 (westus) | 
+2026-10-30T12:06:30Z,20.253.177.57,scanner,25,,,,,\x16\x03\x01\x01/\x01\x00\x01+\x03\x03\xe5\xabX]BFU2\x19\xb0\x1c7\xb6\xfeW\rF\xb8G\x84~\x86s\xf0\x86\xfcU\xfcK\x92\x83z \x8a\x00\xbb\x84\x1c\xb4?\xf3Z2\xcf\xb9-\x1b'Agj\x98\x01\xdf\xe8ht\x9aP\xf3\x87JWB\xc0\x00>\x13\x02... (+35 bytes) | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\xa4\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x16\x00\x14\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x01\x00\x01\x01\x01\x02\x01\x03\x01\x04\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x000\x00.\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08
+2026-10-30T13:35:03Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T13:35:05Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T14:03:42Z,50.18.146.163,hosting,587,scanner.sslsonar.org,,,,
+2026-10-30T14:28:05Z,156.225.1.18,scanner,25,mail.example.com,,,,"\x16\x03\x01\x01\x16\x01\x00\x01\x12\x03\x03\xda?\x15 | \xbe\xabe R\xce\xb6A\xfe\xda\xd2\xd1\xd7\x1d9\xe4GX\x87!2VG\xd2\xfb\xc0\xe1\x92 \xdc\x011wh\x1c8s\x0fo\x84\xdc\xe0\x84\x02\xd6H\x09\x80H\xab\xa8fM\xbe\xa5\xe1\xa5j\x96\x04\xe5\x00>\x13\x02\x13\x03\x13\x01\xc0,\xc00\x00\x9f\xcc\xa9\xcc\xa8\xcc... (+20 bytes) | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\x8b\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x0c\x00 | \x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x00#\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x00*\x00(\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08"
+2026-10-30T14:28:03Z,156.225.1.18,scanner,25,hello,,,NTLM,help
+2026-10-30T15:00:09Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T15:00:10Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T16:34:32Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T16:34:37Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T16:49:32Z,66.132.159.77,scanner,25,www.censys.io,,,,
+2026-10-30T17:48:52Z,66.132.195.118,scanner,587,www.censys.io,,,,
+2026-10-30T18:14:05Z,147.185.132.124,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-30T18:20:53Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T18:21:13Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T19:59:13Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T19:59:19Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T21:23:26Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T21:23:31Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-30T23:43:57Z,86.38.187.247,scanner,587,86-38-187-247.infrawat.ch,,,,
+2026-10-31T00:12:12Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T00:12:14Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T02:19:42Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T02:19:46Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T03:23:37Z,198.235.24.105,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-31T04:10:01Z,35.206.185.162,hosting,25,example.com,,,,
+2026-10-31T04:10:54Z,35.210.189.219,hosting,25,,,,,
+2026-10-31T04:11:08Z,35.210.189.219,hosting,25,,,,,HELP
+2026-10-31T04:11:16Z,35.210.189.219,hosting,25,,,,, | 
+2026-10-31T04:11:21Z,35.210.189.219,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-10-31T04:11:27Z,35.210.189.219,hosting,25,scan.local,,,,HELP
+2026-10-31T04:19:59Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T04:20:15Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T04:47:03Z,64.62.197.77,scanner,25,,,,,
+2026-10-31T04:57:49Z,216.25.90.11,hosting,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-31T05:04:18Z,198.235.24.12,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-31T05:44:00Z,198.235.24.16,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-31T05:48:23Z,66.132.195.49,scanner,25,www.censys.io,,,,
+2026-10-31T05:57:03Z,18.116.101.220,scanner,587,,,,,
+2026-10-31T05:58:16Z,18.116.101.220,scanner,587,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7... (+32 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-10-31T05:59:17Z,18.116.101.220,scanner,587,,,,,\x16\x03\x01\x01\x00\x01\x00\x00\xfc\x03\x03Y\x85\x02\xbdq\xc8oC\xa5-\xed\x8c\r\x92N/\xce\x17s\xe8\xbe\xd9\x01\xf9\xec:\xbb\xd2\xe7\x80\x90\xe0 thn[J\x99\x83\xb9\x1a\xf2\x99\xfeu\xb90\xa5\x5c\x8e\xee\x8d\xebK\xb7SN?|\xfee\xbb>\xa0\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00\x8d\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-31T05:59:43Z,18.116.101.220,scanner,587,,,,,
+2026-10-31T06:00:21Z,18.116.101.220,scanner,587,,,,,"\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03o\xa7\xe5y\xb6""\x8d\x09\x19<\x9d>A\xc44\x98\xf6\xff\x95\xf9\xf2\x9d""w\xd7)\x1c@\xe1\x9c$G \xceIP\xcb\xac\x98-\xfe\xe3VXt>\xf2 | P\x02Ii<_\x81\x15\xc2d\xd4L\xd4\x95^\xd2.\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00"
+2026-10-31T06:27:38Z,65.49.1.108,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,... (+72 bytes) | Accept: */* | Accept-Encoding: gzip | "
+2026-10-31T06:40:13Z,20.163.3.229,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-10-31T06:42:26Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T06:42:57Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T06:46:54Z,66.132.224.232,scanner,587,www.censys.io,,,,
+2026-10-31T07:05:49Z,18.116.101.220,scanner,25,,,,,
+2026-10-31T07:09:18Z,18.116.101.220,scanner,25,,,,,
+2026-10-31T07:19:34Z,165.154.129.151,scanner,25,ABC,,,,HELP
+2026-10-31T07:36:49Z,20.168.116.207,scanner,2525,,,,,
+2026-10-31T07:36:50Z,20.168.116.207,scanner,2525,,,,,MGLNDD_20.119.52.2_2525
+2026-10-31T08:28:21Z,91.230.168.90,scanner,25,20.119.52.2,,,,
+2026-10-31T08:37:28Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T08:37:32Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T08:42:55Z,20.163.35.246,scanner,587,,,,,
+2026-10-31T08:42:55Z,20.163.35.246,scanner,587,,,,,MGLNDD_20.119.52.2_587
+2026-10-31T08:55:07Z,35.85.246.2,hosting,25,scanner.sslsonar.org,,,,
+2026-10-31T09:53:16Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T09:53:18Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T10:06:04Z,66.132.172.189,scanner,25,www.censys.io,,,,
+2026-10-31T11:10:38Z,66.132.224.243,scanner,25,www.censys.io,,,,
+2026-10-31T11:30:17Z,86.38.187.151,scanner,587,86-38-187-151.infrawat.ch,,,,
+2026-10-31T11:39:29Z,167.94.146.54,scanner,587,www.censys.io,,,,
+2026-10-31T12:23:07Z,35.203.210.70,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-31T12:34:47Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T12:35:23Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T14:07:09Z,165.154.33.72,scanner,2525,,,,,\x16\x03\x01\x00\xfc\x01\x00\x00\xf8\x03\x03\xcc=}\xf1\x1fv_bN\xfa\xc1\x09\xa9\xd3\x9e\x0c\xd5\x9ft\xc3\x86\x0fk\xdb\x9c\x89\xcchX\xc8\xb0\x17 \x13\x10\x7f\xd2\xc1\xd64\x8e\x5c\x88\xf3!\xa0m\x91\x9f48bR_\xb6` \x01\xc3\x80\xa0\x14\xa0\xf2o\x004\xcc\xa8... (+25 bytes) | \x009\xc0\x13\x00 | \xc0\x14\x00\x9c\x00\x9d\x00/\x005\xc0\x12\x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-10-31T14:07:28Z,165.154.33.72,scanner,2525,,,,,
+2026-10-31T14:07:29Z,165.154.33.72,scanner,2525,20.119.52.2,,,NTLM,TlRMTVNTUAABAAAAB4IIoAAAAAAAAAAAAAAAAAAAAAA=
+2026-10-31T15:36:27Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T15:37:02Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T17:37:18Z,167.94.146.59,scanner,25,www.censys.io,,,,
+2026-10-31T18:27:56Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T18:28:10Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T19:19:34Z,200.138.46.183,scanner,25,200-138-46-183.infrawat.ch,,,,
+2026-10-31T21:19:23Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T21:19:58Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-10-31T21:41:17Z,205.210.31.217,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-10-31T21:41:51Z,91.230.168.146,scanner,587,20.119.52.2,,,,
+2026-10-31T22:06:17Z,207.154.228.18,hosting,2525,,,,,GET / HTTP/1.0 | 
+2026-10-31T22:06:28Z,207.154.228.18,hosting,2525,,,,, | 
+2026-10-31T22:06:33Z,207.154.228.18,hosting,2525,,,,,
+2026-10-31T22:06:41Z,207.154.228.18,hosting,2525,,,,,HELP
+2026-10-31T22:06:49Z,139.59.128.145,hosting,2525,mail.example.com,,,,\x16\x03\x01\x01$\x01\x00\x01 \x03\x03\xe7\x15 \xfd\xcd.\xe5\xca\x03\xc8AO\xc3\xd5'\x1d\x82\xb8\xce\xd3\xfdO\x9e\x8dM\r\xf6uO=\x047 \x93\xf4\xe4\xa4\xb5\xcaM\x95\xab\xcc\xe2\xe1^\xfc\xf5\xaf1\x05\xd0R\xf1\xccW5\xadv\x07\xdd\x9b\xe1\x9f%\x00>\x13\x02... (+35 bytes) | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\x99\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x16\x00\x14\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x01\x00\x01\x01\x01\x02\x01\x03\x01\x04\x00#\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x00*\x00(\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08
+2026-10-31T23:49:34Z,66.132.159.117,scanner,587,www.censys.io,,,,
+2026-11-01T00:04:02Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-11-01T00:04:42Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-11-01T00:26:55Z,35.203.211.134,scanner,25,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-11-01T01:08:38Z,142.93.108.223,hosting,2525,,,,,GET / HTTP/1.0 | 
+2026-11-01T01:08:49Z,142.93.108.223,hosting,2525,,,,, | 
+2026-11-01T01:08:54Z,142.93.108.223,hosting,2525,,,,,
+2026-11-01T01:09:02Z,142.93.108.223,hosting,2525,,,,,HELP
+2026-11-01T01:09:10Z,139.59.134.205,hosting,2525,mail.example.com,,,,"\x16\x03\x01\x01$\x01\x00\x01 \x03\x03\x0f | &8 | M\x07j/\xfa>\xce\xbb\x9chYtf\xfd\xa6\xe4Q\xd0k9D\x8beIx\x87y +s\x0f\xadiu1)\xaf6K\xa6\xe481\xd5 | \xe8\xa3\x85XRx8\xdd\xbf'V\xbb\x9eb/\x00>\x13\x02\x13\x03\x13\x01\xc0,\xc00\x00\x9f\xcc\xa9\xcc\xa8\xcc\xaa\xc0+\xc0/\x00\x9e\xc0$\xc0(\x00k\xc0#\xc0'\x00g\xc0 | \xc0\x14\x009\xc0\x09\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x00\x99\x00\x0b\x00\x04\x03\x00\x01\x02\x00 | \x00\x16\x00\x14\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x01\x00\x01\x01\x01\x02\x01\x03\x01\x04\x00#\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\r\x00*\x00(\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\x09\x08"
+2026-11-01T02:08:39Z,172.182.54.179,scanner,25,,,,,
+2026-11-01T02:08:41Z,172.182.54.179,scanner,25,,,,,HELP
+2026-11-01T02:08:42Z,172.182.54.179,scanner,25,,,,, | 
+2026-11-01T02:08:43Z,172.182.54.179,scanner,25,,,,,GET / HTTP/1.0 | 
+2026-11-01T02:09:18Z,20.84.80.53,scanner,25,,,,,
+2026-11-01T02:09:18Z,20.84.80.53,scanner,25,,,,,MGLNDD_20.119.52.2_25
+2026-11-01T02:20:49Z,141.98.10.64,hosting,25,host-141-98-10-,<spameri@tiscali.it>,<spameri@tiscali.it>,,
+2026-11-01T02:59:06Z,142.93.239.170,hosting,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2 | Connection: keep-alive | sec-ch-ua: ""Google Chrome"";v=""153"", ""Not-A.Brand"";v=""8"", ""Chromium"";v=""153"" | sec-ch-ua-mobile: ?0 | sec-ch-ua-platform: ""Linux"" | Upgrade-Insecure-Requests: 1 | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geck... (+33 bytes) | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w... (+24 bytes) | Sec-GPC: 1 | Accept-Language: en-US,en;q=0.5 | Sec-Fetch-Site: none | Sec-Fetch-Mode: navigate | Sec-Fetch-User: ?1 | Sec-Fetch-Dest: document | Accept-Encoding: gzip, deflate | "
+2026-11-01T02:59:09Z,142.93.239.170,hosting,587,,,,,"GET /favicon.ico HTTP/1.1 | Host: 20.119.52.2 | Connection: keep-alive | sec-ch-ua: ""Google Chrome"";v=""153"", ""Not-A.Brand"";v=""8"", ""Chromium"";v=""153"" | sec-ch-ua-mobile: ?0 | sec-ch-ua-platform: ""Linux"" | Upgrade-Insecure-Requests: 1 | User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geck... (+33 bytes) | Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w... (+24 bytes) | Sec-GPC: 1 | Accept-Language: en-US,en;q=0.5 | Sec-Fetch-Site: none | Sec-Fetch-Mode: navigate | Sec-Fetch-User: ?1 | Sec-Fetch-Dest: document | Accept-Encoding: gzip, deflate | Referer: http://20.119.52.2:587/ | "
+2026-11-01T03:33:39Z,35.210.39.217,hosting,25,example.com,,,,
+2026-11-01T03:33:42Z,35.210.39.217,hosting,25,,,,,
+2026-11-01T03:33:55Z,35.210.39.217,hosting,25,,,,,HELP
+2026-11-01T03:34:03Z,35.210.39.217,hosting,25,,,,, | 
+2026-11-01T03:34:08Z,35.210.39.217,hosting,25,,,,,GET / HTTP/1.0 | 
+2026-11-01T03:34:28Z,35.210.39.217,hosting,25,scan.local,,,,HELP
+2026-11-01T03:43:10Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-11-01T03:43:29Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-11-01T03:44:36Z,216.218.206.67,scanner,25,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:25 | User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0 | Accept: */* | Accept-Encoding: gzip | 
+2026-11-01T04:01:17Z,85.11.167.83,scanner,25,,,,,"\x03\x00\x001,\xe0\x00\x00\x00\x00\x00Cookie: mstshash=nla-scanner"
+2026-11-01T04:08:01Z,64.62.197.77,scanner,25,,,,,
+2026-11-01T04:18:15Z,46.151.178.14,scanner,587,prober.heinsenbug.local,,,,
+2026-11-01T04:28:34Z,46.151.178.14,scanner,587,prober.heinsenbug.local,,,,
+2026-11-01T04:54:12Z,198.235.24.147,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-11-01T05:36:00Z,85.11.167.83,scanner,587,,,,,"\x03\x00\x001,\xe0\x00\x00\x00\x00\x00Cookie: mstshash=nla-scanner"
+2026-11-01T05:44:49Z,147.185.132.93,scanner,587,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-11-01T05:47:48Z,66.132.159.107,scanner,25,www.censys.io,,,,
+2026-11-01T05:50:25Z,18.116.101.220,scanner,587,,,,,
+2026-11-01T05:52:32Z,18.116.101.220,scanner,587,,,,,\x16\x03\x01\x01\x00\x01\x00\x00\xfc\x03\x03\x0b\x82\xde\xf6\xdd'\xe1[\xf5\xfb%\xd5\xdfBN\xb7q\xf2\xc7YBi\xd6I\xe2Z\xe8\xb1~\x08X\xf6 \xe3xDEBs\xcc\x02\x98\x11\xdf\x86\xfa\xc5\xbd\x0b\x1b\xd0\x03\x91H\x90u\xfbxT\x8c\xed~\x5c\xc6\xf0\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00\x8d\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-11-01T05:53:12Z,18.116.101.220,scanner,587,,,,,
+2026-11-01T05:53:25Z,18.116.101.220,scanner,587,,,,,"\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03/\x1c\x90\x8f\xcb\xe5\xdd\xf9kr\xb7\xc8\x1a\x89\xef\x13\x9f\xaePm\x9e\x1e\xdc\xddu\x86\xe4\x02 | \xdd?\xb7 A^\x8e\xb8M4\xbe\xb8\x03V\xf0\xff\xf1\xab^\x13\x1a\xbej\xb9(\x92\xff^\xc4\xcdu|Dx\x81\x89\x00&\xcc\xa8\xcc\xa9\xc0/\xc00\xc0+\xc0,\xc0\x13\xc0\x09\xc0\x14\xc0 | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00 | \x00\x08\x00\x1d\x00\x17\x00\x18\x00\x19\x00\x0b\x00\x02\x01\x00\x00\r\x00\x1a\x00\x18\x08\x04\x04\x03\x08\x07\x08\x05\x08\x06\x04\x01\x05\x01\x06\x01\x05\x03\x06\x03\x02\x01\x02\x03\xff\x01\x00\x01\x00\x00\x12\x00\x00\x00+\x00\x09\x08\x03\x04\x03\x03\x03\x02\x03\x01\x003\x00&\x00$\x00\x1d\x00 \x98W"
+2026-11-01T06:36:32Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-11-01T06:38:02Z,31.56.19.135,hosting,25,User,,,LOGIN,
+2026-11-01T06:53:53Z,198.235.24.35,scanner,2525,,,,,"GET / HTTP/1.1 | Host: 20.119.52.2:2525 | User-Agent: Hello from Palo Alto Networks, find out more about our scans in http... (+72 bytes) | Accept-Encoding: gzip | "
+2026-11-01T07:00:45Z,18.218.118.203,scanner,25,,,,,
+2026-11-01T07:04:32Z,18.218.118.203,scanner,25,,,,,
+2026-11-01T07:30:11Z,18.218.118.203,scanner,587,,,,,
+2026-11-01T07:31:04Z,18.218.118.203,scanner,587,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7... (+32 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-11-01T07:32:47Z,18.218.118.203,scanner,587,,,,,GET / HTTP/1.1 | Host: 20.119.52.2:587 | User-Agent: visionheight.com/scan Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7... (+32 bytes) | Accept: */* | Accept-Encoding: gzip | 
+2026-11-01T07:34:23Z,18.218.118.203,scanner,587,,,,,\x16\x03\x01\x01\x00\x01\x00\x00\xfc\x03\x03\xfb U\x9d}\xac=Q\xffRH\x9c\x5c4\xf9k\xab@\xe4'\xbf\x9e\xae\xc0ld\x02\xfc:\x13\xf0\xed T\xdc_ E\x85d\x9c\x96iT\x8a\xfc\xb0O\xea\xba\xb2|\xad\x0b#\xe1\xee|\xde\xae\xaf\xab\x9a%\xae\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00\x8d\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-11-01T07:35:32Z,64.205.72.175,scanner,587,64-205-72-175.infrawat.ch,,,,
+2026-11-01T07:35:46Z,18.218.118.203,scanner,587,,,,,
+2026-11-01T07:36:11Z,18.218.118.203,scanner,587,,,,,\x16\x03\x01\x00\xee\x01\x00\x00\xea\x03\x03\xf1U\x08\xb8\x1c\xcc<\xb14\x99\x19v\xcd\x91\x7f\xb3\xb8\xbb\xfd\x1d\x1c\xd6\xf1p\xc2b`\xddy\xb0W\xb3 )^\xcd\x11\x98$E\xaat9\xcd7\xbc\xea\xa4\xa3\x8e\xc9p\xaf\xde\xb5g\x14\xdc\x81K\xfb\xbe\x19Z\xbe\x00&\xcc\xa8... (+17 bytes) | \x00\x9c\x00\x9d\x00/\x005\xc0\x12\x00 | \x13\x03\x13\x01\x13\x02\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00 | \x00
+2026-11-01T08:26:56Z,48.214.146.217,scanner,2525,,,,,
+2026-11-01T08:26:56Z,48.214.146.217,scanner,2525,,,,,MGLNDD_20.119.52.2_2525

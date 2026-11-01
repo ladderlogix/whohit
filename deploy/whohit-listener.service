@@ -1,0 +1,30 @@
+[Unit]
+Description=whoHit: catch-all TCP listener (HTTP Host, TLS SNI, SMTP recipients, protocol guess)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=whohit
+Group=whohit
+# "+" runs these as root; the listener itself runs unprivileged.
+ExecStartPre=+/usr/sbin/nft -f /etc/whohit/redirect.nft
+ExecStart=/usr/bin/python3 /opt/whohit/listener.py
+ExecStopPost=+/usr/sbin/nft delete table ip whohit
+StateDirectory=whohit
+NoNewPrivileges=yes
+CapabilityBoundingSet=
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+LimitNOFILE=65536
+TasksMax=1024
+MemoryMax=768M
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

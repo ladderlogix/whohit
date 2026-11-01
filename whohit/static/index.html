@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>whoHit</title>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7;
+  --surface: #fcfcfb;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --muted: #898781;
+  --grid: #e1e0d9;
+  --axis: #c3c2b7;
+  --border: rgba(11, 11, 11, 0.10);
+  --hover: rgba(11, 11, 11, 0.04);
+  --series: #2a78d6;
+  --series-hover: #5598e7;
+  --good: #0ca30c;
+  --warning: #fab219;
+  --serious: #ec835a;
+  --critical: #d03b3b;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d;
+    --surface: #1a1a19;
+    --ink: #f0efec;
+    --ink-2: #c3c2b7;
+    --grid: #2c2c2a;
+    --axis: #383835;
+    --border: rgba(255, 255, 255, 0.10);
+    --hover: rgba(255, 255, 255, 0.05);
+    --series: #3987e5;
+    --series-hover: #6da7ec;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d;
+  --surface: #1a1a19;
+  --ink: #f0efec;
+  --ink-2: #c3c2b7;
+  --grid: #2c2c2a;
+  --axis: #383835;
+  --border: rgba(255, 255, 255, 0.10);
+  --hover: rgba(255, 255, 255, 0.05);
+  --series: #3987e5;
+  --series-hover: #6da7ec;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+main { max-width: 1280px; margin: 0 auto; padding: 24px 16px 64px; }
+h1 { font-size: 20px; margin: 0; font-weight: 600; }
+h2 { font-size: 15px; margin: 0 0 4px; font-weight: 600; }
+.sub, .hint { color: var(--ink-2); margin: 2px 0 0; }
+.hint { font-size: 13px; margin-bottom: 12px; }
+.mono { font-family: var(--mono); font-size: 12.5px; }
+.muted { color: var(--muted); }
+
+header.top { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; }
+.status { color: var(--muted); font-size: 13px; display: flex; align-items: center; gap: 8px; }
+.live { width: 8px; height: 8px; border-radius: 50%; background: var(--good); }
+.live.stale { background: var(--critical); }
+
+.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; margin: 20px 0 16px; }
+.seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: var(--surface); }
+.seg button {
+  font: inherit; color: var(--ink-2); background: none; border: 0; padding: 6px 12px; cursor: pointer;
+  border-right: 1px solid var(--border);
+}
+.seg button:last-child { border-right: 0; }
+.seg button:hover { background: var(--hover); }
+.seg button[aria-pressed="true"] { color: var(--ink); font-weight: 600; background: var(--hover); }
+.filters label { display: inline-flex; gap: 6px; align-items: center; color: var(--ink-2); cursor: pointer; }
+
+.tiles { display: grid; grid-template-columns: 1.4fr repeat(4, 1fr); gap: 12px; margin-bottom: 16px; }
+.tile, .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
+.tile { padding: 14px 16px; }
+.tile .label { color: var(--ink-2); font-size: 13px; }
+.tile .value { font-size: 28px; font-weight: 600; margin-top: 2px; }
+.tile.hero .value { font-size: 48px; line-height: 1.05; }
+.tile .note { color: var(--ink-2); font-size: 13px; margin-top: 4px; }
+.card { padding: 16px; margin-bottom: 16px; min-width: 0; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.grid2 .card { margin-bottom: 0; }
+.grid2 + .card { margin-top: 16px; }
+@media (max-width: 960px) {
+  .tiles { grid-template-columns: repeat(2, 1fr); }
+  .tile.hero { grid-column: 1 / -1; }
+  .grid2 { grid-template-columns: 1fr; }
+}
+
+.chart { position: relative; height: 200px; }
+.chart svg { display: block; width: 100%; height: 100%; }
+.chart text { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.chart .gridline { stroke: var(--grid); stroke-width: 1; shape-rendering: crispEdges; }
+.chart .baseline { stroke: var(--axis); stroke-width: 1; shape-rendering: crispEdges; }
+.chart .bar { fill: var(--series); pointer-events: none; }
+.chart .hit { fill: transparent; cursor: default; }
+.chart .hit:hover + .bar, .chart .bar.on { fill: var(--series-hover); }
+details.table-view { margin-top: 8px; color: var(--ink-2); font-size: 13px; }
+details.table-view table { margin-top: 8px; }
+
+.scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th {
+  text-align: left; font-weight: 500; color: var(--ink-2); padding: 6px 8px; border-bottom: 1px solid var(--axis);
+  white-space: nowrap;
+}
+td { padding: 7px 8px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.click { cursor: pointer; }
+tr.click:hover td { background: var(--hover); }
+.trunc { max-width: 360px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#events .trunc { max-width: 180px; }
+#events .sub-line { max-width: 190px; }
+.empty { color: var(--muted); padding: 16px 8px; }
+button.more {
+  font: inherit; font-size: 13px; color: var(--ink-2); background: none; border: 1px solid var(--border);
+  border-radius: 8px; padding: 4px 12px; margin-top: 10px; cursor: pointer;
+}
+button.more:hover { background: var(--hover); }
+.reqs { color: var(--ink-2); margin-top: 2px; }
+.reqs div { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 420px; }
+
+.inline-bar { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
+.inline-bar .track { width: 90px; height: 8px; display: flex; justify-content: flex-start; }
+.inline-bar .fill { height: 8px; background: var(--series); border-radius: 0 4px 4px 0; min-width: 2px; }
+
+.tag {
+  display: inline-block; padding: 0 6px; border-radius: 6px; border: 1px solid var(--border);
+  color: var(--ink-2); font-size: 12px; margin: 0 4px 2px 0; white-space: nowrap;
+}
+.flag {
+  display: inline-flex; align-items: center; gap: 5px; padding: 1px 7px 1px 6px; border-radius: 6px;
+  border: 1px solid var(--border); font-size: 12px; color: var(--ink); margin: 0 4px 2px 0; white-space: nowrap;
+}
+.flag .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 10px; min-height: 26px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 6px; font: inherit; font-size: 12.5px; color: var(--ink);
+  background: var(--hover); border: 1px solid var(--border); border-radius: 13px; padding: 2px 6px 2px 10px; cursor: pointer;
+}
+.chip span.x { color: var(--muted); font-size: 14px; line-height: 1; }
+.tabs { display: inline-flex; margin-right: 8px; }
+.detail-row td { background: var(--hover); }
+.detail-row pre {
+  margin: 0; font-family: var(--mono); font-size: 12px; white-space: pre-wrap; word-break: break-all; color: var(--ink-2);
+}
+
+.tooltip {
+  position: fixed; z-index: 10; pointer-events: none; background: var(--surface); color: var(--ink);
+  border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 12.5px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12); white-space: nowrap;
+}
+.tooltip strong { display: block; font-size: 15px; font-variant-numeric: tabular-nums; }
+.tooltip .key { display: inline-block; width: 12px; height: 2px; background: var(--series); vertical-align: middle; margin-right: 6px; }
+.tooltip span { color: var(--ink-2); }
+.refetching { opacity: 0.6; transition: opacity 0.2s; }
+.error { color: var(--critical); }
+.chart.small { height: 170px; }
+tr.parent td { background: var(--hover); }
+tr.parent td:first-child { font-weight: 600; }
+tr.child td:first-child { padding-left: 24px; }
+.kind {
+  display: inline-block; padding: 0 6px; border-radius: 6px; font-size: 12px; white-space: nowrap;
+  border: 1px solid var(--border); color: var(--muted);
+}
+.kind.isp { color: var(--ink); border-color: var(--ink-2); font-weight: 600; }
+.sub-line { color: var(--muted); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 280px; }
+td.people { font-weight: 600; }
+td.zero, .zero { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <header class="top">
+    <div>
+      <h1>whoHit</h1>
+      <p class="sub">Who still reaches for this box, on which ports, and which domains they ask for.</p>
+    </div>
+    <div class="status"><span class="live" id="live"></span><span id="updated">Loading…</span></div>
+  </header>
+
+  <div class="filters">
+    <div class="seg" role="group" aria-label="Time range" id="range">
+      <button data-range="1h">1h</button><button data-range="24h">24h</button><button data-range="7d">7d</button><button data-range="30d">30d</button><button data-range="all">All</button>
+    </div>
+    <label><input type="checkbox" id="hide-ssh" checked> Hide SSH (port 22)</label>
+    <label title="Drop sources on cloud/hosting networks and sources that identify as scanners or crawlers"><input type="checkbox" id="quiet"> Hide cloud &amp; known scanners</label>
+    <label><input type="checkbox" id="bare"> Include bare-IP Host values</label>
+  </div>
+
+  <div id="content">
+    <section class="tiles">
+      <div class="tile hero"><div class="label">Requests to your domains</div><div class="value" id="t-mine">–</div><div class="note" id="t-mine-note"></div></div>
+      <div class="tile"><div class="label">Connection attempts</div><div class="value" id="t-attempts">–</div></div>
+      <div class="tile"><div class="label">Source IPs</div><div class="value" id="t-sources">–</div></div>
+      <div class="tile"><div class="label">Ports hit</div><div class="value" id="t-ports">–</div></div>
+      <div class="tile"><div class="label">Sessions recorded</div><div class="value" id="t-sessions">–</div></div>
+    </section>
+
+    <div class="grid2">
+      <section class="card">
+        <h2>Requests to your domains</h2>
+        <p class="hint" id="mine-chart-hint"></p>
+        <div class="chart small" id="mine-chart" role="img"></div>
+        <details class="table-view"><summary>Show as table</summary><div class="scroll" id="mine-chart-table"></div></details>
+      </section>
+      <section class="card">
+        <h2>All connection attempts</h2>
+        <p class="hint" id="all-chart-hint"></p>
+        <div class="chart small" id="all-chart" role="img"></div>
+        <details class="table-view"><summary>Show as table</summary><div class="scroll" id="all-chart-table"></div></details>
+      </section>
+    </div>
+
+    <section class="card">
+      <h2>Your domains</h2>
+      <p class="hint" id="mine-hint">Everything under the domains in /etc/whohit/watch.txt. <strong>ISP/other</strong> counts sources that aren't on a known cloud network and don't look like scanners. Real people land here, but so do small hosting companies and infected home devices, so treat it as "worth a look", not proof. Click a row for its requests.</p>
+      <div class="scroll" id="mine"></div>
+    </section>
+
+    <section class="card">
+      <h2>Other hostnames</h2>
+      <p class="hint">Names that aren't yours. Usually crawlers testing which IPs serve a site, or scanners using decoy names, rather than visitors. "Asked by" is the source with the most requests.</p>
+      <div class="scroll" id="others"></div>
+    </section>
+
+    <div class="grid2">
+      <section class="card">
+        <h2>Ports</h2>
+        <p class="hint">Every inbound attempt seen on the wire, and what the client turned out to speak.</p>
+        <div class="scroll" id="ports"></div>
+      </section>
+      <section class="card">
+        <h2>Top sources</h2>
+        <p class="hint">Who sent the most attempts, and which network they come from.</p>
+        <div class="scroll" id="sources"></div>
+      </section>
+    </div>
+  </div>
+
+  <section class="card" id="events-card">
+    <h2>Requests</h2>
+    <p class="hint">Newest first. Sessions are connections the listener handled; attempts are raw SYN/UDP/ping hits. Click a row for its details.</p>
+    <div class="chips" id="chips"></div>
+    <div class="scroll" id="events"></div>
+  </section>
+</main>
+<div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+
+<script>
+"use strict";
+
+const PORT_NAMES = {
+  20: "ftp-data", 21: "ftp", 22: "ssh", 23: "telnet", 25: "smtp", 53: "dns", 69: "tftp", 80: "http",
+  81: "http-alt", 88: "kerberos", 110: "pop3", 111: "rpcbind", 123: "ntp", 135: "msrpc", 137: "netbios-ns",
+  139: "netbios", 143: "imap", 161: "snmp", 389: "ldap", 443: "https", 445: "smb", 465: "smtps", 500: "ike",
+  514: "syslog", 587: "submission", 631: "ipp", 636: "ldaps", 853: "dns-over-tls", 873: "rsync", 993: "imaps",
+  995: "pop3s", 1080: "socks", 1194: "openvpn", 1433: "mssql", 1521: "oracle", 1723: "pptp", 1883: "mqtt",
+  1900: "ssdp", 2049: "nfs", 2082: "cpanel", 2083: "cpanel-ssl", 2375: "docker", 2376: "docker-tls",
+  3000: "dev-http", 3128: "squid", 3306: "mysql", 3389: "rdp", 3478: "stun", 4443: "https-alt", 5000: "dev-http",
+  5060: "sip", 5222: "xmpp", 5432: "postgres", 5900: "vnc", 5985: "winrm", 6379: "redis", 6443: "kubernetes",
+  7547: "tr-069", 8000: "http-alt", 8008: "http-alt", 8080: "http-proxy", 8081: "http-alt", 8088: "http-alt",
+  8443: "https-alt", 8888: "http-alt", 9000: "http-alt", 9090: "prometheus", 9200: "elasticsearch",
+  11211: "memcached", 25565: "minecraft", 27017: "mongodb", 37215: "huawei-hg532", 51820: "wireguard",
+};
+const FLAGS = {
+  "login-submit":  { label: "Login form posted", icon: "!", color: "var(--critical)",
+                     tip: "A request body had password-like fields, such as a login form being submitted (only field names are stored)" },
+  "credentials":   { label: "Credentials sent", icon: "!", color: "var(--critical)",
+                     tip: "A request carried an Authorization/Cookie/API-key header or token-like query parameter (values not stored)" },
+  "smtp-auth":     { label: "Mail login", icon: "!", color: "var(--critical)",
+                     tip: "A mail client tried to log in to send mail through this host" },
+  "mail":          { label: "Mail delivery", icon: "✉", color: "var(--warning)",
+                     tip: "A mail server tried to deliver mail for this domain (refused with a temporary error)" },
+  "cert-rejected": { label: "Cert rejected", icon: "◆", color: "var(--serious)",
+                     tip: "A TLS client refused our self-signed certificate, so it validates certs (browser, app, SDK, or a crawler)" },
+};
+const KINDS = {
+  isp:     { label: "ISP/other", tip: "Not a known cloud network and not behaving like a scanner: where real people are, along with small hosters and infected home devices" },
+  hosting: { label: "cloud", tip: "Cloud or hosting network, where scanners and bots live" },
+  scanner: { label: "scanner", tip: "Identifies as a scanner or crawler" },
+  unknown: { label: "unlabelled", tip: "Network not looked up yet (labels arrive within a minute or two)" },
+};
+
+const state = { range: "24h", hideSsh: true, quiet: false, bare: false, kind: "sessions", filter: {},
+                stats: null, open: null, expanded: {} };
+const TOP_ROWS = 20;
+try {
+  const saved = JSON.parse(localStorage.getItem("whohit") || "{}");
+  if (saved.range) state.range = saved.range;
+  for (const k of ["hideSsh", "quiet", "bare"]) if (typeof saved[k] === "boolean") state[k] = saved[k];
+} catch (e) { /* storage unavailable: defaults are fine */ }
+
+const $ = (id) => document.getElementById(id);
+
+function el(tag, props, ...children) {
+  const node = document.createElement(tag);
+  for (const [k, v] of Object.entries(props || {})) {
+    if (v == null || v === false) continue;
+    if (k === "class") node.className = v;
+    else if (k.startsWith("on")) node.addEventListener(k.slice(2), v);
+    else node.setAttribute(k, v);
+  }
+  for (const c of children.flat()) {
+    if (c == null || c === false) continue;
+    node.append(c instanceof Node ? c : document.createTextNode(String(c)));
+  }
+  return node;
+}
+
+function svg(tag, attrs) {
+  const node = document.createElementNS("http://www.w3.org/2000/svg", tag);
+  for (const [k, v] of Object.entries(attrs || {})) node.setAttribute(k, v);
+  return node;
+}
+
+const fmtInt = (n) => (n ?? 0).toLocaleString();
+function compact(n) {
+  if (n >= 1e6) return (n / 1e6).toFixed(n >= 1e7 ? 0 : 1).replace(/\.0$/, "") + "M";
+  if (n >= 1e3) return (n / 1e3).toFixed(n >= 1e4 ? 0 : 1).replace(/\.0$/, "") + "K";
+  return String(n);
+}
+function ago(ts) {
+  if (!ts) return "–";
+  const s = Math.max(0, Date.now() / 1000 - ts);
+  if (s < 60) return Math.round(s) + "s ago";
+  if (s < 3600) return Math.round(s / 60) + "m ago";
+  if (s < 86400) return Math.round(s / 3600) + "h ago";
+  return Math.round(s / 86400) + "d ago";
+}
+const fullTime = (ts) => ts ? new Date(ts * 1000).toLocaleString() : "";
+function timeLabel(ts, bucket) {
+  const d = new Date(ts * 1000);
+  if (bucket >= 86400) return d.toLocaleDateString([], { month: "short", day: "numeric", timeZone: "UTC" });
+  if (bucket >= 3600 * 3) return d.toLocaleString([], { month: "short", day: "numeric", hour: "2-digit" });
+  return d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+}
+const portName = (p, proto) => p == null ? proto : (PORT_NAMES[p] || "");
+
+function flagBadge(f) {
+  const spec = FLAGS[f] || { label: f, icon: "•", color: "var(--muted)", tip: f };
+  return el("span", { class: "flag", title: spec.tip },
+    el("span", { class: "dot", style: `background:${spec.color}`, "aria-hidden": "true" }),
+    spec.icon + " " + spec.label);
+}
+
+function kindTag(kind, reason) {
+  const spec = KINDS[kind] || KINDS.unknown;
+  return el("span", { class: "kind " + (kind || "unknown"), title: reason || spec.tip }, spec.label);
+}
+
+const netText = (r) => [r.net || (r.kind === "unknown" ? "" : "unknown network"), r.cc].filter(Boolean).join(" · ");
+
+// The first TOP_ROWS rows, plus a button that reveals the rest.
+function limited(key, rows, redraw) {
+  if (rows.length <= TOP_ROWS) return { rows, more: null };
+  const all = state.expanded[key];
+  const more = el("button", { class: "more", onclick: () => { state.expanded[key] = !all; redraw(); } },
+    all ? "Show top " + TOP_ROWS : `Show all ${fmtInt(rows.length)}`);
+  return { rows: all ? rows : rows.slice(0, TOP_ROWS), more };
+}
+
+function table(headers, rows, emptyText) {
+  if (!rows.length) return el("div", { class: "empty" }, emptyText);
+  return el("table", {},
+    el("thead", {}, el("tr", {}, headers.map((h) => el("th", { class: h.num ? "num" : null }, h.label)))),
+    el("tbody", {}, rows));
+}
+
+/* ---------- tooltip ---------- */
+const tip = $("tooltip");
+function showTip(evt, value, label) {
+  tip.replaceChildren(el("strong", {}, el("i", { class: "key" }), value), el("span", {}, label));
+  tip.hidden = false;
+  const r = tip.getBoundingClientRect();
+  let x = evt.clientX + 14, y = evt.clientY - r.height - 10;
+  if (x + r.width > innerWidth - 8) x = evt.clientX - r.width - 14;
+  if (y < 8) y = evt.clientY + 16;
+  tip.style.left = x + "px";
+  tip.style.top = y + "px";
+}
+const hideTip = () => { tip.hidden = true; };
+
+/* ---------- column charts ---------- */
+function niceMax(v) {
+  if (v <= 4) return 4;
+  const mag = Math.pow(10, Math.floor(Math.log10(v)));
+  for (const m of [1, 2, 2.5, 5, 10]) if (m * mag >= v) return m * mag;
+  return 10 * mag;
+}
+
+function bucketLabel(bucket) {
+  const mins = bucket / 60;
+  if (mins >= 1440) return "day (UTC)";
+  if (mins >= 60) return mins / 60 === 1 ? "hour" : `${mins / 60} hours`;
+  return mins === 1 ? "minute" : `${mins} minutes`;
+}
+
+function drawColumns(boxId, tableId, counts, noun) {
+  const s = state.stats;
+  const tl = s.timeline;
+  const buckets = [];
+  for (let t = tl.start; t <= s.now; t += tl.bucket) buckets.push({ t, n: counts[t] || 0 });
+  const box = $(boxId);
+  const W = box.clientWidth, H = box.clientHeight;
+  const m = { top: 8, right: 4, bottom: 22, left: 40 };
+  const iw = W - m.left - m.right, ih = H - m.top - m.bottom;
+  const max = niceMax(Math.max(1, ...buckets.map((b) => b.n)));
+  const band = iw / Math.max(1, buckets.length);
+  const bw = Math.max(1, Math.min(24, band - 2));
+  const root = svg("svg", { viewBox: `0 0 ${W} ${H}`, "aria-hidden": "true" });
+
+  for (let i = 0; i <= 4; i++) {
+    const v = (max / 4) * i, y = m.top + ih - (v / max) * ih;
+    if (i > 0) root.append(svg("line", { class: "gridline", x1: m.left, x2: W - m.right, y1: y, y2: y }));
+    const t = svg("text", { x: m.left - 8, y: y + 4, "text-anchor": "end" });
+    t.textContent = compact(v);
+    root.append(t);
+  }
+  root.append(svg("line", { class: "baseline", x1: m.left, x2: W - m.right, y1: m.top + ih, y2: m.top + ih }));
+
+  const labelEvery = Math.max(1, Math.ceil(buckets.length / Math.max(2, Math.floor(iw / 90))));
+  buckets.forEach((b, i) => {
+    const x0 = m.left + i * band, cx = x0 + band / 2;
+    const hit = svg("rect", { class: "hit", x: x0, y: m.top, width: band, height: ih });
+    const h = (b.n / max) * ih;
+    const r = Math.min(4, bw / 2, h);
+    const x = cx - bw / 2, y = m.top + ih - h;
+    const bar = svg("path", {
+      class: "bar",
+      d: h <= 0 ? "" : `M${x},${m.top + ih}V${y + r}Q${x},${y} ${x + r},${y}H${x + bw - r}Q${x + bw},${y} ${x + bw},${y + r}V${m.top + ih}Z`,
+    });
+    const label = `${timeLabel(b.t, tl.bucket)} – ${timeLabel(b.t + tl.bucket, tl.bucket)}`;
+    hit.addEventListener("pointermove", (e) => { bar.classList.add("on"); showTip(e, fmtInt(b.n), `${noun}, ${label}`); });
+    hit.addEventListener("pointerleave", () => { bar.classList.remove("on"); hideTip(); });
+    root.append(hit, bar);
+    if (i % labelEvery === 0) {
+      const nearEdge = cx > W - m.right - 36;  // keep the last label inside the chart
+      const t = svg("text", { x: nearEdge ? W - m.right : cx, y: H - 6, "text-anchor": nearEdge ? "end" : "middle" });
+      t.textContent = timeLabel(b.t, tl.bucket);
+      root.append(t);
+    }
+  });
+  box.replaceChildren(root);
+  const total = buckets.reduce((a, b) => a + b.n, 0);
+  box.setAttribute("aria-label", `Column chart of ${fmtInt(total)} ${noun} over ${buckets.length} intervals`);
+  $(tableId).replaceChildren(table(
+    [{ label: "From" }, { label: noun[0].toUpperCase() + noun.slice(1), num: true }],
+    buckets.filter((b) => b.n).reverse().map((b) => el("tr", {}, el("td", {}, fullTime(b.t)), el("td", { class: "num" }, fmtInt(b.n)))),
+    "Nothing in this range."));
+}
+
+function drawCharts() {
+  const s = state.stats;
+  if (!s) return;
+  const per = `Per ${bucketLabel(s.timeline.bucket)}`;
+  $("mine-chart-hint").textContent = `${per}: HTTP, TLS, mail and DNS requests naming your domains.`;
+  $("all-chart-hint").textContent = `${per}${state.hideSsh ? ", SSH excluded" : ""}. Mostly scanners.`;
+  drawColumns("mine-chart", "mine-chart-table", s.timeline.mine, "requests");
+  drawColumns("all-chart", "all-chart-table", s.timeline.attempts, "attempts");
+}
+
+/* ---------- tables ---------- */
+function topRequests(d) {
+  return d.requests.length ? el("div", { class: "reqs mono" }, d.requests.slice(0, 3).map((r) =>
+    el("div", { title: `${r.method || ""} ${r.path}` }, `${r.method || ""} ${r.path}`, r.n > 1 ? el("span", { class: "muted" }, ` ×${r.n}`) : null))) : null;
+}
+
+const peopleCell = (n) => el("td", { class: n ? "num people" : "num zero" }, fmtInt(n));
+const flagCell = (flags) => el("td", {}, flags.length ? flags.map(flagBadge) : el("span", { class: "muted" }, "–"));
+
+function drawMine(groups, watch) {
+  if (!watch.length) {
+    $("mine").replaceChildren(el("div", { class: "empty" }, "No domains listed yet. Add yours, one per line, to /etc/whohit/watch.txt on the box."));
+    return;
+  }
+  const rows = [];
+  for (const g of groups) {
+    rows.push(el("tr", { class: "parent click", onclick: () => focusFilter({ suffix: g.suffix }, "sessions") },
+      el("td", {}, el("div", { class: "mono" }, g.suffix),
+        el("div", { class: "sub-line" }, g.hits ? `${g.hosts.length} hostname${g.hosts.length === 1 ? "" : "s"}` : "No requests in this range")),
+      flagCell(g.flags),
+      el("td", {}, g.via.map((v) => el("span", { class: "tag" }, v))),
+      el("td", { class: "num" }, fmtInt(g.hits)),
+      el("td", { class: "num" }, fmtInt(g.ips)),
+      peopleCell(g.people),
+      el("td", { class: "num", title: fullTime(g.first) }, ago(g.first)),
+      el("td", { class: "num", title: fullTime(g.last) }, ago(g.last))));
+    for (const d of g.hosts) {
+      rows.push(el("tr", { class: "child click", onclick: () => focusFilter({ domain: d.domain }, d.via.length === 1 && d.via[0] === "dns" ? "attempts" : "sessions") },
+        el("td", {}, el("div", { class: "mono trunc", title: d.domain }, d.domain), topRequests(d)),
+        flagCell(d.flags),
+        el("td", {}, d.via.map((v) => el("span", { class: "tag" }, v))),
+        el("td", { class: "num" }, fmtInt(d.hits)),
+        el("td", { class: "num" }, fmtInt(d.ips)),
+        peopleCell(d.people),
+        el("td", { class: "num", title: fullTime(d.first) }, ago(d.first)),
+        el("td", { class: "num", title: fullTime(d.last) }, ago(d.last))));
+    }
+  }
+  $("mine").replaceChildren(table(
+    [{ label: "Domain · top requests" }, { label: "Flags" }, { label: "Via" }, { label: "Hits", num: true },
+     { label: "Sources", num: true }, { label: "ISP/other", num: true }, { label: "First", num: true }, { label: "Last", num: true }],
+    rows, ""));
+}
+
+function drawOthers(others) {
+  const { rows: shown, more } = limited("others", others, () => drawOthers(others));
+  const rows = shown.map((d) => el("tr", { class: "click", onclick: () => focusFilter({ domain: d.domain }, d.via.length === 1 && d.via[0] === "dns" ? "attempts" : "sessions") },
+    el("td", {}, el("div", { class: "mono trunc", title: d.domain }, d.domain), topRequests(d)),
+    el("td", {}, d.top ? [kindTag(d.top.kind, d.top.reason), " ", el("span", { class: "mono" }, d.top.ip),
+      el("div", { class: "sub-line", title: d.top.reason || d.top.net || "" }, d.top.reason || d.top.net || "")] : null),
+    el("td", {}, d.via.map((v) => el("span", { class: "tag" }, v))),
+    el("td", { class: "num" }, fmtInt(d.hits)),
+    el("td", { class: "num" }, fmtInt(d.ips)),
+    peopleCell(d.people),
+    el("td", { class: "num", title: fullTime(d.last) }, ago(d.last))));
+  $("others").replaceChildren(table(
+    [{ label: "Hostname · top requests" }, { label: "Asked by" }, { label: "Via" }, { label: "Hits", num: true },
+     { label: "Sources", num: true }, { label: "ISP/other", num: true }, { label: "Last", num: true }],
+    rows, "No other hostnames in this range. Bare-IP Host values are hidden unless you tick the box above."), more || "");
+}
+
+function drawPorts(ports) {
+  const max = Math.max(1, ...ports.map((p) => p.attempts));
+  const { rows: shown, more } = limited("ports", ports, () => drawPorts(ports));
+  const rows = shown.map((p) => el("tr", { class: p.port != null ? "click" : null, onclick: p.port != null ? () => focusFilter({ port: p.port }, p.proto === "tcp" ? "sessions" : "attempts") : null },
+    el("td", { class: "mono" }, p.port ?? "–"),
+    el("td", {}, portName(p.port, p.proto)),
+    el("td", {}, p.proto),
+    el("td", { class: "num" }, el("div", { class: "inline-bar" }, fmtInt(p.attempts),
+      el("div", { class: "track", "aria-hidden": "true" }, el("div", { class: "fill", style: `width:${(p.attempts / max) * 100}%` })))),
+    el("td", { class: "num" }, fmtInt(p.ips)),
+    el("td", {}, p.spoke.slice(0, 4).map((s) => el("span", { class: "tag" }, `${s.app} ${compact(s.n)}`)))));
+  $("ports").replaceChildren(table(
+    [{ label: "Port" }, { label: "Usually" }, { label: "Proto" }, { label: "Attempts", num: true }, { label: "IPs", num: true }, { label: "Clients spoke" }],
+    rows, "No attempts in this range."), more || "");
+}
+
+function drawSources(sources) {
+  const { rows: shown, more } = limited("sources", sources, () => drawSources(sources));
+  const rows = shown.map((s) => el("tr", { class: "click", onclick: () => focusFilter({ src_ip: s.ip }, s.domains.length ? "sessions" : "attempts") },
+    el("td", {}, el("div", { class: "mono" }, s.ip), s.rdns ? el("div", { class: "sub-line mono", title: s.rdns }, s.rdns) : null),
+    el("td", {}, kindTag(s.kind, s.reason), el("div", { class: "sub-line", title: netText(s) }, netText(s))),
+    el("td", { class: "num" }, fmtInt(s.attempts)),
+    el("td", { class: "num" }, fmtInt(s.ports)),
+    el("td", { class: "mono trunc", title: s.domains.join(", ") }, s.domains.join(", ") || el("span", { class: "muted" }, "–")),
+    el("td", { class: "num", title: fullTime(s.last) }, ago(s.last))));
+  $("sources").replaceChildren(table(
+    [{ label: "Source IP" }, { label: "Network" }, { label: "Attempts", num: true }, { label: "Ports", num: true }, { label: "Domains asked for" }, { label: "Last", num: true }],
+    rows, "No attempts in this range."), more || "");
+}
+
+/* ---------- events ---------- */
+function focusFilter(filter, kind) {
+  state.filter = filter;
+  state.kind = kind;
+  state.open = null;
+  loadEvents();
+  $("events-card").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function drawChips() {
+  const tabs = el("span", { class: "seg tabs", role: "group", "aria-label": "Row type" },
+    ["sessions", "attempts"].map((k) => el("button", { "aria-pressed": String(state.kind === k), onclick: () => { state.kind = k; state.open = null; loadEvents(); } },
+      k === "sessions" ? "Sessions" : "Attempts")));
+  const names = { domain: "domain", suffix: "under", port: "port", src_ip: "ip", app: "app" };
+  const chips = Object.entries(state.filter).map(([k, v]) =>
+    el("button", { class: "chip", title: "Remove filter", onclick: () => { delete state.filter[k]; loadEvents(); } },
+      `${names[k]}: ${v}`, el("span", { class: "x", "aria-hidden": "true" }, "×")));
+  $("chips").replaceChildren(tabs, ...chips);
+}
+
+function detailText(r) {
+  const who = [`source: ${r.src_ip}:${r.src_port ?? ""}`, `network: ${netText(r) || "not labelled yet"}`];
+  if (r.rdns) who.push(`reverse DNS: ${r.rdns}`);
+  if (r.reason) who.push(`labelled ${KINDS[r.kind]?.label || r.kind}: ${r.reason}`);
+  const parts = [who.join("\n")];
+  if (r.detail) parts.push(JSON.stringify(r.detail, null, 2));
+  if (r.preview) parts.push("first bytes: " + r.preview);
+  if (r.info) parts.push(r.info);
+  return parts.join("\n\n");
+}
+
+function sourceCell(r) {
+  return el("td", {}, el("div", { class: "mono" }, r.src_ip), el("div", { class: "sub-line", title: r.rdns || netText(r) }, netText(r)));
+}
+
+function drawEvents(data) {
+  drawChips();
+  const sessions = data.kind === "sessions";
+  const cols = sessions ? 9 : 7;
+  const rows = [];
+  for (const r of data.rows) {
+    const open = state.open === r.id;
+    const what = sessions
+      ? (r.method || r.path ? `${r.method || ""} ${r.path || ""}` : (r.preview || ""))
+      : (r.info || "");
+    rows.push(el("tr", { class: "click", onclick: () => { state.open = open ? null : r.id; drawEvents(data); } },
+      el("td", { class: "num", title: fullTime(r.ts) }, new Date(r.ts * 1000).toLocaleTimeString()),
+      sourceCell(r),
+      el("td", {}, kindTag(r.kind, r.reason)),
+      el("td", { class: "mono" }, r.dst_port ?? "–"),
+      el("td", {}, el("span", { class: "tag" }, sessions ? r.app : r.proto)),
+      el("td", { class: "mono trunc", title: r.domain || "" }, r.domain || ""),
+      el("td", { class: "mono trunc", title: what }, what),
+      sessions ? el("td", { class: "trunc", title: r.user_agent || "" }, r.user_agent || "") : null,
+      sessions ? el("td", {}, r.flags ? r.flags.split(" ").map(flagBadge) : null) : null));
+    if (open) rows.push(el("tr", { class: "detail-row" }, el("td", { colspan: cols }, el("pre", {}, detailText(r)))));
+  }
+  const headers = sessions
+    ? ["Time", "Source", "Kind", "Port", "Spoke", "Domain", "Request / first bytes", "User agent", "Flags"]
+    : ["Time", "Source", "Kind", "Port", "Proto", "DNS name", "Payload"];
+  $("events").replaceChildren(table(headers.map((label) => ({ label, num: label === "Time" })), rows,
+    "Nothing matches in this range."));
+}
+
+/* ---------- loading ---------- */
+function params(extra) {
+  return new URLSearchParams({ range: state.range, ssh: state.hideSsh ? "0" : "1", quiet: state.quiet ? "1" : "0",
+                               bare: state.bare ? "1" : "0", ...extra }).toString();
+}
+
+async function getJSON(url) {
+  const res = await fetch(url, { cache: "no-store" });
+  const body = await res.json();
+  if (!res.ok) throw new Error(body.error || res.statusText);
+  return body;
+}
+
+async function loadStats() {
+  const content = $("content");
+  content.classList.add("refetching");
+  try {
+    const s = await getJSON("/api/stats?" + params());
+    state.stats = s;
+    const t = s.totals;
+    $("t-mine").textContent = fmtInt(t.mine_hits);
+    $("t-mine-note").textContent = !t.watch.length ? "Add your domains to /etc/whohit/watch.txt"
+      : `${fmtInt(t.mine_ips)} sources, ${fmtInt(t.mine_people)} on ISP/other networks`
+        + (t.mine_flagged ? ` · ${fmtInt(t.mine_flagged)} hostname${t.mine_flagged === 1 ? "" : "s"} flagged` : "");
+    $("t-attempts").textContent = compact(t.attempts);
+    $("t-sources").textContent = compact(t.sources);
+    $("t-ports").textContent = compact(t.ports);
+    $("t-sessions").textContent = compact(t.sessions);
+    drawCharts();
+    drawMine(s.mine, t.watch);
+    drawOthers(s.others);
+    drawPorts(s.ports);
+    drawSources(s.sources);
+    $("live").classList.remove("stale");
+    $("updated").textContent = "Updated " + new Date().toLocaleTimeString()
+      + (t.first_seen ? " · recording since " + fullTime(t.first_seen) : "")
+      + ` · ${fmtInt(t.labelled)} sources labelled`;
+  } catch (e) {
+    $("live").classList.add("stale");
+    $("updated").replaceChildren(el("span", { class: "error" }, "Refresh failed: " + e.message + " (is the SSH tunnel still up?)"));
+  } finally {
+    content.classList.remove("refetching");
+  }
+}
+
+async function loadEvents() {
+  $("events").classList.add("refetching");
+  try {
+    const extra = { kind: state.kind, limit: "300" };
+    for (const [k, v] of Object.entries(state.filter)) extra[k] = String(v);
+    drawEvents(await getJSON("/api/events?" + params(extra)));
+  } catch (e) {
+    $("events").replaceChildren(el("div", { class: "empty error" }, "Could not load: " + e.message));
+  } finally {
+    $("events").classList.remove("refetching");
+  }
+}
+
+function save() {
+  try {
+    localStorage.setItem("whohit", JSON.stringify({ range: state.range, hideSsh: state.hideSsh, quiet: state.quiet, bare: state.bare }));
+  } catch (e) { /* ignore */ }
+}
+
+function syncControls() {
+  for (const b of $("range").querySelectorAll("button")) b.setAttribute("aria-pressed", String(b.dataset.range === state.range));
+  $("hide-ssh").checked = state.hideSsh;
+  $("quiet").checked = state.quiet;
+  $("bare").checked = state.bare;
+}
+
+function refresh() { loadStats(); if (state.open == null) loadEvents(); }
+
+$("range").addEventListener("click", (e) => {
+  const r = e.target.closest("button")?.dataset.range;
+  if (!r) return;
+  state.range = r; save(); syncControls(); refresh();
+});
+for (const [id, key] of [["hide-ssh", "hideSsh"], ["quiet", "quiet"], ["bare", "bare"]]) {
+  $(id).addEventListener("change", (e) => { state[key] = e.target.checked; save(); refresh(); });
+}
+let resizeTimer;
+addEventListener("resize", () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(drawCharts, 100); });
+
+syncControls();
+refresh();
+setInterval(refresh, 20000);
+</script>
+</body>
+</html>

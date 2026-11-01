@@ -1,0 +1,301 @@
+asn,as_name,sources,attempts,scanner_sources,hosting_sources,isp_sources
+396982,"GOOGLE-CLOUD-PLATFORM - Google LLC, US",4144,190734,2448,1696,0
+25369,"BANDWIDTH-AS - Hydra Communications Ltd, GB",2682,45721,2339,0,343
+13335,"CLOUDFLARENET - Cloudflare, Inc., US",2515,13380,40,2475,0
+14061,"DIGITALOCEAN-ASN - DigitalOcean, LLC, US",2411,25115,495,1916,0
+8075,"MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US",2399,24574,2060,339,0
+45102,"ALIBABA-CN-NET - Alibaba (US) Technology Co., Ltd., CN",2147,30652,214,1933,0
+16509,"AMAZON-02 - Amazon.com, Inc., US",2075,38108,57,2018,0
+4837,"CHINA169-Backbone - CHINA UNICOM China169 Backbone, CN",1585,3537,11,0,1574
+4134,"CHINANET-BACKBONE - No.31,Jin-rong Street, CN",1348,6530,12,0,1336
+213412,"ONYPHE - ONYPHE SAS, FR",1055,34072,1055,0,0
+14789,"CLOUDFLARENET - Cloudflare, Inc., US",1044,6308,0,1044,0
+6939,"HURRICANE - Hurricane Electric LLC, US",982,18255,981,0,1
+14618,"AMAZON-AES - Amazon.com, Inc., US",952,18580,359,593,0
+398324,"CENSYS-ARIN-01 - Censys, Inc., US",768,143620,768,0,0
+63949,"AKAMAI-LINODE-AP - Akamai Connected Cloud, SG",700,10052,477,223,0
+135377,"UCLOUD-HK-AS-AP - UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED, HK",683,38053,427,256,0
+211298,"DRIFTNET - Driftnet Ltd, GB",624,3592,624,0,0
+132203,"TENCENT-NET-AP-CN - Tencent Building, Kejizhongyi Avenue, CN",420,5429,5,415,0
+21859,"ZEN-ECN - Zenlayer Inc, US",275,2717,116,0,159
+211680,"AS-BITSIGHT - NSEC - Sistemas Informaticos, S.A., PT",264,1712,264,0,0
+31898,"ORACLE-BMC-31898 - Oracle Corporation, US",261,22857,45,216,0
+42969,"ALPHASTRIKE - Alpha Strike Labs GmbH, DE",244,308,244,0,0
+4766,"KIXS-AS-KR-KR - Korea Telecom, KR",231,2756,7,0,224
+43515,"YOUTUBE - Google Ireland Limited, IE",221,2106,16,204,1
+22168,"SHADOWSERVER-FOUNDATION - The Shadowserver Foundation, Inc., US",216,6263,216,0,0
+16276,"OVH - OVH SAS, FR",211,13071,42,169,0
+215778,"ALPHASTRIKE-HK - Alpha Strike Labs GmbH, DE",209,272,209,0,0
+37963,"ALIBABA-CN-NET - Hangzhou Alibaba Advertising Co.,Ltd., CN",187,21209,2,185,0
+202412,"OMEGATECH-AS - Omegatech LTD, SC",156,2011,21,0,135
+208843,"ALPHASTRIKE-RESEARCH - Alpha Strike Labs GmbH, DE",153,235,153,0,0
+55960,"BJ-GUANGHUAN-AP - Beijing Guanghuan Xinwang Digital, CN",143,1351,0,0,143
+9541,"CYBERNET-AP - Cyber Internet Services (Pvt) Ltd., PK",142,1900,0,0,142
+9808,"CHINAMOBILE-CN - China Mobile Communications Group Co., Ltd., CN",138,2386,15,0,123
+209334,"MODAT-01 - Modat B.V., NL",125,46029,125,0,0
+219326,"SULAVIL - SULAVI LTD, GB",122,827,13,0,109
+32934,"FACEBOOK - Facebook, Inc., US",120,135,120,0,0
+45090,"TENCENT-NET-AP - Shenzhen Tencent Computer Systems Company Limited, CN",112,2604,3,109,0
+23724,"CHINANET-IDC-BJ-AP - IDC, China Telecommunications Corporation, CN",80,1532,21,0,59
+401661,"EMBNEX-AS - EMBNEX, LLC, US",79,1308,68,0,11
+198364,"BANATSYNC-SRL - BANATSYNC SRL, RO",77,4554,8,0,69
+137718,"VOLCANO-ENGINE - Beijing Volcano Engine Technology Co., Ltd., CN",74,484,0,0,74
+51396,"PFCLOUD - Pfcloud UG (haftungsbeschrankt), DE",73,55334,41,32,0
+401626,"NETIFACE-TORONTO - Netiface America, Inc., US",72,15968,10,0,62
+137266,"CHINATELECOM-HUBEI-WUHAN-5G-NETWORK - CHINATELECOM Hubei province Wuhan 5G network, CN",70,79,0,0,70
+51167,"CONTABO - Contabo GmbH, DE",68,929,11,57,0
+135629,"WESTCLOUDDATA - Ningxia West Cloud Data Technology Co.Ltd., CN",66,773,0,66,0
+10439,"CARINET - CariNet, Inc., US",66,2198,33,0,33
+38365,"Baidu - Beijing Baidu Netcom Science and Technology Co., Ltd., CN",64,538,1,0,63
+36352,"AS-COLOCROSSING - HostPapa, US",63,1057,7,56,0
+398705,"CENSYS-ARIN-02 - Censys, Inc., US",61,15668,61,0,0
+197170,"TECHTIES-AS - TechTies Inc., SC",61,15653,16,45,0
+202425,"INT-NETWORK - IP Volume inc, SC",60,8149,58,0,2
+17622,"CNCGROUP-GZ - China Unicom Guangzhou network, CN",60,86,1,0,59
+9009,"M247 - M247 Europe SRL, RO",60,354,18,42,0
+199457,"SolidCore - SolidCore Hosting LTD, VG",59,821,4,55,0
+7922,"COMCAST-7922 - Comcast Cable Communications, LLC, US",59,676,0,0,59
+219502,"STORMCLOUD-AS - Storm Industries LLC, US",57,18752,22,35,0
+209630,"KREDIT-AS - LLC VASH KREDIT BANK, UA",57,815,53,0,4
+140061,"CHINANET-Qinghai-AS-AP - Qinghai Telecom, CN",56,64,1,0,55
+9465,"AGOTOZPTELTD-AS-AP - AGOTOZ PTE. LTD., SG",56,2644,26,0,30
+58466,"CT-Guangzhou-IDC - CHINANET Guangdong province network, CN",55,330,17,0,38
+17638,"CHINATELECOM-TJ-AS-AP - ASN for TIANJIN Provincial Net of CT, CN",55,67,0,0,55
+4811,"CHINANET-SHANGHAI-MAN - China Telecom (Group), CN",53,599,0,0,53
+212512,"DETAI - Detai Prosperous Technologies Limited, GB",52,3966,52,0,0
+24560,"AIRTELBROADBAND-AS-AP - Bharti Airtel Ltd., Telemedia Services, IN",51,505,0,0,51
+20473,"AS-VULTR - The Constant Company, LLC, US",51,1803,8,43,0
+12389,"ROSTELECOM-AS - PJSC Rostelecom, RU",50,987,0,0,50
+393406,"DIGITALOCEAN-AS393406 - DigitalOcean, LLC, US",49,110,49,0,0
+215925,"VPSVAULTHOST - VPSVAULT.HOST LTD, GB",45,4872,20,25,0
+3462,"HINET - Data Communication Business Group, TW",44,245,0,0,44
+17621,"CNCGROUP-SH China Unicom Shanghai network, CN",43,64,0,0,43
+9829,"BSNL-NIB - National Internet Backbone, IN",43,285,1,0,42
+214101,"EU-SOVEREIGN-CLOUD - Amazon Data Services European Sovereign Cloud GmbH, DE",42,604,0,42,0
+20052,"ARBOR - Arbor Networks, Inc., US",42,426,18,0,24
+12876,"AS12876 - Scaleway SAS, FR",42,1288,21,19,2
+50360,"TAMATIYA-AS - Tamatiya EOOD, BG",40,9934,35,0,5
+136258,"ONEPROVIDER-AS BrainStorm Network, Inc, CA",38,48,0,0,38
+47890,"UNMANAGED-DEDICATED-SERVERS - UNMANAGED LTD, GB",38,7709,7,31,0
+49870,"AS49870-BV - Alsycon B.V., NL",37,3031,18,19,0
+48090,"DMZHOST - TECHOFF SRV LIMITED, GB",36,32731,17,19,0
+403005,"BLATANTHOST - Blatant, SC",35,462,3,32,0
+154177,"LIGHT4-AS-AP LIGHT NODE LIMITED, HK",34,60,0,0,34
+23889,"Mauritius Telecom Ltd - Mauritius Telecom Ltd, MU",32,37,0,0,32
+58224,"TCI, IR",31,148,0,0,31
+14956,"ROUTERHOSTING - RouterHosting LLC, US",31,424,8,23,0
+14593,"SPACEX-STARLINK - Space Exploration Technologies Corporation, US",31,109,2,0,29
+10617,"AS10617 - SION S.A, AR",31,39,0,0,31
+56046,"CMNET-Jiangsu-AP - China Mobile communications corporation, CN",30,285,3,0,27
+27747,"AS27747 - Telecentro S.A., AR",30,68,0,0,30
+7713,"telkomnet-as-ap - PT Telekomunikasi Indonesia, ID",30,2032,0,0,30
+,NA,30,80,0,0,30
+17557,"PKTELECOM-AS-PK - Pakistan Telecommunication Company Limited, PK",29,392,0,0,29
+15169,"GOOGLE - Google LLC, US",28,67,27,1,0
+9121,"TTNet - Turk Telekomunikasyon Anonim Sirketi, TR",28,82,0,0,28
+201814,"Mevspace - MEVSPACE sp. z o.o., PL",27,3575,9,0,18
+24940,"HETZNER-AS - Hetzner Online GmbH, DE",27,225,4,23,0
+8560,"IONOS-AS - IONOS SE, DE",27,267,1,26,0
+7303,"AS7303 - Telecom Argentina S.A., AR",27,84,0,0,27
+60068,"CDN77 - Datacamp Limited, GB",26,2883,8,0,18
+8151,"AS8151 - UNINET, MX",26,2471,2,0,24
+7018,"ATT-INTERNET4 - AT&T Enterprises, LLC, US",26,286,1,0,25
+136180,"IPIP-CN - Beijing Tiantexin Tech. Co., Ltd., CN",25,158,25,0,0
+22927,"AS22927 - Telefonica de Argentina, AR",25,69,0,0,25
+140726,"UNICOM-HEFEI-MAN - UNICOM AnHui province network, CN",24,26,0,0,24
+45899,"VNPT-AS-VN VNPT Corp, VN",23,2133,1,0,22
+16909,"IMPUT - imput, US",23,31,0,0,23
+8193,"BRM-AS - _Uzbektelekom_ Joint Stock Company, UZ",23,142,0,0,23
+4808,"CHINA169-BJ - China Unicom Beijing Province Network, CN",23,930,0,0,23
+4760,"HKTIMS-AP - HKT Limited, HK",23,80,0,0,23
+701,"UUNET - Verizon Business, US",23,202,1,0,22
+9329,"SLTINT-AS-AP - Sri Lanka Telecom Internet, LK",22,366,0,0,22
+402253,"SKN-NETWORK-1 - SKN Subnet & Telecom Ltd, KN",21,898,7,0,14
+212238,"CDNEXT - Datacamp Limited, GB",21,298,6,0,15
+142002,"SCLOUDPTELTD-AS - Scloud Pte Ltd, SG",20,455,6,14,0
+53667,"PONYNET - FranTech Solutions, US",20,204,12,0,8
+931,"HYONIX - Hyonix, SG",20,286,0,0,20
+174,"COGENT-174 - Cogent Communications, LLC, US",20,1622,10,0,10
+213790,"LimitedNetwork-AS - Limited Network LTD, GB",19,6211,10,0,9
+63199,"CDSC-AS1 - CDS Global Cloud Co., Ltd, US",19,1816,16,3,0
+28573,"AS28573 - Claro NXT Telecomunicacoes Ltda, BR",19,70,2,0,17
+9318,"SKB-AS SK Broadband Co Ltd, KR",19,123,1,0,18
+397423,"TIER-NET - Tier.Net Technologies LLC, US",18,226,0,0,18
+211607,"RECORDEDFUTURE - Securitytrails, LLC, US",18,204,18,0,0
+136907,"HWCLOUDS-AS-AP - HUAWEI CLOUDS, HK",18,691,4,14,0
+36903,Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM - Office National des Postes et Telecommunic,18,91,0,0,18
+3215,"AS3215 - Orange S.A., FR",18,86,1,0,17
+200019,"AlexHost - ALEXHOST S.R.L., MD",17,298,10,7,0
+12552,"GlobalConnect-AS12552 - GlobalConnect AB, SE",17,39,0,0,17
+202306,"HOSTGLOBALPLUS-AS - HOSTGLOBAL.PLUS LTD, GB",16,927,3,13,0
+58519,"CHINATELECOM-Ctcloud - Cloud Computing Corporation, CN",16,509,0,16,0
+46844,"SHARKTECH - Sharktech, US",16,482,12,4,0
+40021,"CONTABO-40021 - Contabo Inc., US",16,197,1,15,0
+22773,"ASN-CXA-ALL-CCI-22773-RDC - Cox Communications Inc., US",16,267,0,0,16
+19318,"IS-AS-1 - Interserver, Inc, US",16,153,1,15,0
+17816,"CHINA169-GZ - China Unicom IP network China169 Guangdong province, CN",16,70,0,0,16
+6849,"UKRTELNET - JSC _Ukrtelecom_, UA",16,26,0,0,16
+212835,"SHESTERNIN-AS - Shesternin Vladimir Anatolievich, KZ",15,3247,14,0,1
+200373,"Drei-K-Tech-GmbH - 3xK Tech GmbH, DE",15,15,3,0,12
+150436,"BYTEPLUS-AS-AP - Byteplus Pte. Ltd., SG",15,145,0,0,15
+134761,"CHINANET-NINGXIA-ZHONGWEI-IDC CHINANET NINGXIA province ZHONGWEI IDC network, CN",15,285,0,0,15
+35487,"MISAKA - Misaka Network, Inc., US",15,39,0,0,15
+20115,"CHARTER-20115 - Charter Communications LLC, US",15,160,0,0,15
+5650,"FRONTIER-FRTR - Frontier Communications of America, Inc., US",15,195,0,0,15
+4812,"CHINANET-SH-AP - China Telecom (Group), CN",15,512,0,0,15
+211486,"AAA-AS - Alferov Aleksey Aleksandrovich, RU",14,1020,10,0,4
+208137,"FPS12 - Feo Prest SRL, RO",14,169339,5,0,9
+151330,"PBPL-AS-AP - PLAY BROADBAND (PRIVATE) LIMITED, PK",14,220,0,0,14
+132892,"CLOUDFLARE Cloudflare, Inc., US",14,14,0,14,0
+58461,"CT-HangZhou-IDC - No.288,Fu-chun Road, CN",14,105,1,0,13
+57169,"EDIS-AS-EU - EDIS GmbH, AT",14,55,1,0,13
+56041,"CMNET-Zhejiang-AP - China Mobile communications corporation, CN",14,54,0,0,14
+55836,"RELIANCEJIO-IN - Reliance Jio Infocomm Limited, IN",14,80,0,0,14
+51852,"PLI-AS - Private Layer INC, PA",14,372,0,0,14
+38283,"CHINANET-SCIDC-AS-AP - CHINANET SiChuan Telecom Internet Data Center, CN",14,78,0,0,14
+23969,"TOT-NET - TOT Public Company Limited, TH",14,26,0,0,14
+398019,"DYNU - Dynu Systems Incorporated, US",13,201,0,0,13
+396073,"MAJESTIC-HOSTING-01 - Majestic Hosting Solutions, LLC, US",13,3075,1,12,0
+209605,"hostbaltic - UAB Host Baltic, LT",13,401,3,10,0
+197540,"NETCUP-AS netcup GmbH, DE",13,23,0,0,13
+142647,"NAN-AS-AP - Nasstec Airnet Networks Private Limited, PK",13,224,0,0,13
+45204,"GEMNET-MN - GEMNET LLC, MN",13,37,1,0,12
+24444,"CMNET-V4shandong-AS-AP - Shandong Mobile Communication Company Limited, CN",13,29,1,0,12
+14315,"1GSERVERS - 1GSERVERS, LLC, US",13,193,0,13,0
+398101,"GO-DADDY-COM-LLC - GoDaddy.com, LLC, US",12,917,0,0,12
+215540,"GCS-AS - GLOBAL CONNECTIVITY SOLUTIONS LLP, GB",12,668,1,0,11
+210328,"ALMAZ - AO ALMAZ, RU",12,2774,7,0,5
+15557,"LDCOMNET - Societe Francaise Du Radiotelephone - SFR SA, FR",12,44,1,0,11
+12322,"PROXAD - Free SAS, FR",12,40,2,0,10
+7552,"VIETEL-AS-AP - Viettel Group, VN",12,110,0,0,12
+210402,"Halasat-FTTX - Hala Al Rafidain Company for Communications and Internet LTD., IQ",11,11,0,0,11
+141679,"CHINATELECOM-IDC-BTHBD-AP - China Telecom Beijing Tianjin Hebei Big Data Industry Park Branch, CN",11,50,0,0,11
+138407,"CMNET-GZIDC-CN - The Internet Data Center of Guizhou Mobile Communication Company Limited, CN",11,55,0,0,11
+135089,"CHINANET-Guangzhou-Southbase-IDC - China Telecom, CN",11,43,0,0,11
+133774,"CHINATELECOM-FUJIAN-FUZHOU-IDC1 - Fuzhou, CN",11,32,0,0,11
+62904,"AS62904 - Eonix Corporation, US",11,26,0,0,11
+58541,"CHINATELECOM-SHANDONG-QINGDAO-IDC - Qingdao,266000, CN",11,37,0,0,11
+35369,"LINZAG-TELEKOM-AS - LINZ STROM GAS WAERME GmbH fuer Energiedienstleistungen und Telekommunikation, AT",11,650,1,0,10
+24547,"CMNET-V4HEBEI-AS-AP - Hebei Mobile Communication Company Limited, CN",11,27,0,0,11
+15895,"KSNET-AS - _Kyivstar_ PJSC, UA",11,15,0,0,11
+9299,"IPG-AS-AP - Philippine Long Distance Telephone Company, PH",11,58,0,0,11
+8359,"MTS - MTS PJSC, RU",11,92,0,0,11
+4713,"OCN - NTT DOCOMO BUSINESS,Inc., JP",11,14,0,0,11
+917,"MISAKA - Misaka Network, Inc., US",11,29,0,0,11
+395747,"CLOUDFLARENET-SFO05 - Cloudflare, Inc., US",10,75,0,10,0
+204428,"SS-Net - SS-Net, BG",10,1109,5,0,5
+140292,"CHINATELECOM-JIANGSU-SUZHOU-5G-NETWORK CHINATELECOM Jiangsu province Suzhou 5G network, CN",10,264,0,0,10
+139203,"CHINANET-Guizhou-Guian-IDC - Guizhou GuiAn IDC, CN",10,50,0,0,10
+137409,"GSLNETWORKS-AS-AP - GSL Networks Pty LTD, AU",10,37,5,0,5
+134768,"CHINANET-SHAANXI-CLOUD-BASE - CHINANET SHAANXI province Cloud Base network, CN",10,50,0,10,0
+55933,"CLOUDIE-AS-AP - Cloudie Limited, HK",10,44,0,10,0
+55720,"GIGABIT-MY - Gigabit Hosting Sdn Bhd, MY",10,86,1,9,0
+47154,"HUSAM-Network - HUSAM A. H. HIJAZI, PS",10,1349,6,0,4
+37457,"Telkom SA Ltd. - Telkom SA Ltd., ZA",10,11,0,0,10
+20001,"TWC-20001-PACWEST - Charter Communications Inc, US",10,86,1,0,9
+7418,"AS7418 - TELEFONICA CHILE S.A., CL",10,31,0,0,10
+852,"ASN852 - TELUS Communications Inc., CA",10,75,0,0,10
+714,"APPLE-ENGINEERING - Apple Inc., US",10,10,10,0,0
+399486,"VIRTUO - 12651980 CANADA INC., CA",9,128,0,0,9
+396356,"LATITUDE-SH - Latitude.sh, US",9,454,3,0,6
+202422,"GHOST, LU",9,11,0,9,0
+141031,"CONNECT-AS-AP - Connect Communication, PK",9,75,0,0,9
+138423,"CMPAKLIMITED-AS-ENTCORP - CMPak Limited, PK",9,32,0,0,9
+135905,"VNPT-AS-VN - VIETNAM POSTS AND TELECOMMUNICATIONS GROUP, VN",9,982,1,0,8
+134762,"CHINANET-LIAONING-DALIAN-MAN - CHINANET Liaoning province Dalian MAN network, CN",9,34,0,0,9
+133481,"AIS-Fibre-AS-AP - AIS Fibre, TH",9,57,0,0,9
+132165,"CONNECT-AS-AP - Connect Communications, PK",9,59,0,0,9
+63023,"AS-GLOBALTELEHOST - GTHost, US",9,26,1,8,0
+58563,"CHINATELECOM-Hubei-IDC - CHINANET Hubei province network, CN",9,71,0,0,9
+55990,"HWCSNET - Huawei Cloud Service data center, CN",9,114,0,9,0
+24757,"Ethio Telecom - Ethio Telecom, ET",9,22,0,0,9
+24309,"CABLELITE-AS-AP - Atria Convergence Technologies Pvt. Ltd. Broadband Internet Service Provider INDIA, IN",9,98,0,0,9
+10796,"TWC-10796-MIDWEST - Charter Communications Inc, US",9,51,0,0,9
+9534,"MAXIS-AS1-AP - Binariang Berhad, MY",9,18,0,0,9
+9198,"KAZTELECOM-AS - JSC Kazakhtelecom, KZ",9,64,0,0,9
+8452,"TE-AS - IDDQD-AS, EG",9,19,0,0,9
+7602,"SPT-AS-VN - Sai gon Postel Corporation, VN",9,246,0,0,9
+6128,"CABLE-NET-1 - Cablevision Systems Corp., US",9,72,0,0,9
+4788,"TTSSB-MY - TM TECHNOLOGY SERVICES SDN. BHD., MY",9,16,1,0,8
+3320,"DTAG - Deutsche Telekom AG, DE",9,58,1,0,8
+397373,"H4Y-TECHNOLOGIES - H4Y Technologies LLC, US",8,73,1,0,7
+263812,"AS263812 - SONDATECH S.A.S., AR",8,12,0,0,8
+218970,"CHOMIK-AS - Amin NezhadKahnoji, IR",8,329,3,0,5
+204770,"CHERRYSERVERS3-AS - UAB _Cherry Servers_, LT",8,77,5,3,0
+150895,"EZTECH-VN - EZ TECHNOLOGY COMPANY LIMITED, VN",8,22,0,0,8
+140527,"CHINANET-ANHUI-WUHU-IDC - China Telecom, CN",8,18,0,0,8
+138152,"YISUCLOUDLTD-HK - YISU CLOUD LTD, HK",8,56,1,7,0
+136525,"WANCOMPVTLTD-AS-AP - Wancom (Pvt) Ltd., PK",8,99,0,0,8
+132199,"GLOBE-MOBILE-5TH-GEN-AS - Globe Telecom Inc., PH",8,11,0,0,8
+56045,"CMNET-Jiangxi-AP - China Mobile communications corporation, CN",8,25,1,0,7
+52468,"AS52468 - UFINET PANAMA S.A., PA",8,19,0,0,8
+44589,"NTservers - DIGITAL NETWORK S.R.L., MD",8,1097,5,3,0
+36947,"Telecom Algeria - Telecom Algeria, DZ",8,425,0,0,8
+32613,"IWEB-AS - Leaseweb Canada Inc., CA",8,22,0,8,0
+27699,"AS27699 - TELEFONICA BRASIL S.A, BR",8,12,0,0,8
+26666,"INTERSERVER-LAX - Interserver, Inc, US",8,569,1,7,0
+13999,"AS13999 - Mega Cable, S.A. de C.V., MX",8,22,0,0,8
+12989,"BlackHOST - Black HOST Ltd, CA",8,1567,8,0,0
+11427,"TWC-11427-TEXAS - Charter Communications Inc, US",8,70,0,0,8
+9498,"BBIL-AP - BHARTI Airtel Ltd., IN",8,73,0,0,8
+7488,"CNSERVER-AP-AS - CNServer LLC, US",8,133,2,6,0
+5384,"EMIRATES-INTERNET - EMIRATES TELECOMMUNICATIONS GROUP COMPANY (ETISALAT GROUP) PJSC, AE",8,42,0,0,8
+5089,"NTL, GB",8,79,0,0,8
+399114,"HYONIX-EDGE - Hyonix, SG",7,104,0,0,7
+149440,"EVOXTSDNBHD-AS-AP Evoxt Sdn. Bhd., MY",7,47,0,0,7
+141998,"CHINANET-LANZHOU-IDC - China Telecom, CN",7,32,0,0,7
+141995,"CAPL-AS-AP - Contabo Asia Private Limited, SG",7,18,0,7,0
+134489,"SBLINKNETWORK-AS-AP - S. B Link Network, PK",7,115,0,0,7
+134238,"CT-Jiangxi-IDC - CHINANET Jiangx province IDC network, CN",7,34,0,0,7
+62240,"Clouvider - Clouvider Limited, GB",7,40,4,0,3
+57695,"MISAKA - Misaka Network, Inc., US",7,21,0,0,7
+56971,"AS56971 - CGI GLOBAL LIMITED, HK",7,27,0,0,7
+56048,"CMNET-BEIJING-AP - China Mobile Communicaitons Corporation, CN",7,13,0,0,7
+40676,"AS40676 - Psychz Networks, US",7,35,1,6,0
+38264,"WATEEN-IMS-PK-AS-AP - National WiMAX/IMS environment, PK",7,78,0,0,7
+36925,"MEDITELECOM - MEDITELECOM, MA",7,9,1,0,6
+25019,"SAUDINETSTC-AS - Saudi Telecom Company JSC, SA",7,70,0,0,7
+22047,"AS22047 - VTR BANDA ANCHA S.A., CL",7,17,0,0,7
+18403,"FPT-VN - FPT Telecom Company, VN",7,37,0,0,7
+17451,"BIZNET-AS-AP - BIZNET NETWORKS, ID",7,51,0,0,7
+17072,"AS17072 - TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V., MX",7,9,0,0,7
+14080,"AS14080 - Telmex Colombia S.A., CO",7,53,0,0,7
+13188,"TRIOLAN - CONTENT DELIVERY NETWORK LTD, UA",7,11,0,0,7
+12714,"MEGAFON-AS - PJSC MegaFon, RU",7,12,0,0,7
+12271,"TWC-12271-NYC - Charter Communications Inc, US",7,45,0,0,7
+9845,"CJCKN-AS-KR-KR - LG HelloVision Corp., KR",7,17,0,0,7
+8048,"CANTV Servicios, Venezuela, VE",7,24,0,0,7
+6167,"CELLCO-PART - Verizon Business, US",7,68,0,0,7
+4847,"CNIX-AP - China Networks Inter-Exchange, CN",7,18,0,0,7
+4618,"INET-TH-AS - Internet Thailand Company Limited, TH",7,12,0,0,7
+3356,"LEVEL3 - Level 3 Parent, LLC, US",7,35,0,0,7
+680,"DFN - Verein zur Foerderung eines Deutschen Forschungsnetzes e.V., DE",7,177,6,0,1
+216014,"BestDC-Limited - BestDC Limited, GB",6,3114,4,0,2
+215929,"datacampus - Data Campus Limited, HK",6,64,5,0,1
+213122,"HYONIX - Krixe Pte. Ltd., SG",6,91,0,0,6
+211860,"VPSDEDIC-AS - Nerushenko Vyacheslav Nikolaevich, RU",6,184,3,0,3
+211443,"SINOWORLDWIDE - SINO WORLDWIDE TRADING LIMITED, HK",6,1162,3,0,3
+207043,"DEDIK-IO - DEDIK SERVICES LIMITED, GB",6,483,2,0,4
+197769,"VPSDEDICATED-AS - VPS Dedicated LLC, US",6,49,0,6,0
+152586,"KUROIT-AS-AP - Kuroit, IN",6,37,1,0,5
+151185,"CT-XIANGYANG-IDC2 - China Telecom, CN",6,27,0,0,6
+136190,"CHINATELECOM-ZHEJIANG-JINHUA-IDC - JINHUA, ZHEJIANG Province, P.R.China., CN",6,28,0,0,6
+134810,"CMNET-JILIN-AS-AP China Mobile Group JiLin communications corporation, CN",6,24,0,0,6
+134420,"CHINATELECOM-Chongqing-IDC - Chongqing Telecom, CN",6,24,1,0,5
+132525,"CMNET-HEILONGJIANG-CN - HeiLongJiang Mobile Communication Company Limited, CN",6,10,0,0,6
+56042,"CMNET-Shanxi-AP - China Mobile communications corporation, CN",6,9,1,0,5
+47583,"AS-HOSTINGER - Hostinger International Limited, CY",6,6,0,6,0
+42960,"VH-GLOBAL - VH Global Limited, HK",6,88,0,0,6
+33363,"BHN-33363 - Charter Communications, Inc, US",6,31,0,0,6
+30722,"VODAFONE-IT-ASN - Fastweb SpA, IT",6,24,0,0,6
+28885,"OMANTEL-NAP-AS - Oman Telecommunications Company (S.A.O.G), OM",6,11,2,0,4
+27901,"AS27901 - Pacifico Cable SPA., CL",6,6,0,0,6
+24812,"ASHOMENET - RPC HomeNet Ltd., UA",6,12,0,0,6
+24445,"CMNET-V4henan-AS-AP - Henan Mobile Communications Co.,Ltd, CN",6,6,0,0,6
+23693,"TELKOMSEL-ASN-ID - PT. Telekomunikasi Selular, ID",6,10,0,0,6
+23470,"RELIABLESITE - ReliableSite.Net LLC, US",6,13,0,0,6
+17465,"ASIANET - Cable ISP in India, IN",6,32,0,0,6
+15704,"AS15704 - XTRA TELECOM S.A., ES",6,28,2,0,4
+11664,"AS11664 - Techtel LMDS Comunicaciones Interactivas S.A., AR",6,97,0,0,6
+11492,"CABLEONE - CABLE ONE, INC., US",6,26,0,0,6
+11426,"TWC-11426-CAROLINAS - Charter Communications Inc, US",6,41,0,0,6

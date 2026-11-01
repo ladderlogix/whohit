@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="Distinct source addresses per day"><style>
+  .bg { fill: #fcfcfb } .bar { fill: #2a78d6 } .ink { fill: #0b0b0b } .ink2 { fill: #52514e }
+  .muted { fill: #898781 } .grid { stroke: #e1e0d9 } .axis { stroke: #c3c2b7 }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #1a1a19 } .bar { fill: #3987e5 } .ink { fill: #f0efec } .ink2 { fill: #c3c2b7 }
+    .grid { stroke: #2c2c2a } .axis { stroke: #383835 }
+  }
+  text { font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif }
+  .title { font-size: 15px; font-weight: 600 } .sub { font-size: 12px }
+  .bar:hover { opacity: .8 }
+</style>
+<rect class="bg" width="760" height="340" rx="8"/>
+<text class="ink title" x="56" y="28">Distinct source addresses per day</text>
+<text class="ink2 sub" x="56" y="48">Every address that sent a packet to 20.119.52.2, 2026-10-18 to 2026-10-31 (UTC, full days only)</text>
+<line class="axis" x1="56" x2="744" y1="294.0" y2="294.0"/>
+<text class="muted" x="48" y="298.0" text-anchor="end">0</text>
+<line class="grid" x1="56" x2="744" y1="238.0" y2="238.0"/>
+<text class="muted" x="48" y="242.0" text-anchor="end">2.5k</text>
+<line class="grid" x1="56" x2="744" y1="182.0" y2="182.0"/>
+<text class="muted" x="48" y="186.0" text-anchor="end">5k</text>
+<line class="grid" x1="56" x2="744" y1="126.0" y2="126.0"/>
+<text class="muted" x="48" y="130.0" text-anchor="end">7.5k</text>
+<line class="grid" x1="56" x2="744" y1="70.0" y2="70.0"/>
+<text class="muted" x="48" y="74.0" text-anchor="end">10k</text>
+<path class="bar" d="M64.4,294.0 v-169.1 a4,4 0 0 1 4,-4 h24.4 a4,4 0 0 1 4,4 v169.1 z"><title>2026-10-18: 7,726 sources, 3,936 never seen before</title></path>
+<text class="muted" x="80.6" y="312" text-anchor="middle">10-18</text>
+<path class="bar" d="M113.5,294.0 v-185.8 a4,4 0 0 1 4,-4 h24.4 a4,4 0 0 1 4,4 v185.8 z"><title>2026-10-19: 8,475 sources, 3,293 never seen before</title></path>
+<path class="bar" d="M162.7,294.0 v-209.4 a4,4 0 0 1 4,-4 h24.4 a4,4 0 0 1 4,4 v209.4 z"><title>2026-10-20: 9,525 sources, 3,409 never seen before</title></path>
+<text class="muted" x="178.9" y="312" text-anchor="middle">10-20</text>
+<path class="bar" d="M211.8,294.0 v-176.4 a4,4 0 0 1 4,-4 h24.4 a4,4 0 0 1 4,4 v176.4 z"><title>2026-10-21: 8,053 sources, 1,968 never seen before</title></path>
+<path class="bar" d="M260.9,294.0 v-181.6 a4,4 0 0 1 4,-4 h24.4 a4,4 0 0 1 4,4 v181.6 z"><title>2026-10-22: 8,286 sources, 1,887 never seen before</title></path>
+<text class="muted" x="277.1" y="312" text-anchor="middle">10-22</text>
+<path class="bar" d="M310.1,294.0 v-182.4 a4,4 0 0 1 4,-4 h24.4 a4,4 0 0 1 4,4 v182.4 z"><title>2026-10-23: 8,321 sources, 1,840 never seen before</title></path>
+<path class="bar" d="M359.2,294.0 v-197.4 a4,4 0 0 1 4,-4 h24.4 a4,4 0 0 1 4,4 v197.4 z"><title>2026-10-24: 8,990 sources, 2,083 never seen before</title></path>
+<text class="muted" x="375.4" y="312" text-anchor="middle">10-24</text>
+<path class="bar" d="M408.4,294.0 v-195.2 a4,4 0 0 1 4,-4 h24.4 a4,4 0 0 1 4,4 v195.2 z"><title>2026-10-25: 8,892 sources, 2,547 never seen before</title></path>
+<path class="bar" d="M457.5,294.0 v-189.5 a4,4 0 0 1 4,-4 h24.4 a4,4 0 0 1 4,4 v189.5 z"><title>2026-10-26: 8,637 sources, 1,827 never seen before</title></path>
+<text class="muted" x="473.7" y="312" text-anchor="middle">10-26</text>
+<path class="bar" d="M506.7,294.0 v-212.5 a4,4 0 0 1 4,-4 h24.4 a4,4 0 0 1 4,4 v212.5 z"><title>2026-10-27: 9,665 sources, 2,814 never seen before</title></path>
+<path class="bar" d="M555.8,294.0 v-190.3 a4,4 0 0 1 4,-4 h24.4 a4,4 0 0 1 4,4 v190.3 z"><title>2026-10-28: 8,675 sources, 1,734 never seen before</title></path>
+<text class="muted" x="572.0" y="312" text-anchor="middle">10-28</text>
+<path class="bar" d="M604.9,294.0 v-205.7 a4,4 0 0 1 4,-4 h24.4 a4,4 0 0 1 4,4 v205.7 z"><title>2026-10-29: 9,362 sources, 2,338 never seen before</title></path>
+<path class="bar" d="M654.1,294.0 v-182.1 a4,4 0 0 1 4,-4 h24.4 a4,4 0 0 1 4,4 v182.1 z"><title>2026-10-30: 8,306 sources, 1,440 never seen before</title></path>
+<text class="muted" x="670.3" y="312" text-anchor="middle">10-30</text>
+<path class="bar" d="M703.2,294.0 v-181.0 a4,4 0 0 1 4,-4 h24.4 a4,4 0 0 1 4,4 v181.0 z"><title>2026-10-31: 8,258 sources, 1,380 never seen before</title></path>
+<text class="muted" x="56" y="332">Source: results/tables/daily.csv</text></svg>

@@ -1,0 +1,12 @@
+# Send every inbound TCP port except SSH to the catch-all listener.
+# Loaded when whohit-listener starts and removed when it stops, so with the
+# listener down the box goes back to refusing those ports.
+table ip whohit
+delete table ip whohit
+
+table ip whohit {
+    chain prerouting {
+        type nat hook prerouting priority dstnat; policy accept;
+        iifname "eth0" tcp dport != 22 redirect to :9999
+    }
+}

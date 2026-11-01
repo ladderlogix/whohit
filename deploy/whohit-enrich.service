@@ -1,0 +1,25 @@
+[Unit]
+Description=whoHit: label source IPs with network owner, country, reverse DNS and kind
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=whohit
+Group=whohit
+ExecStart=/usr/bin/python3 /opt/whohit/enrich.py
+StateDirectory=whohit
+NoNewPrivileges=yes
+CapabilityBoundingSet=
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+MemoryMax=256M
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

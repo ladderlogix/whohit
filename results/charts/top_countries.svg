@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 416" width="760" height="416" role="img" aria-label="Where the traffic comes from"><style>
+  .bg { fill: #fcfcfb } .bar { fill: #2a78d6 } .ink { fill: #0b0b0b } .ink2 { fill: #52514e }
+  .muted { fill: #898781 } .grid { stroke: #e1e0d9 } .axis { stroke: #c3c2b7 }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #1a1a19 } .bar { fill: #3987e5 } .ink { fill: #f0efec } .ink2 { fill: #c3c2b7 }
+    .grid { stroke: #2c2c2a } .axis { stroke: #383835 }
+  }
+  text { font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif }
+  .title { font-size: 15px; font-weight: 600 } .sub { font-size: 12px }
+  .bar:hover { opacity: .8 }
+</style>
+<rect class="bg" width="760" height="416" rx="8"/>
+<text class="ink title" x="16" y="28">Where the traffic comes from</text>
+<text class="ink2 sub" x="16" y="48">Distinct source addresses per country (Team Cymru registry data), whole capture</text>
+<line class="axis" x1="190" x2="190" y1="66" y2="382"/>
+<text class="ink2" x="180" y="87.0" text-anchor="end">US</text>
+<path class="bar" d="M190,75 h496.0 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-496.0 z"><title>US: 22,204 sources, 635,208 packets</title></path>
+<text class="ink" x="698.0" y="87.0">22,204</text>
+<text class="ink2" x="180" y="113.0" text-anchor="end">CN</text>
+<path class="bar" d="M190,101 h103.6 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-103.6 z"><title>CN: 4,778 sources, 46,392 packets</title></path>
+<text class="ink" x="305.6" y="113.0">4,778</text>
+<text class="ink2" x="180" y="139.0" text-anchor="end">GB</text>
+<path class="bar" d="M190,127 h48.3 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-48.3 z"><title>GB: 2,323 sources, 20,860 packets</title></path>
+<text class="ink" x="250.3" y="139.0">2,323</text>
+<text class="ink2" x="180" y="165.0" text-anchor="end">FR</text>
+<path class="bar" d="M190,153 h24.4 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-24.4 z"><title>FR: 1,260 sources, 36,363 packets</title></path>
+<text class="ink" x="226.4" y="165.0">1,260</text>
+<text class="ink2" x="180" y="191.0" text-anchor="end">SG</text>
+<path class="bar" d="M190,179 h23.5 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-23.5 z"><title>SG: 1,222 sources, 17,125 packets</title></path>
+<text class="ink" x="225.5" y="191.0">1,222</text>
+<text class="ink2" x="180" y="217.0" text-anchor="end">DE</text>
+<path class="bar" d="M190,205 h20.4 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-20.4 z"><title>DE: 1,084 sources, 291,610 packets</title></path>
+<text class="ink" x="222.4" y="217.0">1,084</text>
+<text class="ink2" x="180" y="243.0" text-anchor="end">AE</text>
+<path class="bar" d="M190,231 h15.5 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-15.5 z"><title>AE: 865 sources, 12,222 packets</title></path>
+<text class="ink" x="217.5" y="243.0">865</text>
+<text class="ink2" x="180" y="269.0" text-anchor="end">HK</text>
+<path class="bar" d="M190,257 h12.899999999999999 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-12.899999999999999 z"><title>HK: 750 sources, 37,997 packets</title></path>
+<text class="ink" x="214.9" y="269.0">750</text>
+<text class="ink2" x="180" y="295.0" text-anchor="end">PT</text>
+<path class="bar" d="M190,283 h8.2 a4,4 0 0 1 4,4 v8 a4,4 0 0 1 -4,4 h-8.2 z"><title>PT: 541 sources, 4,436 packets</title></path>
+<text class="ink" x="210.2" y="295.0">541</text>
+<text class="ink2" x="180" y="321.0" text-anchor="end">PK</text>
+<path class="bar" d="M190,309 h3.7 a3.7,3.7 0 0 1 3.7,3.7 v8.6 a3.7,3.7 0 0 1 -3.7,3.7 h-3.7 z"><title>PK: 327 sources, 4,083 packets</title></path>
+<text class="ink" x="205.4" y="321.0">327</text>
+<text class="ink2" x="180" y="347.0" text-anchor="end">RU</text>
+<path class="bar" d="M190,335 h3.4 a3.4,3.4 0 0 1 3.4,3.4 v9.2 a3.4,3.4 0 0 1 -3.4,3.4 h-3.4 z"><title>RU: 300 sources, 12,165 packets</title></path>
+<text class="ink" x="204.8" y="347.0">300</text>
+<text class="ink2" x="180" y="373.0" text-anchor="end">IN</text>
+<path class="bar" d="M190,361 h3.3 a3.3,3.3 0 0 1 3.3,3.3 v9.4 a3.3,3.3 0 0 1 -3.3,3.3 h-3.3 z"><title>IN: 295 sources, 3,498 packets</title></path>
+<text class="ink" x="204.6" y="373.0">295</text>
+<text class="muted" x="16" y="406">Source: results/tables/countries.csv. Registry country, not where a person sits.</text></svg>
